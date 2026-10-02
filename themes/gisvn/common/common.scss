@@ -387,3 +387,197 @@ body {
     scroll-behavior: auto;
   }
 }
+
+
+/* GISVN 2016-inspired announcement and TopX panels. */
+.gisvn-home-panels {
+  max-width: 1180px;
+  margin: 0 auto 22px;
+  padding: 0 10px;
+}
+
+.gisvn-panel {
+  margin: 0 0 12px;
+  border: 1px solid #cbdbe4;
+  border-radius: 5px;
+  background: #fff;
+  overflow: hidden;
+  box-shadow: 0 4px 18px rgb(0 65 96 / 7%);
+}
+
+.gisvn-panel__title {
+  margin: 0;
+  padding: 7px 11px;
+  background: linear-gradient(180deg, #2496c5, #1178a7);
+  color: #fff;
+  font-size: 0.92rem;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.gisvn-panel--loading {
+  padding: 13px 15px;
+  color: #526d7c;
+  font-size: 0.9rem;
+}
+
+.gisvn-announcements ul {
+  list-style: none;
+  margin: 0;
+  padding: 10px 16px 12px;
+  text-align: center;
+}
+
+.gisvn-announcements li + li {
+  margin-top: 5px;
+}
+
+.gisvn-announcements a {
+  color: #087000;
+  font-size: clamp(1rem, 1.8vw, 1.25rem);
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.gisvn-announcements li:nth-child(3n + 2) a {
+  color: #111;
+}
+
+.gisvn-announcements li:nth-child(3n) a {
+  color: #d31818;
+}
+
+.gisvn-announcements a:hover {
+  text-decoration: underline;
+}
+
+.gisvn-topx__grid {
+  display: grid;
+  grid-template-columns: minmax(210px, 0.8fr) minmax(0, 2.2fr);
+  min-height: 210px;
+}
+
+.gisvn-topx__stats {
+  padding: 10px 12px;
+  border-right: 1px solid #d7e1e7;
+  background: #f8fbfd;
+}
+
+.gisvn-topx__stats h3,
+.gisvn-topx__lists h3 {
+  margin: 0 0 8px;
+  color: #163f59;
+  font-size: 0.88rem;
+  font-weight: 800;
+}
+
+.gisvn-topx__stats dl {
+  margin: 0;
+}
+
+.gisvn-topx__stats dl > div {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 7px 0;
+  border-bottom: 1px dashed #d3dfe6;
+}
+
+.gisvn-topx__stats dt {
+  color: #597280;
+}
+
+.gisvn-topx__stats dd {
+  margin: 0;
+  color: #005c93;
+  font-weight: 800;
+}
+
+.gisvn-topx__lists {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.gisvn-topx__lists section {
+  min-width: 0;
+  padding: 10px 12px;
+}
+
+.gisvn-topx__lists section + section {
+  border-left: 1px solid #d7e1e7;
+}
+
+.gisvn-topx__lists ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.gisvn-topx__lists li {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 8px;
+  padding: 5px 0;
+  border-bottom: 1px dashed #d8e2e8;
+  font-size: 0.82rem;
+}
+
+.gisvn-topx__lists a {
+  min-width: 0;
+  overflow: hidden;
+  color: #005b9b;
+  font-weight: 650;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.gisvn-topx__lists a:hover {
+  text-decoration: underline;
+}
+
+.gisvn-topx__lists span {
+  color: #657c88;
+  font-size: 0.76rem;
+  white-space: nowrap;
+}
+
+@media (max-width: 900px) {
+  .gisvn-topx__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .gisvn-topx__stats {
+    border-right: 0;
+    border-bottom: 1px solid #d7e1e7;
+  }
+
+  .gisvn-topx__stats dl {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0 18px;
+  }
+}
+
+@media (max-width: 680px) {
+  .gisvn-home-panels {
+    padding-inline: 10px;
+  }
+
+  .gisvn-topx__lists {
+    grid-template-columns: 1fr;
+  }
+
+  .gisvn-topx__lists section + section {
+    border-left: 0;
+    border-top: 1px solid #d7e1e7;
+  }
+
+  .gisvn-announcements {
+    text-align: left;
+  }
+
+  .gisvn-announcements ul {
+    text-align: left;
+  }
+}
