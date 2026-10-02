@@ -109,8 +109,9 @@ system_user = Discourse.system_user
 
 def upsert_category(name:, parent:, color:, position:, user:)
   category = Category.find_or_initialize_by(name: name)
+  created = category.new_record?
 
-  if category.new_record?
+  if created
     category.user = user
     category.text_color = "FFFFFF"
   end
@@ -120,7 +121,8 @@ def upsert_category(name:, parent:, color:, position:, user:)
   category.position = position if category.respond_to?(:position=)
   category.save!
 
-  puts "#{category.preload? ? '[preload]' : '[ok]'} #{parent ? '  ↳ ' : ''}#{category.name}"
+  state = created ? "[created]" : "[updated]"
+  puts "#{state} #{parent ? '  ↳ ' : ''}#{category.name}"
   category
 end
 
