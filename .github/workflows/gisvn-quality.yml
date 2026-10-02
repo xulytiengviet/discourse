@@ -5,6 +5,7 @@ on:
     paths:
       - "themes/gisvn/**"
       - "script/gisvn/**"
+      - "script/import_scripts/vbulletin.rb"
       - "docs/gisvn/**"
       - ".github/workflows/gisvn-quality.yml"
   push:
@@ -13,6 +14,7 @@ on:
     paths:
       - "themes/gisvn/**"
       - "script/gisvn/**"
+      - "script/import_scripts/vbulletin.rb"
       - "docs/gisvn/**"
 
 permissions:
@@ -31,6 +33,7 @@ jobs:
           set -euo pipefail
           find script/gisvn -type f -name '*.rb' -print0 |
             xargs -0 -n1 ruby -c
+          ruby -c script/import_scripts/vbulletin.rb
 
       - name: Shell syntax
         shell: bash
