@@ -43,8 +43,9 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          find themes/gisvn/javascripts -type f -name '*.js' -print0 |
-            xargs -0 -n1 node --check
+          while IFS= read -r -d '' file; do
+            node --input-type=module --check < "$file"
+          done < <(find themes/gisvn/javascripts -type f -name '*.js' -print0)
 
       - name: Theme JSON
         shell: bash
