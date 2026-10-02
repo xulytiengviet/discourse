@@ -25,13 +25,19 @@ core makes upstream synchronization substantially safer.
 
 ## Install the theme
 
-For a production forum, import the theme from the Git repository using the
-subdirectory `themes/gisvn`, or copy that directory into a dedicated theme
-repository. Then select **GISVN Community** as the default site theme in the
-Discourse admin interface.
+The full `xulytiengviet/discourse` repository is the Discourse application,
+not a standalone theme repository. For production, use one of these supported
+paths:
 
-For local development, use the standard Discourse theme tooling and point it at
-`themes/gisvn`.
+1. copy `themes/gisvn/` into a dedicated Git repository whose root contains
+   `about.json`, `common/`, etc., then install that repository from
+   **Admin → Appearance → Themes & components → Install → From a Git repository**;
+2. package the contents of `themes/gisvn/` as a ZIP/TAR archive and install it
+   from the admin interface; or
+3. use the standard `discourse_theme` tooling to sync `themes/gisvn/` to a
+   development or production instance.
+
+Then select **GISVN Community** as the default site theme.
 
 ## Create the GISVN category hierarchy
 
