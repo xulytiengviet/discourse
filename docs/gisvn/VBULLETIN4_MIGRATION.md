@@ -22,7 +22,19 @@ Keep three independent copies before starting:
 2. original attachment/avatar filesystem;
 3. current Discourse database backup.
 
-## 2. Source database variables
+## 2. Practical GISVN configuration
+
+Phase 3 includes:
+
+```text
+script/gisvn/vbulletin41.env.example
+script/gisvn/run_vbulletin41_import.sh
+script/gisvn/vbulletin41_preflight.sql
+script/gisvn/export_vbulletin_mappings.rb
+```
+
+Copy the env example outside Git, protect it with `chmod 600`, and use a
+read-only MySQL account for the source database.
 
 The built-in importer accepts these environment variables:
 
@@ -36,8 +48,14 @@ export ATTACHMENT_DIR="/path/to/vbulletin/attachments"
 export TIMEZONE="<TIMEZONE_USED_BY_THE_OLD_FORUM>"
 ```
 
-Do not assume the old timezone from the browser screenshot. Confirm it from the
-old server/database configuration before importing timestamps.
+The example uses `Asia/Ho_Chi_Minh`, but confirm it from the old
+server/database configuration before importing timestamps.
+
+The archived March 2016 GISVN home page showed an approximate historical
+checkpoint of **4,239 topics, 24,627 posts and 101,013 members**. Treat those
+figures as a sanity check for the archived date only, not as authoritative
+counts for whichever database dump is migrated. The source SQL counts are the
+production migration source of truth.
 
 The importer requires the Ruby `php-serialize` dependency in addition to its
 normal MySQL dependencies.
@@ -63,8 +81,20 @@ and private messages before production.
 
 ## 4. Run the built-in vBulletin 4 importer
 
-Follow the importer comments and the current Discourse import environment for
-the exact invocation used by your deployment. The source file is authoritative:
+Run the preflight queries first, then use the GISVN wrapper:
+
+```bash
+cp script/gisvn/vbulletin41.env.example /root/gisvn-vbulletin41.env
+chmod 600 /root/gisvn-vbulletin41.env
+# edit /root/gisvn-vbulletin41.env
+
+bash script/gisvn/run_vbulletin41_import.sh /root/gisvn-vbulletin41.env
+```
+
+The wrapper validates required values, runs the built-in importer, installs
+legacy permalinks and writes an audit CSV. It does not replace the importer.
+
+The source file remains authoritative:
 
 ```text
 script/import_scripts/vbulletin.rb
@@ -108,9 +138,14 @@ member.php?u=8997
 The historical Wayback snapshot uses the path-style forms, so those forms
 should be part of staging acceptance tests.
 
+The automatic installer creates mappings for every imported ID it can derive.
+`script/gisvn/export_vbulletin_mappings.rb` then exports the complete mapping
+inventory to CSV for redirect sampling and audit. This avoids hand-writing
+thousands of `showthread.php` / `forumdisplay.php` rows.
+
 The generic CSV importer
-`script/gisvn/import_legacy_permalinks.rb` remains available for exceptional
-URLs that cannot be derived from imported IDs.
+`script/gisvn/import_legacy_permalinks.rb` remains available only for
+exceptional URLs that cannot be derived from imported IDs.
 
 ## 6. Validate migration quality
 
@@ -147,3 +182,18 @@ Recommended order:
 6. migrate existing Discourse uploads to R2;
 7. test backup and restore separately;
 8. only then plan production cutover.
+
+
+## GISVN importer hardening in this fork
+
+Phase 3 makes three small import-only corrections to
+`script/import_scripts/vbulletin.rb`:
+
+- source database passwords are no longer printed into migration logs;
+- `lastvisit` is selected when the importer maps it to Discourse
+  `last_seen_at`;
+- the profile-picture temporary-file cleanup typo is corrected to
+  `file.unlink`.
+
+These changes affect the migration utility only; they do not alter Discourse
+runtime behavior.

@@ -132,3 +132,26 @@ Do not run upload cleanup until migration and restore verification are complete.
   https://meta.discourse.org/t/configure-an-s3-compatible-object-storage-provider-for-uploads/148916
 - Discourse Meta, Cloudflare R2 setup discussion:
   https://meta.discourse.org/t/how-to-configure-cloudflare-r2-for-your-discourse-community/349512
+
+
+## PMTiles / geospatial read CORS
+
+The Phase 3 in-post PMTiles viewer reads archives directly with HTTP Range
+Requests. If PMTiles files are hosted on a public R2 custom domain, add an
+explicit read rule for the forum origin:
+
+```json
+[
+  {
+    "AllowedOrigins": ["https://forum.example.com"],
+    "AllowedMethods": ["GET", "HEAD"],
+    "AllowedHeaders": ["Range", "If-Match"],
+    "ExposeHeaders": ["ETag", "Accept-Ranges", "Content-Length", "Content-Range"],
+    "MaxAgeSeconds": 3600
+  }
+]
+```
+
+Keep this read rule conceptually separate from browser-upload permissions.
+Replace `forum.example.com` with the real production origin. For production,
+prefer a narrow origin rather than `*`.
