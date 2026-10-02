@@ -1,0 +1,51 @@
+name: GISVN quality
+
+on:
+  pull_request:
+    paths:
+      - "themes/gisvn/**"
+      - "script/gisvn/**"
+      - "docs/gisvn/**"
+      - ".github/workflows/gisvn-quality.yml"
+  push:
+    branches:
+      - main
+    paths:
+      - "themes/gisvn/**"
+      - "script/gisvn/**"
+      - "docs/gisvn/**"
+
+permissions:
+  contents: read
+
+jobs:
+  syntax:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Ruby syntax
+        shell: bash
+        run: |
+          set -euo pipefail
+          find script/gisvn -type f -name '*.rb' -print0 |
+            xargs -0 -n1 ruby -c
+
+      - name: Shell syntax
+        shell: bash
+        run: |
+          set -euo pipefail
+          find script/gisvn -type f -name '*.sh' -print0 |
+            xargs -0 -n1 bash -n
+
+      - name: JavaScript syntax
+        shell: bash
+        run: |
+          set -euo pipefail
+          find themes/gisvn/javascripts -type f -name '*.js' -print0 |
+            xargs -0 -n1 node --check
+
+      - name: Theme JSON
+        shell: bash
+        run: python -m json.tool themes/gisvn/about.json >/dev/null
