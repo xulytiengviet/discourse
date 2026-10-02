@@ -21,12 +21,14 @@
 NORMALIZATION_RULES = [
   # Post-specific rules must run before general showthread rules.
   %q{/showthread\.php.*[?&]p=(\d+).*/post/\1},
+  %q{/showpost\.php.*[?&]p=(\d+).*/post/\1},
   %q{/showthread\.php\/(\d+).*/thread/\1},
-  %q{/showthread\.php\?t=(\d+).*/thread/\1},
+  %q{/showthread\.php.*[?&]t=(\d+).*/thread/\1},
   %q{/forumdisplay\.php\/(\d+).*/forum/\1},
-  %q{/forumdisplay\.php\?f=(\d+).*/forum/\1},
+  %q{/forumdisplay\.php.*[?&]f=(\d+).*/forum/\1},
   %q{/member\.php\/(\d+).*/member/\1},
-  %q{/member\.php\?u=(\d+).*/member/\1},
+  %q{/member\.php.*[?&]u=(\d+).*/member/\1},
+  %q{/forum\.php.*/gisvn-home},
 ].freeze
 
 def upsert_permalink(url:, topic_id: nil, post_id: nil, category_id: nil, user_id: nil)
@@ -45,6 +47,16 @@ def upsert_permalink(url:, topic_id: nil, post_id: nil, category_id: nil, user_i
 end
 
 counts = Hash.new(0)
+
+home = Permalink.find_or_initialize_by(url: "gisvn-home")
+home.topic_id = nil
+home.post_id = nil
+home.category_id = nil
+home.tag_id = nil
+home.user_id = nil
+home.external_url = "/categories"
+home.save!
+counts[:home] += 1
 
 PostCustomField
   .includes(:post)
