@@ -24,6 +24,8 @@ notifications, and mobile support.
 - `script/gisvn/import_legacy_permalinks.rb` — CSV importer for legacy vBulletin
   `forumdisplay.php` / `showthread.php` redirects.
 - `docs/gisvn/STAGING_CHECKLIST.md` — staging-to-production validation checklist.
+- `docs/gisvn/VBULLETIN4_MIGRATION.md` — GISVN-specific runbook for the built-in Discourse vBulletin 4 importer and automatic legacy URL normalization.
+- `script/gisvn/install_vbulletin_permalinks.rb` — post-import helper that derives old topic/forum/member/post redirects from Discourse `import_id` fields.
 
 This is intentionally an overlay. Keeping GISVN-specific work out of Discourse
 core makes upstream synchronization substantially safer.
