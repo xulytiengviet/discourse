@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require "csv"
+require "fileutils"
 
 # Export every imported vBulletin ID -> Discourse target mapping for audit,
 # redirect tests, CDN rules, or external search-engine migration tooling.
