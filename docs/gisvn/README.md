@@ -19,6 +19,13 @@ notifications, and mobile support.
   on the historical GISVN hierarchy.
 - `docs/gisvn/cloudflare-r2.md` — production runbook for Cloudflare R2 uploads
   and optional R2 backups.
+- `docs/gisvn/app.yml.r2.example` — copy-safe R2 configuration fragment with no
+  real credentials.
+- `script/gisvn/import_legacy_permalinks.rb` — CSV importer for legacy vBulletin
+  `forumdisplay.php` / `showthread.php` redirects.
+- `docs/gisvn/STAGING_CHECKLIST.md` — staging-to-production validation checklist.
+- `docs/gisvn/VBULLETIN4_MIGRATION.md` — GISVN-specific runbook for the built-in Discourse vBulletin 4 importer and automatic legacy URL normalization.
+- `script/gisvn/install_vbulletin_permalinks.rb` — post-import helper that derives old topic/forum/member/post redirects from Discourse `import_id` fields.
 
 This is intentionally an overlay. Keeping GISVN-specific work out of Discourse
 core makes upstream synchronization substantially safer.
@@ -62,14 +69,31 @@ Review permissions and descriptions in the admin UI after the first run.
   the theme
 - Use a dedicated hostname such as `forum.gis.vn` or your production domain
 
+## Phase 2: historical home panels and legacy URL continuity
+
+The GISVN theme now adds live versions of the old **Thông Báo Mới Nhất** and
+**Thống Kê Topx** panels on the home/categories page. Data comes from
+Discourse's own `/latest.json` and `/about.json` endpoints, so the panels do
+not maintain a second copy of forum statistics.
+
+To preserve search-engine and bookmark continuity after a vBulletin migration,
+create a CSV with `old_path,new_url` columns and run:
+
+```bash
+RAILS_ENV=production bundle exec rails runner \
+  script/gisvn/import_legacy_permalinks.rb /tmp/gisvn-permalinks.csv
+```
+
+Start from `docs/gisvn/legacy-permalinks.example.csv`, but replace every
+destination with the actual migrated Discourse URL.
+
+Before production, follow `docs/gisvn/STAGING_CHECKLIST.md`.
+
 ## Next phase
 
 1. Import/migrate legacy users, topics and posts after data ownership and
    encoding are verified.
-2. Add redirect mapping from old `forumdisplay.php` / `showthread.php`
-   URLs to new Discourse URLs.
-3. Configure R2 for uploads, validate upload + thumbnail + backup restore, then
-   migrate existing uploads.
-4. Add GIS-specific integrations (MapLibre/PMTiles previews, GeoJSON/KML
-   attachments, code syntax highlighting and data-download policies) as
-   separate plugins or theme components.
+2. Generate the complete old-ID → new-URL permalink CSV from migration output.
+3. Add GIS-specific integrations (MapLibre/PMTiles previews, GeoJSON/KML/KMZ
+   attachments and safe map embeds) as separate plugins or theme components.
+4. Add observability and automated smoke tests for forum + R2 after deployment.
