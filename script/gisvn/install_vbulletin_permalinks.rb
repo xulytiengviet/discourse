@@ -89,7 +89,9 @@ UserCustomField
   end
 
 existing_rules = SiteSetting.permalink_normalizations.to_s.split("|").reject(&:blank?)
-merged_rules = (existing_rules + NORMALIZATION_RULES).uniq
+# Put GISVN's post-specific rule first so a URL containing ?p=<post_id>
+# is not consumed by a broader showthread topic rule.
+merged_rules = (NORMALIZATION_RULES + existing_rules).uniq
 SiteSetting.permalink_normalizations = merged_rules.join("|")
 
 puts "GISVN vBulletin permalink installation complete."
