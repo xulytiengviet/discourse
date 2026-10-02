@@ -182,3 +182,18 @@ Recommended order:
 6. migrate existing Discourse uploads to R2;
 7. test backup and restore separately;
 8. only then plan production cutover.
+
+
+## GISVN importer hardening in this fork
+
+Phase 3 makes three small import-only corrections to
+`script/import_scripts/vbulletin.rb`:
+
+- source database passwords are no longer printed into migration logs;
+- `lastvisit` is selected when the importer maps it to Discourse
+  `last_seen_at`;
+- the profile-picture temporary-file cleanup typo is corrected to
+  `file.unlink`.
+
+These changes affect the migration utility only; they do not alter Discourse
+runtime behavior.
