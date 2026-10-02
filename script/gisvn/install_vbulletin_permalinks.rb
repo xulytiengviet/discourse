@@ -19,13 +19,14 @@
 #     script/gisvn/install_vbulletin_permalinks.rb
 
 NORMALIZATION_RULES = [
+  # Post-specific rules must run before general showthread rules.
+  %q{/showthread\.php.*[?&]p=(\d+).*/post/\1},
   %q{/showthread\.php\/(\d+).*/thread/\1},
   %q{/showthread\.php\?t=(\d+).*/thread/\1},
   %q{/forumdisplay\.php\/(\d+).*/forum/\1},
   %q{/forumdisplay\.php\?f=(\d+).*/forum/\1},
   %q{/member\.php\/(\d+).*/member/\1},
   %q{/member\.php\?u=(\d+).*/member/\1},
-  %q{/showthread\.php.*[?&]p=(\d+).*/post/\1},
 ].freeze
 
 def upsert_permalink(url:, topic_id: nil, post_id: nil, category_id: nil, user_id: nil)
