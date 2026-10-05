@@ -1,0 +1,18 @@
+plugins:
+  gisvn_geo_enabled:
+    default: true
+    client: true
+  gisvn_geo_allowed_origins:
+    default: ""
+    type: list
+    client: true
+  gisvn_geo_max_file_mb:
+    default: 12
+    min: 1
+    max: 32
+    client: true
+  gisvn_geo_max_cards_per_post:
+    default: 4
+    min: 1
+    max: 12
+    client: true

@@ -1,0 +1,44 @@
+{
+  "version": 8,
+  "center": [
+    105.97,
+    10.25
+  ],
+  "zoom": 12,
+  "sources": {
+    "demo": {
+      "type": "geojson",
+      "data": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "type": "Feature",
+            "properties": {
+              "name": "Vĩnh Long — mẫu thử",
+              "description": "<img src=x onerror=alert(1)>",
+              "population": 123
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                105.97,
+                10.25
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "layers": [
+    {
+      "id": "points",
+      "type": "circle",
+      "source": "demo",
+      "paint": {
+        "circle-radius": 12,
+        "circle-color": "#087caf"
+      }
+    }
+  ]
+}

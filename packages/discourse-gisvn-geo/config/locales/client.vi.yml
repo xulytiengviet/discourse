@@ -1,0 +1,17 @@
+{
+  "vi": {
+    "js": {
+      "gisvn_geo": {
+        "title": "Bản đồ GISVN",
+        "open": "Xem bản đồ",
+        "close": "Đóng bản đồ",
+        "original": "Tải / mở tệp gốc",
+        "export": "Xuất GeoJSON",
+        "loading": "Đang tải bản đồ…",
+        "hint": "Bấm đối tượng để xem thuộc tính. Dùng nút toàn màn hình ở góc bản đồ.",
+        "coordinates": "Kinh độ, vĩ độ (WGS84):",
+        "failed": "Không thể xem bản đồ. Kiểm tra định dạng, quyền truy cập, nguồn được phép và CORS/Range."
+      }
+    }
+  }
+}
