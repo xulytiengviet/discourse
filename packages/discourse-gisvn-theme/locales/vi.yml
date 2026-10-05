@@ -1,0 +1,24 @@
+{
+  "vi": {
+    "theme_metadata": {
+      "description": "GISVN classic theme with original 2016 branding"
+    },
+    "gisvn": {
+      "announcements": "Thông Báo Mới Nhất",
+      "topx": "Thống Kê Topx",
+      "latest": "Bài Mới Nhất",
+      "hot": "Chủ Đề \"Hot\"",
+      "views": "Xem Nhiều Nhất",
+      "participants": "Thành viên tham gia",
+      "loading": "Đang tải…",
+      "failed": "Không tải được danh sách bài viết. Hãy thử lại.",
+      "topics": "Chủ đề",
+      "posts": "Bài gửi",
+      "members": "Thành viên",
+      "statistics": "Chuyện gì đang diễn ra?",
+      "openCategory": "Xem chuyên mục",
+      "noTopics": "Chưa có chủ đề",
+      "by": "gửi bởi"
+    }
+  }
+}

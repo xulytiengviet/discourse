@@ -1,10 +1,13 @@
 {
   "name": "GISVN Community",
   "authors": "GISVN Community / Long Ngo",
-  "theme_version": "2.0.0",
+  "theme_version": "2.1.0",
   "minimum_discourse_version": null,
   "maximum_discourse_version": null,
-  "assets": {},
+  "assets": {
+    "gisvn-logo": "assets/gisvn-logo.gif",
+    "gisvn-forum-icon": "assets/forum-old.png"
+  },
   "modifiers": {},
   "color_schemes": {},
   "license_url": "LICENSE"

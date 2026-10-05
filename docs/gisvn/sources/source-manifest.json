@@ -1,0 +1,3177 @@
+{
+  "repository": {
+    "url": "https://base27-cvnss.github.io/GISForum/docs/",
+    "repository": "https://github.com/Base27-CVNSS/GISForum",
+    "commit": "fca154f053966fb657b03b1bc614d0a940dd9881",
+    "note": "Static reconstruction; topic bodies and original database are not present.",
+    "claimed_wayback_entries": 863,
+    "available_wayback_manifest_entries": 0
+  },
+  "files": [
+    {
+      "path": ".editorconfig",
+      "bytes": 365,
+      "sha256": "af750faa024da76a9b80f921a6b94f42b88ead0b8fa68aea999d3dc5cf25b8cb"
+    },
+    {
+      "path": ".gitattributes",
+      "bytes": 374,
+      "sha256": "5b18ea3ae8dba84cb3c1aeba10be6d5b7a8343fed6cc78cf16d2baebb395f9c3"
+    },
+    {
+      "path": ".github/FUNDING.yml",
+      "bytes": 18,
+      "sha256": "213ad5ca02ab473b28a2b6312a8519785089f41434879fe9a1988438b72cf53f"
+    },
+    {
+      "path": ".github/workflows/pages.yml",
+      "bytes": 765,
+      "sha256": "0e60a4db328260b2a95bc33b93bf2089ac3e94a3fe419649f936df1c99efda98"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 148,
+      "sha256": "a7b9f23aa989c44ab9fcbbbe9d614258c3c5cc8616f8ec9561eceff035477211"
+    },
+    {
+      "path": ".styleci.yml",
+      "bytes": 272,
+      "sha256": "3a5d1d57b685b7f71ef95875b5bbbc6f5f0cf63a92f5b0174b767ddebbe70107"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 74447,
+      "sha256": "48e81e481d397d4c0cff81c2b7e7356b7b7db6d6d9b4b7a455d7626743209264"
+    },
+    {
+      "path": "GISFORUM.md",
+      "bytes": 3103,
+      "sha256": "307438b8cca94988905ca344015224e33e7a52c17081b58b90300316d54b26f0"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1106,
+      "sha256": "9d8bd6bd7895569375c1c4ed1c29edda028589c4fc481f80b279bdc162b7918c"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2220,
+      "sha256": "1fc1e1c6d89b84bd43a1f38e31dfea7177753a5433f59bc4de4df2b0e03d1263"
+    },
+    {
+      "path": "composer.json",
+      "bytes": 2159,
+      "sha256": "5e0dea321323a9de7e64a10cdddc6a51a1aa74387c0f0d0348adcf8cef12a239"
+    },
+    {
+      "path": "docs/.nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/404.html",
+      "bytes": 12881,
+      "sha256": "9a9f78011eb8072569598dc003b8ac82831958deb945f3a5be88edceddcdd0f4"
+    },
+    {
+      "path": "docs/app.js",
+      "bytes": 2537,
+      "sha256": "75616655b366ec66475ef2c37d5c1af0bd91f0402ee0fd285843d5cbd4160e5c"
+    },
+    {
+      "path": "docs/archive/archive.css",
+      "bytes": 1045,
+      "sha256": "330fc42ecf65e8a293fe30955b96de51789063c8923f3335104ddeca41f14f43"
+    },
+    {
+      "path": "docs/archive/f-10.html",
+      "bytes": 1343,
+      "sha256": "1e5f50cd04c1ba0a5d553b89850b9c7924ef89dc83e111d26efb2492688b84fd"
+    },
+    {
+      "path": "docs/archive/index.html",
+      "bytes": 7471,
+      "sha256": "a71e660fd2e4baea4a736a6b0715f72b08416914d766b7f5efce988f1183f464"
+    },
+    {
+      "path": "docs/index.html",
+      "bytes": 12881,
+      "sha256": "9a9f78011eb8072569598dc003b8ac82831958deb945f3a5be88edceddcdd0f4"
+    },
+    {
+      "path": "docs/modern.css",
+      "bytes": 12268,
+      "sha256": "f7dfaa61fbba56d94332ee88063e9f478d26e1b81c11e27087a625020f9e982e"
+    },
+    {
+      "path": "docs/modern.html",
+      "bytes": 15623,
+      "sha256": "7059fcbe49fe049139b7a7c1865872637f6df31b8c3539f2037a4ea6bcc8750e"
+    },
+    {
+      "path": "docs/modern.js",
+      "bytes": 2467,
+      "sha256": "321191e5846fc79afdb794d1ffbe1ba79839d958edf1505bae5e8003f42905fa"
+    },
+    {
+      "path": "docs/styles.css",
+      "bytes": 8247,
+      "sha256": "922ef68f17c2dfb95d73c41d548a9e19b6676af566ee6b54f082808f9349782d"
+    },
+    {
+      "path": "extend.php",
+      "bytes": 218,
+      "sha256": "d3d0b460bbe3ca30c8a40fc40b4d4701bd5c28dbeec6da8c6d698c9255b78e8d"
+    },
+    {
+      "path": "icon.svg",
+      "bytes": 644,
+      "sha256": "78b4b79ca9d3756c20ad246b9b1925de84b15a5bceca1d6ea7771bcd4dee2e70"
+    },
+    {
+      "path": "index.html",
+      "bytes": 324,
+      "sha256": "52b2d54689fff6524e05d0f1badcc5389a33f17cd90ad0e9fd00e58069d06588"
+    },
+    {
+      "path": "locale/acpl-lscache.yml",
+      "bytes": 4554,
+      "sha256": "419c50fb20449a7846a9c498ffb0234dd4a0b59c991d056b525b4231051d47fa"
+    },
+    {
+      "path": "locale/acpl-mobile-tab.yml",
+      "bytes": 479,
+      "sha256": "1c29efa8dcef0ec554d555e3ae88be0ef184a09eafd5b0c0b09f8464ec9078e8"
+    },
+    {
+      "path": "locale/acpl-my-tags.yml",
+      "bytes": 520,
+      "sha256": "7d39668a7542a8e445b10dacbef760faaf65e46ccb6d04ad3f794b288204ff9b"
+    },
+    {
+      "path": "locale/afrux-asirem.yml",
+      "bytes": 1287,
+      "sha256": "74a1ea1b3c6dd9d1ed46f638f37cb3ac6ae43c935c0e332a5fd3ff7e21c3be8f"
+    },
+    {
+      "path": "locale/afrux-forum-stats-widget.yml",
+      "bytes": 492,
+      "sha256": "2021147d33ef2664818096c96f21a46f75a164a77433b3b729f5ba1dfb3e8760"
+    },
+    {
+      "path": "locale/afrux-forum-widgets-core.yml",
+      "bytes": 873,
+      "sha256": "d309d3343d32090d76ce823d721d83d2752043899dead610ba4279614c38a52d"
+    },
+    {
+      "path": "locale/afrux-news-widget.yml",
+      "bytes": 444,
+      "sha256": "24c1c6d22b0cfd89425745c17cadab01c58377a3cace3ac759b20e3e5bcfa90b"
+    },
+    {
+      "path": "locale/afrux-online-users-widget.yml",
+      "bytes": 836,
+      "sha256": "5c28d3f3ad3144c900f911916f96a90de3a22d9d8fea73eb0f29e9b5447f6e0f"
+    },
+    {
+      "path": "locale/afrux-top-posters-widget.yml",
+      "bytes": 494,
+      "sha256": "2852532e34861a60d18f2e8dbcefccbf64338aaea51b148ca3fafc278ce87f41"
+    },
+    {
+      "path": "locale/akr-chevereto.yml",
+      "bytes": 550,
+      "sha256": "0a1e2dcf55a1250f2bfbff7947d6f08321754e8afb907c80ee0fef02fd81ea0e"
+    },
+    {
+      "path": "locale/annonny-dice.yml",
+      "bytes": 310,
+      "sha256": "bc617dd9af8922532427d7e593402a564735a00b32c48f20dc34b7bb51261ea3"
+    },
+    {
+      "path": "locale/antoinefr-money.yml",
+      "bytes": 1724,
+      "sha256": "a3389633e76bf0bd9ec37d4e119a24450e55e5b38699aa1ed66fb4c642ebc80a"
+    },
+    {
+      "path": "locale/antoinefr-online.yml",
+      "bytes": 639,
+      "sha256": "b802e3b500df510f552adad2d14405e1bf3f1f91d782e108bf33789a18f8a2b4"
+    },
+    {
+      "path": "locale/archlinux-de-click-image.yml",
+      "bytes": 411,
+      "sha256": "4033f3e96ea2b65ef2d3483e2cea2d48f417403b77314d3a89a0be143ea884ff"
+    },
+    {
+      "path": "locale/askvortsov-article-series.yml",
+      "bytes": 832,
+      "sha256": "5cb02385d5883c9d275ae7b6d0d128bad2c4f0d0731f6294b426b79bb19ede18"
+    },
+    {
+      "path": "locale/askvortsov-auto-moderator.yml",
+      "bytes": 7416,
+      "sha256": "f59c38e80067013c290fe0a593702b0dadef2c099d68a27e0c4912134129c21b"
+    },
+    {
+      "path": "locale/askvortsov-categories.yml",
+      "bytes": 2306,
+      "sha256": "d74a7022e98e278b329fbb7f9ba82bd95aada907e1ae4cda1198861c33b4c8ef"
+    },
+    {
+      "path": "locale/askvortsov-checklist.yml",
+      "bytes": 496,
+      "sha256": "abfb9182620833badee3eccdedea5d311e31cf193263e8e52569f4de841754fe"
+    },
+    {
+      "path": "locale/askvortsov-discussion-templates.yml",
+      "bytes": 1777,
+      "sha256": "46cd4afc2e214d6b0fda76eec40f87a4c67ba70ace26bcb328be29f5fbe60418"
+    },
+    {
+      "path": "locale/askvortsov-help-tags.yml",
+      "bytes": 730,
+      "sha256": "fb99f64a11eb1fea88bb2f87429d81fe323afab3401446e630c74146d2a58812"
+    },
+    {
+      "path": "locale/askvortsov-markdown-tables.yml",
+      "bytes": 849,
+      "sha256": "e66d957ef710bbd58d97f53b8aaf5fa87c666fe1f2da299fa5230b566c04c2db"
+    },
+    {
+      "path": "locale/askvortsov-moderator-warnings.yml",
+      "bytes": 4203,
+      "sha256": "f4b6280ce0750b7bb0b385f580f172ff03d05d78a62879120a7682f957c277dc"
+    },
+    {
+      "path": "locale/askvortsov-pwa.yml",
+      "bytes": 10077,
+      "sha256": "7e9718c392433c124aed2d667a7636985518a242b85f751ffe1bdbfb9bff487e"
+    },
+    {
+      "path": "locale/askvortsov-rich-text.yml",
+      "bytes": 2146,
+      "sha256": "b17d99b5c4636a05b8967cb08117aa1a40b7330de9c1a62b5543532587d8e719"
+    },
+    {
+      "path": "locale/askvortsov-saml.yml",
+      "bytes": 2047,
+      "sha256": "abd8d687fdd81f1cd9d09a29bca7ad655701392258968a193c59c8335123309c"
+    },
+    {
+      "path": "locale/asyntai-chatbot.yml",
+      "bytes": 971,
+      "sha256": "629a01063906e178f4e58114933b006d4eedcd4c3ccfdf70cdde5fcad60a2a8c"
+    },
+    {
+      "path": "locale/blazite-turnstile.yml",
+      "bytes": 1055,
+      "sha256": "b4512aa7904b364e475de73077468078639af60bd1856249f8d716a7c31210e7"
+    },
+    {
+      "path": "locale/blessing-oauth-client.yml",
+      "bytes": 754,
+      "sha256": "7facec1e39164b3aafe149296716b835362a4863285afdeb4b58ff3c2d2057c3"
+    },
+    {
+      "path": "locale/blomstra-conversations.yml",
+      "bytes": 627,
+      "sha256": "452dcc00a2b14cd09b80d8f51aef453feddc1d8f2e766cb67db2faf3fbc88501"
+    },
+    {
+      "path": "locale/blomstra-database-queue.yml",
+      "bytes": 1382,
+      "sha256": "417008a2887c158de946e13c9e668e549e1d6792c0986413c0fd4a71c42c4404"
+    },
+    {
+      "path": "locale/blomstra-flag-duplicates.yml",
+      "bytes": 1480,
+      "sha256": "c9e9ea61224e53c830f76a4f168280076b7007fe5d2e9e1a31532be936083f0f"
+    },
+    {
+      "path": "locale/blomstra-fontawesome.yml",
+      "bytes": 1098,
+      "sha256": "35710818d04fcba4e4526fc82163f996870599b2a8d507f083d2a63ba67203a4"
+    },
+    {
+      "path": "locale/blomstra-mark-unread.yml",
+      "bytes": 453,
+      "sha256": "be432a8dc0cc4267d049b14363206898f03367588c44921c4d8931919b879555"
+    },
+    {
+      "path": "locale/blomstra-notification-deleter.yml",
+      "bytes": 518,
+      "sha256": "7567fef1a48abfaaf12768e04ca7823ae8397eaf5e9cbc43cc4bc27b0757440a"
+    },
+    {
+      "path": "locale/blomstra-oauth-apple.yml",
+      "bytes": 983,
+      "sha256": "645d6b1d371a1dd1482447cd7df2440087e577e92ef29402f4456ac7d89b8042"
+    },
+    {
+      "path": "locale/blomstra-oauth-slack.yml",
+      "bytes": 723,
+      "sha256": "ef4cb2b46e0f3e6c289dc6be11007c44e917359187ec611b430d6fc1e8bfe775"
+    },
+    {
+      "path": "locale/blomstra-payments.yml",
+      "bytes": 6998,
+      "sha256": "f923ff65291528cf53bc507a4f16d3b0633cd9b8255cb5ef9e6cb6fdd6d6f9bc"
+    },
+    {
+      "path": "locale/blomstra-readme.yml",
+      "bytes": 432,
+      "sha256": "8bcc2926a7a8993b0a042248154eb0477c1c917081399a1243c3089c4d014caf"
+    },
+    {
+      "path": "locale/blomstra-realtime.yml",
+      "bytes": 2360,
+      "sha256": "82f49f23a259fc59e444637e10657264eee1c82ef92c691f4d69772a3968e6a6"
+    },
+    {
+      "path": "locale/blomstra-s3-assets.yml",
+      "bytes": 1427,
+      "sha256": "a60d5791e43e975b492cdc7867e34b65b3b6acfc291c74a1a76686a9253c0f46"
+    },
+    {
+      "path": "locale/blomstra-search.yml",
+      "bytes": 1949,
+      "sha256": "b311837c1b475c3d3d5892e22ccd9c5fcb7702e3022ee3c5fa591222a339ed39"
+    },
+    {
+      "path": "locale/blomstra-secondary-tags-toggler.yml",
+      "bytes": 735,
+      "sha256": "076fcce026cc54b0550d74a3d29932a16960166c40c646a3c5da08cd803c2792"
+    },
+    {
+      "path": "locale/blomstra-sort-order-toggle.yml",
+      "bytes": 470,
+      "sha256": "da98716fc33b2951566738feb47ed723628bc860ad3c6c6d261565a2a675d21c"
+    },
+    {
+      "path": "locale/blomstra-trello.yml",
+      "bytes": 3700,
+      "sha256": "be8824c5a8c2691e867b2e27293158a3b83e09265eb54711024d948439992491"
+    },
+    {
+      "path": "locale/blomstra-turnstile.yml",
+      "bytes": 925,
+      "sha256": "71132706dd48ddab817dc54c1e485b3b2702bf2486f95b5fd25c2065e8c14213"
+    },
+    {
+      "path": "locale/blomstra-user-filter.yml",
+      "bytes": 1132,
+      "sha256": "18b0696920717f544828233dbaa183bc025cbc4e888033b8e836a9c90803d3c8"
+    },
+    {
+      "path": "locale/blomstra-usercard-stats.yml",
+      "bytes": 515,
+      "sha256": "26582fb0c3d2cbc9dba56468b050280e87aee1a1211f9622af45e896cc708c73"
+    },
+    {
+      "path": "locale/blomstra-web3.yml",
+      "bytes": 3047,
+      "sha256": "d70de4ae3bde4e737163a3ddadf3bd61a20e9b04515c163377c800b7151d856a"
+    },
+    {
+      "path": "locale/blomstra-welcome-login.yml",
+      "bytes": 678,
+      "sha256": "1122507b6593780bae334a4a4b434564fba4439ef1f33b73fef62566bd96f1a2"
+    },
+    {
+      "path": "locale/blt950-oauth-generic.yml",
+      "bytes": 1441,
+      "sha256": "5ab03b739053630f17582c0840b59f7ff2f65470824d636d1d4e4300a3cb955a"
+    },
+    {
+      "path": "locale/cadiducho-bbcode.yml",
+      "bytes": 319,
+      "sha256": "a0ce29e9a01f5d55484140ee6e9b294c2bb1a257aaa517ff1d89fbf9a0cc9980"
+    },
+    {
+      "path": "locale/cccyun-clogin-oauth.yml",
+      "bytes": 2227,
+      "sha256": "cc6c055d0a4e0bb07a18a8a416d7eeda8d7bfd4750bfdc614c3dad3d2ad8df9f"
+    },
+    {
+      "path": "locale/clarkwinkelmann-anonymous-posting.yml",
+      "bytes": 3748,
+      "sha256": "8f93969d21f964a47614777615dbeb94983544d85a68a202e4683d38c79ba5ad"
+    },
+    {
+      "path": "locale/clarkwinkelmann-author-change.yml",
+      "bytes": 1300,
+      "sha256": "9f9775d5a17ccc729c7f82eb690e8f07fdc16cf5edfdc5e49ee82082c74ae602"
+    },
+    {
+      "path": "locale/clarkwinkelmann-bookmarks.yml",
+      "bytes": 696,
+      "sha256": "37cc8eee9ae2e5acc442b75000640f70c8e57732871a4129526db3689c89de97"
+    },
+    {
+      "path": "locale/clarkwinkelmann-carving-contest.yml",
+      "bytes": 2057,
+      "sha256": "b6b36be2c61ec1f8cf053115c0bf34027eac9029df8165ae262fc932eeeaf00d"
+    },
+    {
+      "path": "locale/clarkwinkelmann-catch-the-fish.yml",
+      "bytes": 8903,
+      "sha256": "a10e8e26ab244ed89aba770a7cc37078482056cf7488307ff1eac8ac4491aa48"
+    },
+    {
+      "path": "locale/clarkwinkelmann-clippy.yml",
+      "bytes": 1092,
+      "sha256": "038fc78f7c25edc731fdb0d4e8686832ded8d4ec81262450fc4f4c1a3a9d11c0"
+    },
+    {
+      "path": "locale/clarkwinkelmann-collapsible-posts.yml",
+      "bytes": 1169,
+      "sha256": "480001f07b60c79798d4e813ed4f2b991d3062d8b09df3cfc933014c9d1cbf24"
+    },
+    {
+      "path": "locale/clarkwinkelmann-colorful-borders.yml",
+      "bytes": 1363,
+      "sha256": "d136e7341fc32d13595e43e4e29b68c3254ec26706088736dab4d1bc02d49a0d"
+    },
+    {
+      "path": "locale/clarkwinkelmann-composer-page.yml",
+      "bytes": 1093,
+      "sha256": "f57ce9dfffd983313246de6be3670f1c8daa725312a3ab71d9f0d4658204e69c"
+    },
+    {
+      "path": "locale/clarkwinkelmann-create-user-modal.yml",
+      "bytes": 514,
+      "sha256": "3aa18dea8c562ab49360a4d90082416860b950070c2db5331a2eaf3de52bd8d7"
+    },
+    {
+      "path": "locale/clarkwinkelmann-default-image-alt.yml",
+      "bytes": 452,
+      "sha256": "36cdf595eb36e9b2175a1765002e1561d90c405dbf7be9c612640e0792fd9cd7"
+    },
+    {
+      "path": "locale/clarkwinkelmann-discussion-bookmarks.yml",
+      "bytes": 808,
+      "sha256": "d1ad7cbdc4c3321ec1eeff4754e4e71206909a9ed83c28143066748a68eba3c0"
+    },
+    {
+      "path": "locale/clarkwinkelmann-discussion-lists.yml",
+      "bytes": 2554,
+      "sha256": "b601954a95b84e637b1f31ebded8980ef3c5eb26a003369cae41a0f499bbc0cf"
+    },
+    {
+      "path": "locale/clarkwinkelmann-discussion-open-position.yml",
+      "bytes": 1998,
+      "sha256": "64d94f81d726996aa4cc3fa5157799ea0439cf06022963cbbc4a24068d40aac0"
+    },
+    {
+      "path": "locale/clarkwinkelmann-editable-user-attributes.yml",
+      "bytes": 486,
+      "sha256": "f3bedcdd5362ad7feeb8c7af7e09ab32d8845f23897e9f33b1114296189bad76"
+    },
+    {
+      "path": "locale/clarkwinkelmann-email-as-display-name.yml",
+      "bytes": 658,
+      "sha256": "c3ef2961101b358b703a5e0dc372408b1b71be79df820ae76bed86a02dfe94e9"
+    },
+    {
+      "path": "locale/clarkwinkelmann-email-whitelist.yml",
+      "bytes": 1075,
+      "sha256": "8796e7e41ed983f52d69ca45efbea1cf84da84ad0fa39410967d97add8a0cd91"
+    },
+    {
+      "path": "locale/clarkwinkelmann-emojionearea.yml",
+      "bytes": 1280,
+      "sha256": "8a9138596af37e8d529a761143500bfeb0484540dd9a38421b6341c65e8c4ece"
+    },
+    {
+      "path": "locale/clarkwinkelmann-external-email-validation.yml",
+      "bytes": 2371,
+      "sha256": "9a6a6eaf996b0e5eddaedcf45ee44e2bf99668f55ed02d39406660e0d0d40744"
+    },
+    {
+      "path": "locale/clarkwinkelmann-featured-discussions.yml",
+      "bytes": 1771,
+      "sha256": "13f83b91b26cc59ea6a0c9b54df6fb3827e10d3fb5c29755a4456807eee83217"
+    },
+    {
+      "path": "locale/clarkwinkelmann-first-post-approval.yml",
+      "bytes": 602,
+      "sha256": "58fe621f59c8dcedbee6951b76a7d817423611b27140c52cc253b64d5bd4552a"
+    },
+    {
+      "path": "locale/clarkwinkelmann-follow-tags-prompt.yml",
+      "bytes": 1198,
+      "sha256": "bca08d338d5ff9eed32d19b5e0f944606521e4617060161e5f13fa9bcbe42bcb"
+    },
+    {
+      "path": "locale/clarkwinkelmann-formatted-banner.yml",
+      "bytes": 907,
+      "sha256": "9398e6373a2e7612053f2918139428c10061fb4178704b9de85fc35a94a19213"
+    },
+    {
+      "path": "locale/clarkwinkelmann-group-invitation.yml",
+      "bytes": 1867,
+      "sha256": "99f0df243b7efb846283fa52b68e8410a0c0ac48179e3e245eac4a2933c49343"
+    },
+    {
+      "path": "locale/clarkwinkelmann-group-list.yml",
+      "bytes": 686,
+      "sha256": "20d8d415544d23191d4dd7193243205fe72122d5502df234b1aca03c1d4200e1"
+    },
+    {
+      "path": "locale/clarkwinkelmann-ipsum-autocomplete.yml",
+      "bytes": 380,
+      "sha256": "1a555e74c15b85eb8f7a15cf1c9437053a880ceb03c518d2df8773ed28a5f0a6"
+    },
+    {
+      "path": "locale/clarkwinkelmann-jwt-cookie-login.yml",
+      "bytes": 4030,
+      "sha256": "b4d023c804eda05a83bf6cec1a70a491a49d1624cdc6a164828792ff6a59ea66"
+    },
+    {
+      "path": "locale/clarkwinkelmann-likes-received.yml",
+      "bytes": 500,
+      "sha256": "4af459cca1fe294358f9741716fafb7ef900316510a59e02c2fc557b754931d7"
+    },
+    {
+      "path": "locale/clarkwinkelmann-mailing.yml",
+      "bytes": 1410,
+      "sha256": "d59ad30a991a36187e6dc2ec04299ff332f7b0a8c8003bfe8b473f3c294b3e73"
+    },
+    {
+      "path": "locale/clarkwinkelmann-mass-actions.yml",
+      "bytes": 1313,
+      "sha256": "4693767ba7f9ebacde75f18c4c26bec9d9c4ee5ecb4388305bcb5a3162ce1a31"
+    },
+    {
+      "path": "locale/clarkwinkelmann-meilisearch-dashboard.yml",
+      "bytes": 464,
+      "sha256": "aa6364fb4e0a00521da27591191d75dfa6bb5e0e4890bc4385d803baf33c5e47"
+    },
+    {
+      "path": "locale/clarkwinkelmann-money-rewards.yml",
+      "bytes": 2142,
+      "sha256": "ac81ced0a45698131c305636b39e1ac899584c475bef7091c46e1b1e16baca22"
+    },
+    {
+      "path": "locale/clarkwinkelmann-money-to-all.yml",
+      "bytes": 1301,
+      "sha256": "36342394a9d703e5f76ef55f16c2714a64de2a209d29d6c6f7ee6954b20f62b3"
+    },
+    {
+      "path": "locale/clarkwinkelmann-passwordless.yml",
+      "bytes": 3402,
+      "sha256": "ea5a95cb7af3f5546dd2fd2473972309643be8d527d46ffa154d0b959757cde3"
+    },
+    {
+      "path": "locale/clarkwinkelmann-popular-discussion-badge.yml",
+      "bytes": 2288,
+      "sha256": "ce7d825454c2cc27228831e3e769ef00d86a1c81dd256b42f9fbd148f7ef130a"
+    },
+    {
+      "path": "locale/clarkwinkelmann-post-bookmarks.yml",
+      "bytes": 970,
+      "sha256": "36015fcab8a47701086fb314643bf22418b690e19c7e6306f076bdae00204056"
+    },
+    {
+      "path": "locale/clarkwinkelmann-post-permissions.yml",
+      "bytes": 565,
+      "sha256": "40c5ab67c34d45c49fd73f16a55aa62d9be0e827d50f83a5efd7fc2dec13c1de"
+    },
+    {
+      "path": "locale/clarkwinkelmann-post-stream-search.yml",
+      "bytes": 2481,
+      "sha256": "ffd906eb5b28b061393a518b3f3e7062c22659d382c3325c570dec74fcc5519e"
+    },
+    {
+      "path": "locale/clarkwinkelmann-predefined-avatars.yml",
+      "bytes": 2070,
+      "sha256": "824049aae788b6fd91edb3a03e1782b7a60f84c2a77559b8ca788cb0894aec2e"
+    },
+    {
+      "path": "locale/clarkwinkelmann-prominent-post-numbers.yml",
+      "bytes": 619,
+      "sha256": "1f7e4c33c423efa11bd676472f6aa3b3e56afae8be8a8a8bcc7a2445e47b9252"
+    },
+    {
+      "path": "locale/clarkwinkelmann-readonly-profile.yml",
+      "bytes": 953,
+      "sha256": "4f82798596a851deaec87d907cccb3fe4445c267877f1a5de9d02c14a01429b6"
+    },
+    {
+      "path": "locale/clarkwinkelmann-reset-preferences.yml",
+      "bytes": 655,
+      "sha256": "8b350edb277ad22839ce4f0351fcc97f9230ef8ae033633bec7ebcfdc317f414"
+    },
+    {
+      "path": "locale/clarkwinkelmann-roll-die.yml",
+      "bytes": 540,
+      "sha256": "32f84ec529e7950900abc39ac5a53082c56d5c1893fd67de82a131ebadb50787"
+    },
+    {
+      "path": "locale/clarkwinkelmann-scout.yml",
+      "bytes": 2675,
+      "sha256": "daff55c089ff7d75683fc04ebef2cab306a59d79c672d8e2d835dfdb0a0768a8"
+    },
+    {
+      "path": "locale/clarkwinkelmann-scratchpad.yml",
+      "bytes": 2058,
+      "sha256": "58e20eef4bb863d183d6c6150a368f61db03983dc913d1521d84e06cd1dfd760"
+    },
+    {
+      "path": "locale/clarkwinkelmann-see-past-first-post.yml",
+      "bytes": 824,
+      "sha256": "2d214ad9afd2d5e0163fec9862c10251a3d6cb2333f9100db2bd7051f0b7b336"
+    },
+    {
+      "path": "locale/clarkwinkelmann-selective-mediaembed.yml",
+      "bytes": 506,
+      "sha256": "ece595b3f36cb7c085aa43fd9f8f2601ee49e0fbffc764479154586c581be0cc"
+    },
+    {
+      "path": "locale/clarkwinkelmann-shadow-ban.yml",
+      "bytes": 1085,
+      "sha256": "3e7252314842d89615a82bb1b642d18131479a172cb7877c6569d0f012fccf1a"
+    },
+    {
+      "path": "locale/clarkwinkelmann-status.yml",
+      "bytes": 750,
+      "sha256": "fa381aff36b70a5c880d9d330085bc7a5d156c9d9ea3478a1462355962037d46"
+    },
+    {
+      "path": "locale/clarkwinkelmann-sudo-mode.yml",
+      "bytes": 804,
+      "sha256": "ebd6aca18768f02eaca9b3c64789933edde7d5412a5fdcadef3d700cc7fa24a5"
+    },
+    {
+      "path": "locale/clarkwinkelmann-translation-inspector.yml",
+      "bytes": 959,
+      "sha256": "7e36f25e2014783b30ef4e4024b60bf4a236313f86f0a4067656be656a4c8e91"
+    },
+    {
+      "path": "locale/clarkwinkelmann-typewriter.yml",
+      "bytes": 773,
+      "sha256": "64a997437440eb4d5d7fb77e7f89713a766c893bc44c25df5bfc404253fe46c7"
+    },
+    {
+      "path": "locale/clarkwinkelmann-username-blacklist.yml",
+      "bytes": 1092,
+      "sha256": "cb525fdb7f9157640d67fbf8f01414b15c2aa74cf7dd155d55ac839c39f3cfda"
+    },
+    {
+      "path": "locale/clarkwinkelmann-vote-with-money.yml",
+      "bytes": 1353,
+      "sha256": "3634e2d915e02785b5ebc6c223d082f15ccd838397d5a6e57c3334dc4548dac6"
+    },
+    {
+      "path": "locale/clarkwinkelmann-who-read.yml",
+      "bytes": 2952,
+      "sha256": "830a442646009475cd8e3db0a2acb6e7d604ae396e7730d41775f857a0927e58"
+    },
+    {
+      "path": "locale/club-1-content-permissions.yml",
+      "bytes": 406,
+      "sha256": "4fecdbeabce8ffb899c87cd209f30f92c32241bf7a025a4f4b3e557f3eb2d8b2"
+    },
+    {
+      "path": "locale/club-1-cross-references.yml",
+      "bytes": 1702,
+      "sha256": "5ae20be970b282259d354f0d2a8499d76e5f43eaaf47fcca56f592cab44d8f98"
+    },
+    {
+      "path": "locale/club-1-server-side-highlight.yml",
+      "bytes": 714,
+      "sha256": "3f663faca5f2e981588a14de0c867632bdbaf2bc1bb36a37ea011f3f28b54199"
+    },
+    {
+      "path": "locale/config.js",
+      "bytes": 1125,
+      "sha256": "8f4e9bdd23db2c4a1e1018eb25bda2d941409da8eb68c1112993ef8a03799a1a"
+    },
+    {
+      "path": "locale/convo-extensions-guest-posting.yml",
+      "bytes": 1280,
+      "sha256": "a79813ed776ed6e5ad037b4dd7f67355c6e060f1e3b0a84a75f12636398e3694"
+    },
+    {
+      "path": "locale/convo-extensions-quick-reply.yml",
+      "bytes": 339,
+      "sha256": "ab2ac5168dbc4a9bc2ffc06ab2be8558aab7e9c06669b4555d58e84f88f58f66"
+    },
+    {
+      "path": "locale/core.yml",
+      "bytes": 40667,
+      "sha256": "f0778670478eeb2e516cfe1a5cb2bccbd9d2684cd6556406e05d79e1f67d5b32"
+    },
+    {
+      "path": "locale/dalez-identityagent.yml",
+      "bytes": 701,
+      "sha256": "95c62505b9e420943df92e2b6f4dbfa20d8e1d6b1518cde9b712eb2f2eec32aa"
+    },
+    {
+      "path": "locale/dalez-msemoji.yml",
+      "bytes": 845,
+      "sha256": "80c9dba58f89ad95b996886215f53358511e55dea70746838e112d9b132003f0"
+    },
+    {
+      "path": "locale/dalez-twemoji.yml",
+      "bytes": 844,
+      "sha256": "261441771dc151d86ade93b8db99f269dee78c55cf01f61a960dead48367a1b3"
+    },
+    {
+      "path": "locale/danirod-plausible.yml",
+      "bytes": 1203,
+      "sha256": "ecbea07fb58c98fee75b491615786bef3138140166c05494081621689cf01fce"
+    },
+    {
+      "path": "locale/datitisev-backup.yml",
+      "bytes": 7948,
+      "sha256": "03c445439ea5aabdf0d4b6c788ea08ea3e91baa84962f69e56a311363278b038"
+    },
+    {
+      "path": "locale/datitisev-discussion-agree-message.yml",
+      "bytes": 600,
+      "sha256": "ede8142c87a41d4d2c36679c0e9addf69062a96b00e03eef4ace9b38a2692cb3"
+    },
+    {
+      "path": "locale/datitisev-maintenance.yml",
+      "bytes": 3455,
+      "sha256": "d192e360b61d853356e18819be3731b6f339ac237a08c2fc0484d1ef8fa6a308"
+    },
+    {
+      "path": "locale/datitisev-post-galleries.yml",
+      "bytes": 373,
+      "sha256": "ae5cdcef1dd9a9c45f010529c85809c2ea11b01f63716c2cc86fcf299eea654d"
+    },
+    {
+      "path": "locale/datitisev-webhooks-pro.yml",
+      "bytes": 2206,
+      "sha256": "60bf4e9c9945a4a9bf5b22a1b634a51c4d0b12fc252d9a92c474e52b284e4328"
+    },
+    {
+      "path": "locale/datlechin-add-like-controls.yml",
+      "bytes": 801,
+      "sha256": "cd2bb9ec1962a5365a1a431b057e2abc8890a877b4b00bb73bcb177ebc3761de"
+    },
+    {
+      "path": "locale/datlechin-ai-summarize.yml",
+      "bytes": 1822,
+      "sha256": "028bb745413e7b7c25c09cc56fe829314cf2da55df7ef078fd7b83f48003785d"
+    },
+    {
+      "path": "locale/datlechin-ai.yml",
+      "bytes": 1504,
+      "sha256": "e48d2c2356a832f522ab513ddc8801b2743e29b39a516516a2dda18c08b8f3e8"
+    },
+    {
+      "path": "locale/datlechin-bbcode-hide-content.yml",
+      "bytes": 668,
+      "sha256": "b0e583a7e2eb1d9462e8dc37d32844b405a6c3d9eda77b7c732e0f89c3163a23"
+    },
+    {
+      "path": "locale/datlechin-birthdays-widget.yml",
+      "bytes": 492,
+      "sha256": "68ca32fefce5d1eff15ba2bc4cbf25c996649fa8993ea628480a7a30b9fdb0ec"
+    },
+    {
+      "path": "locale/datlechin-birthdays.yml",
+      "bytes": 2558,
+      "sha256": "8141b788afdca77114973d518fc0b5dc1cbd603d79bfbca9c081b69b6ca75305"
+    },
+    {
+      "path": "locale/datlechin-chatgpt.yml",
+      "bytes": 1544,
+      "sha256": "66c00672098f8f0c3ccf0c5c27ab1a5dd7115f9db4b2f7069eff0974f5776681"
+    },
+    {
+      "path": "locale/datlechin-copy-links.yml",
+      "bytes": 743,
+      "sha256": "1b1f41dd7186141dd8e1f5c75b1a917ec2fabdfa02efff528ebbf37933a59daa"
+    },
+    {
+      "path": "locale/datlechin-discussion-overview.yml",
+      "bytes": 491,
+      "sha256": "ca90c9dc1f9902c054e4af0c2bc6427ba961d14f7c96746ed5dd2c7842e92997"
+    },
+    {
+      "path": "locale/datlechin-keyboard-shortcuts.yml",
+      "bytes": 1378,
+      "sha256": "a6c6b8c0be40cad2ef4408f7ddb3d196b7a996d995cb4d7013d02495231a6429"
+    },
+    {
+      "path": "locale/datlechin-landing-page.yml",
+      "bytes": 535,
+      "sha256": "ab35cbb30fcfe1f6c8853dd8b7ea7db05a7827a4e896129721fbb037debe348c"
+    },
+    {
+      "path": "locale/datlechin-link-preview.yml",
+      "bytes": 2048,
+      "sha256": "b6fb45c1550f4633b98557427e51101be9e86fcc9641c5c3bb8004193ccb938b"
+    },
+    {
+      "path": "locale/datlechin-more-discussions.yml",
+      "bytes": 1534,
+      "sha256": "c5fcf636c64369ac54a087a7eb5ffbed9f6e50de1a93fdf6f88b17eae613f195"
+    },
+    {
+      "path": "locale/datlechin-oauth-envato.yml",
+      "bytes": 692,
+      "sha256": "31413f19cdeb62a70971b57de79660c2f452f1c19f76614bba12f857048864a8"
+    },
+    {
+      "path": "locale/datlechin-oauth-spotify.yml",
+      "bytes": 700,
+      "sha256": "f3f93b0f4ed7dbd414881224532b0b4d1719775b4c339720fff22f4f495799e2"
+    },
+    {
+      "path": "locale/datlechin-offline-indicator.yml",
+      "bytes": 431,
+      "sha256": "15f4a523c206d91f57be4bc055272211e261e57d8366c944e55c6c82d81bab28"
+    },
+    {
+      "path": "locale/datlechin-posted-on.yml",
+      "bytes": 474,
+      "sha256": "e16118b372cd6460cb09613f864550f5e5174e12b9e6c5b237c9a484cc90a0c5"
+    },
+    {
+      "path": "locale/datlechin-pronouns.yml",
+      "bytes": 1045,
+      "sha256": "c65ab525e96752608b25a2777630f8532ff7015a539d7a72b7501e0419340972"
+    },
+    {
+      "path": "locale/datlechin-remove-sidenav.yml",
+      "bytes": 359,
+      "sha256": "d9cf77800c70adb867cc22fc98cfbd3030353307e6e42ca1eb3489b89210f3bc"
+    },
+    {
+      "path": "locale/datlechin-scroll-buttons.yml",
+      "bytes": 1094,
+      "sha256": "860d53661855e6e6168945ba120e1e4f4b3d8955ae5fee5acab208789bb8f1c0"
+    },
+    {
+      "path": "locale/datlechin-signup-button.yml",
+      "bytes": 323,
+      "sha256": "0f93272dbb0a07d3a0b84d776b12cd04da029b93eb1d74f9cc56a33c77d37e33"
+    },
+    {
+      "path": "locale/datlechin-silent-edit.yml",
+      "bytes": 468,
+      "sha256": "c158d04f245e29f879f42fd3c690ff2acca79b728fdd212d6beab8935fbf5210"
+    },
+    {
+      "path": "locale/datlechin-simple-tour-guide.yml",
+      "bytes": 2045,
+      "sha256": "0f7401f6cab5e17a55737f827c683ddf80a5f2899509752139bee5656cf494bd"
+    },
+    {
+      "path": "locale/datlechin-tag-passwords.yml",
+      "bytes": 3913,
+      "sha256": "a2071b28820809ed28d47591d3512ca868c89cd7c31b89779dc5ac15886b8cd9"
+    },
+    {
+      "path": "locale/datlechin-title-length.yml",
+      "bytes": 836,
+      "sha256": "1fc1e855ee9386b17afb728d25a42a16a99f16f1496ac3f7eea6901351ef1e4a"
+    },
+    {
+      "path": "locale/datlechin-usercard-uid.yml",
+      "bytes": 336,
+      "sha256": "21a49b92bed513d9846cf2439418c512fada3e512bace3daef983a7d4c279501"
+    },
+    {
+      "path": "locale/datlechin-who-replied.yml",
+      "bytes": 594,
+      "sha256": "9dbe9e4a16f8b2a3060453a1fce1be410ae9aca57bb68fa21d887c03e958aa61"
+    },
+    {
+      "path": "locale/davwheat-ads.yml",
+      "bytes": 2757,
+      "sha256": "4437a008c15f848e8826e896785f2af3d3f71dc7048674f1731553aafaaeb9d6"
+    },
+    {
+      "path": "locale/davwheat-custom-sidenav-links.yml",
+      "bytes": 2961,
+      "sha256": "8cf74609e17212b8fb126bcf13516071123ca41df8c22525d003a693ad456433"
+    },
+    {
+      "path": "locale/davwheat-share.yml",
+      "bytes": 889,
+      "sha256": "06fe08c8fc6b650b1e21cefe83ac21aa9c2e44f31c1f8925be09ce4ff477c5e1"
+    },
+    {
+      "path": "locale/davwheat-virtual-authors.yml",
+      "bytes": 3878,
+      "sha256": "752b0ff0d8909e18eff9f755d0e4a39d7139c2adddb2fcbc793be1e164d0b8db"
+    },
+    {
+      "path": "locale/dem13n-discussion-cards.yml",
+      "bytes": 1357,
+      "sha256": "b2d12fff2cf90e035d3954b6f2cf812b93dfe81761cf01a84ad4ce4b71858e3b"
+    },
+    {
+      "path": "locale/dem13n-topic-starter-label.yml",
+      "bytes": 369,
+      "sha256": "153bb91892817cecfc6d52d3edaa0d4b18cb2b56416797c67caf0b46c36b08ea"
+    },
+    {
+      "path": "locale/ekumanov-inline-audio.yml",
+      "bytes": 792,
+      "sha256": "7c757a2d32f71ea1c3def0ad1c0fb29147b1dc5f1a3329c7b9911f1946bec425"
+    },
+    {
+      "path": "locale/ekumanov-new-posts-notice.yml",
+      "bytes": 750,
+      "sha256": "df102100aa9826b51982e1ceb62916bbc044305fd3ecfcb4790e6edcfc6a15f5"
+    },
+    {
+      "path": "locale/ernestdefoe-aurora.yml",
+      "bytes": 1119,
+      "sha256": "2803b209c30b8ed30e5a0b45661706712ab7459ea5722bc72743ef6fe0f39d35"
+    },
+    {
+      "path": "locale/extiverse-mercury.yml",
+      "bytes": 1537,
+      "sha256": "901477492747da1f8829616f1ce496074cf8d52d9ec726ccc26f25cade74881f"
+    },
+    {
+      "path": "locale/ffans-clipboardjs.yml",
+      "bytes": 859,
+      "sha256": "72b3e01f93746907fa9938c6c424bf9e4d1817f72b49f2f96e4868becc0f4d6e"
+    },
+    {
+      "path": "locale/ffans-creator-declarations.yml",
+      "bytes": 7150,
+      "sha256": "741d220ef2cb779edb2ebae7dc51f2981da1a0f20dcf9cd5144a1d1416938784"
+    },
+    {
+      "path": "locale/ffans-geetest.yml",
+      "bytes": 2693,
+      "sha256": "2be404bdbeca4dd98ffa2fd913e6f4bd67c1984fc2ad94ca89cecab1bb6abf23"
+    },
+    {
+      "path": "locale/ffans-threadmarks.yml",
+      "bytes": 5497,
+      "sha256": "f9743ed2b8cc3140897e3c86ff00dadab06ff21c4b1ae5399e9e44503921e576"
+    },
+    {
+      "path": "locale/finteger-ratings.yml",
+      "bytes": 850,
+      "sha256": "00a3767eeb2b4f1c309d9f54b31ccd17ba32cf72d4affffee325b2785e5d696a"
+    },
+    {
+      "path": "locale/flamarkt-backoffice.yml",
+      "bytes": 1124,
+      "sha256": "24dae306ea25502ed4e4b4463a01b8d033d650c1a7e1c84f6c98281b16074e5c"
+    },
+    {
+      "path": "locale/flamarkt-matomo.yml",
+      "bytes": 596,
+      "sha256": "9f9a4f34189becc6c50daa6a6e99a0db99125a5dee463315f1d21fd1a095c496"
+    },
+    {
+      "path": "locale/flamarkt-taxonomies.yml",
+      "bytes": 9834,
+      "sha256": "64fc8344028571fd7f068e77c1b88e8108a7cd330b514e1d00304203f4f21cb8"
+    },
+    {
+      "path": "locale/flarum-akismet.yml",
+      "bytes": 781,
+      "sha256": "d15d986dbfc98a6a99ea5b778dc0b3e6e722903b6452ca16579794e283d7f20d"
+    },
+    {
+      "path": "locale/flarum-approval.yml",
+      "bytes": 831,
+      "sha256": "6fce4ff14cfb73622dd985244d387072987615ad9b36b8fb3e80335165e8ff69"
+    },
+    {
+      "path": "locale/flarum-audit.yml",
+      "bytes": 9655,
+      "sha256": "82b3540fa18d434c0ad7a0a3d140967bd87eeeef2097004254315e857a72f867"
+    },
+    {
+      "path": "locale/flarum-bbcode.yml",
+      "bytes": 315,
+      "sha256": "0c509637caee7f8adffe5341eeddd32e79a53370b53038449def4516ed63be6a"
+    },
+    {
+      "path": "locale/flarum-emoji.yml",
+      "bytes": 426,
+      "sha256": "77a72263dca21fd24f2caaa8f2d749a4f3d4abcaa1343fceca94e2f7eab8db91"
+    },
+    {
+      "path": "locale/flarum-extension-manager.yml",
+      "bytes": 10424,
+      "sha256": "52f32e45b753a6c2c5d9786ef4af11c39198de8daffd853558838e766f68383d"
+    },
+    {
+      "path": "locale/flarum-flags.yml",
+      "bytes": 2279,
+      "sha256": "b64c841282bc10b2e51ac546173f74719ef6ecf2e63e42dc22fcf373588c3d8b"
+    },
+    {
+      "path": "locale/flarum-gdpr.yml",
+      "bytes": 11866,
+      "sha256": "6e4bcdedca74a83070fcface3920f9f9b31b4909172f5ca0687ed22e6884f857"
+    },
+    {
+      "path": "locale/flarum-likes.yml",
+      "bytes": 1410,
+      "sha256": "3dfaf5200906cdfc08533c3f2304e7f83bc6856abf297e1621f8fc18c24152d4"
+    },
+    {
+      "path": "locale/flarum-lock.yml",
+      "bytes": 851,
+      "sha256": "039fc7b91e9a0f1702719159a7c8d5ab93063885aeace8227bae77ea635400ba"
+    },
+    {
+      "path": "locale/flarum-markdown.yml",
+      "bytes": 1275,
+      "sha256": "385e784158221125d12958048bb25d8f7ac25e5db5d00f47004bb9a9e5745a1c"
+    },
+    {
+      "path": "locale/flarum-mentions.yml",
+      "bytes": 3077,
+      "sha256": "66c11025d9d44ac9193ab2025d5c4b73be0a287dc0fa3f911c7b6e9caa310c4a"
+    },
+    {
+      "path": "locale/flarum-nicknames.yml",
+      "bytes": 2121,
+      "sha256": "07229653dbac21bd259e73e24544f20aa6150cb430d0475edc1b7fa84210a1eb"
+    },
+    {
+      "path": "locale/flarum-pusher.yml",
+      "bytes": 684,
+      "sha256": "eadf71677102915df4eeb0d96627619587660164f387d78b46cc9e1534a770f8"
+    },
+    {
+      "path": "locale/flarum-statistics.yml",
+      "bytes": 1768,
+      "sha256": "ff717bc0e806bb757acdffc5c4942b26d274cf4e32a883c4a0e2f21c77a2cc8b"
+    },
+    {
+      "path": "locale/flarum-sticky.yml",
+      "bytes": 1333,
+      "sha256": "37c61d036211cf5a7cf4cf8d82a16c7f0a973994bbb9019f74fc662d06e9a0f0"
+    },
+    {
+      "path": "locale/flarum-subscriptions.yml",
+      "bytes": 2426,
+      "sha256": "cb0749a6244184419f02faaf08a9197d082710adda9dbd12eed2183974aeaf7e"
+    },
+    {
+      "path": "locale/flarum-suspend.yml",
+      "bytes": 2187,
+      "sha256": "d11f8e5ccd82581c7e0c1557dc35c3b32b8bb0037faf6f69bed0f367452cbf3e"
+    },
+    {
+      "path": "locale/flarum-tags.yml",
+      "bytes": 4884,
+      "sha256": "166773d540412f7c99e6615270a2eefe5b8f3ddc9fd85ed05a70363eb9787ba4"
+    },
+    {
+      "path": "locale/flarumi-oauth-vkontakte.yml",
+      "bytes": 920,
+      "sha256": "cdea307f597b552058fb212b5af4a009ffc6115451ed8831ce608281c9dff571"
+    },
+    {
+      "path": "locale/flarumite-simple-discussion-views.yml",
+      "bytes": 853,
+      "sha256": "9374c12a636667a1f48b107ba536eff60134287e06a70f757c10f8f1843a07f2"
+    },
+    {
+      "path": "locale/flarumite-simple-spoilers.yml",
+      "bytes": 538,
+      "sha256": "5574d184d4867dd13a8d6d90e609be6a218ddd2cb8907ae9c4992806197065b9"
+    },
+    {
+      "path": "locale/flectar-turnstile.yml",
+      "bytes": 1263,
+      "sha256": "8be9ae9215f27a1ed5023a0ccd12833cd5e86c3debd58912dc5ab28f26ae4e20"
+    },
+    {
+      "path": "locale/fof-amazon-affiliation.yml",
+      "bytes": 1461,
+      "sha256": "f93d757f5f0fbb03fd5ed98ce5c542c3111a88b19c333ac8dd7d5adb8d2e6397"
+    },
+    {
+      "path": "locale/fof-analytics.yml",
+      "bytes": 1602,
+      "sha256": "e59692a91a8a92ee914c54a4d69f3006ab270f58edaa1898a7651577c05a78e0"
+    },
+    {
+      "path": "locale/fof-anti-spam.yml",
+      "bytes": 8049,
+      "sha256": "3134a38b715d90011071252eed04b10ac1140ac2b4867b042906eefe0a45e7a6"
+    },
+    {
+      "path": "locale/fof-author-change.yml",
+      "bytes": 1267,
+      "sha256": "b3cc317a3466c62dab0f46cad4c095214c65bd6009e5e716c3fe2372b7284338"
+    },
+    {
+      "path": "locale/fof-badges.yml",
+      "bytes": 18560,
+      "sha256": "466de07a9d8073635160be512f668d8d58ff2db02dffae5d5d0e1442d5a0fd29"
+    },
+    {
+      "path": "locale/fof-ban-ips.yml",
+      "bytes": 4399,
+      "sha256": "364782047be092c98820d29ef2edca8974a6e9907327e1eddb66eb674097b0d6"
+    },
+    {
+      "path": "locale/fof-best-answer.yml",
+      "bytes": 10366,
+      "sha256": "c33271f13c53661b32699b78cb1ba3a54715d66f35ca425b6d3698f5ba2a4ee2"
+    },
+    {
+      "path": "locale/fof-blog.yml",
+      "bytes": 6381,
+      "sha256": "204e474bb48dbf65a862298a37de6a2fdc0da9deeaa0a17290c0d5a5c6080234"
+    },
+    {
+      "path": "locale/fof-bookmarks.yml",
+      "bytes": 1695,
+      "sha256": "19f15ebd1400780f8c64394b7b103510d55fc5b31d54af73c79dc2199e4cdcc5"
+    },
+    {
+      "path": "locale/fof-byobu.yml",
+      "bytes": 8017,
+      "sha256": "9ee2d3f83589dfdb88dd097fd9ed79ff21e0746e4f4538b9719746c0d8dce616"
+    },
+    {
+      "path": "locale/fof-categories.yml",
+      "bytes": 2417,
+      "sha256": "77872ee9fd4395e1f51e32caf18dd975ef9175a4bd5adcd000b23e0178e6e13b"
+    },
+    {
+      "path": "locale/fof-checklist.yml",
+      "bytes": 479,
+      "sha256": "7b02db6920517bbcdbe1491d6edd4d57c8467578df339455ac1bc69302b8900f"
+    },
+    {
+      "path": "locale/fof-clockwork.yml",
+      "bytes": 329,
+      "sha256": "880aa54eb032cd7481ed5649f3f86d76cfdc94ebddf76d746d856677c43bcdf6"
+    },
+    {
+      "path": "locale/fof-cookie-consent.yml",
+      "bytes": 1029,
+      "sha256": "ac31ed581a439c5f6fdff59a089fdb226e276e27d9b52b78ca8b700a4d850c1d"
+    },
+    {
+      "path": "locale/fof-custom-footer.yml",
+      "bytes": 414,
+      "sha256": "385f34768ac691dda011cea943e961c7aafc6ea3a5dc90162874f080ef75ef69"
+    },
+    {
+      "path": "locale/fof-default-group.yml",
+      "bytes": 445,
+      "sha256": "7a2c050e172d7a659c323cc64a86b90e9ae137ab56631157b58e212c465c0134"
+    },
+    {
+      "path": "locale/fof-default-user-preferences.yml",
+      "bytes": 1903,
+      "sha256": "b27a1a07cbfd8c743868b5818b24c013d2486ffd87606bc219b72a8a3e41f83d"
+    },
+    {
+      "path": "locale/fof-discussion-language.yml",
+      "bytes": 2243,
+      "sha256": "2bf23dd8d83cb0ff2595623ae63b6b355ca1a7be130ee6b7cbc222e8ae54fa96"
+    },
+    {
+      "path": "locale/fof-discussion-templates.yml",
+      "bytes": 1763,
+      "sha256": "a7d9593e2aa066d7c796b3993cd13e869d503c3546e745528cbf0730cf1cc68b"
+    },
+    {
+      "path": "locale/fof-discussion-thumbnail.yml",
+      "bytes": 472,
+      "sha256": "fa378e530e85733918a3fee34844113703a09718009736bcf97caf0d1caf0b86"
+    },
+    {
+      "path": "locale/fof-discussion-views.yml",
+      "bytes": 820,
+      "sha256": "f04b6ef8dc92f41d920451f8130006c31bccc94e586c3c79d0e0a8c129cca701"
+    },
+    {
+      "path": "locale/fof-disposable-emails.yml",
+      "bytes": 377,
+      "sha256": "54258dae6b09b19fe59c8d420cdef873ab0ed8b4233b683030632d14645538e8"
+    },
+    {
+      "path": "locale/fof-doorman.yml",
+      "bytes": 7783,
+      "sha256": "6e54972e4d19fe3374cce4ce33de6a7c620be0d67b48e18408fbb7b31a3fccd3"
+    },
+    {
+      "path": "locale/fof-drafts.yml",
+      "bytes": 3092,
+      "sha256": "ff8fca8fd18f207e82ed6acd4a90d48a9cdef63bf9152a48c48a3c64a3dd1fca"
+    },
+    {
+      "path": "locale/fof-email-checker.yml",
+      "bytes": 115,
+      "sha256": "fb1b7a72a817756de8a807074bedaf0cb8e7b253792b2d28aeba62e7578a9b24"
+    },
+    {
+      "path": "locale/fof-filter.yml",
+      "bytes": 2885,
+      "sha256": "6112c2aef7a4f499c9b83d278f0e02f3bf13948d7bcc25847b8661a9598c651a"
+    },
+    {
+      "path": "locale/fof-first-post-approval.yml",
+      "bytes": 1289,
+      "sha256": "76c3c1e2b9edf61c2d9d9036679f1a0d28db30cd86b3d9d398197103135f1b8d"
+    },
+    {
+      "path": "locale/fof-follow-tags.yml",
+      "bytes": 6325,
+      "sha256": "8f4fd155c0177b846532f6dd144b7d4ebb44cbfdad57528e2d393008c7167a72"
+    },
+    {
+      "path": "locale/fof-formatting.yml",
+      "bytes": 727,
+      "sha256": "d496d41f4d90c4b86cf94827bdd417b179bfff39684870f6e334ad5e8e4dd5c1"
+    },
+    {
+      "path": "locale/fof-forum-statistics-widget.yml",
+      "bytes": 2191,
+      "sha256": "a414d8eea4216f76197f350dafca29ac53c3392f7198501bdd2c19107d888d5d"
+    },
+    {
+      "path": "locale/fof-forum-stats-widget.yml",
+      "bytes": 657,
+      "sha256": "118dd10501516bceedd1cf4038951fd3df509fdee98d47e33746308812ba5d9f"
+    },
+    {
+      "path": "locale/fof-forum-widgets-core.yml",
+      "bytes": 878,
+      "sha256": "b16208b9f3a4fd49d10558220943b2e821e12ef3f19ab6bced0ca972fb380664"
+    },
+    {
+      "path": "locale/fof-frontpage.yml",
+      "bytes": 608,
+      "sha256": "eca5f5fdea42f3e42496988a84b32ad7f2cfe16f5a9168d927aff0c84063e5ad"
+    },
+    {
+      "path": "locale/fof-gamification.yml",
+      "bytes": 5971,
+      "sha256": "c1d678b4f9b586c1da5d287b1ac4f8b1ed3a71f68373fbc51710cce21ecca499"
+    },
+    {
+      "path": "locale/fof-geoip.yml",
+      "bytes": 7345,
+      "sha256": "d293f07b682a24e44cc1f8dde060144487c9fb8f4c5d2dc14315a3916dba41ac"
+    },
+    {
+      "path": "locale/fof-github-sponsors.yml",
+      "bytes": 1623,
+      "sha256": "208b65f44812d69c15e55019482c5fad0e23db545147accccd2bdc78a60c1a21"
+    },
+    {
+      "path": "locale/fof-horizon.yml",
+      "bytes": 4170,
+      "sha256": "ac45da207c3e35d42a9f1ff1f9cacdf7f5e9b01236b0590ed9ba368a94db0dd7"
+    },
+    {
+      "path": "locale/fof-html-errors.yml",
+      "bytes": 606,
+      "sha256": "236990741be40335769be6deb23bd276e1b3cb3404e6c238c33bde747f47bb8b"
+    },
+    {
+      "path": "locale/fof-ignore-users.yml",
+      "bytes": 942,
+      "sha256": "293de92d4ee7c053d0147fc7425ff9c0a0767885c022e061a923aa6dfaecad53"
+    },
+    {
+      "path": "locale/fof-impersonate.yml",
+      "bytes": 1862,
+      "sha256": "18688e25302771da21f97cf1630ed5878380a88526f0a393b235d8a6bd01eb82"
+    },
+    {
+      "path": "locale/fof-linguist.yml",
+      "bytes": 5320,
+      "sha256": "7f20114ed5328c6673306d58a5fbca6eca2f215ca09febc06b5373d5ae159382"
+    },
+    {
+      "path": "locale/fof-links.yml",
+      "bytes": 2537,
+      "sha256": "14b552337b271d75712eadc0a22f38af12a962dffae05ed0e097cc91dfd268be"
+    },
+    {
+      "path": "locale/fof-mailing.yml",
+      "bytes": 1374,
+      "sha256": "066d5fdf508f8003870417e3337b9ccbcaed30b90cd25b850b7d7a4ccb75f2fd"
+    },
+    {
+      "path": "locale/fof-mason.yml",
+      "bytes": 6924,
+      "sha256": "5eec2d004b9e1b30fc80151c8160718f07d48f344a699c1a6548a706ace4d669"
+    },
+    {
+      "path": "locale/fof-masquerade.yml",
+      "bytes": 3629,
+      "sha256": "b3f7bb6e67abb00c5764e37487dd7e0a78b6f40de413c1ab2d9afae23c9f6a33"
+    },
+    {
+      "path": "locale/fof-merge-discussions.yml",
+      "bytes": 3040,
+      "sha256": "1b68227afadef94d15745b463e509b65a889e5090f55b8c1f13b9e05289ea069"
+    },
+    {
+      "path": "locale/fof-moderator-notes.yml",
+      "bytes": 1421,
+      "sha256": "cf753ae958517565322cff4398622c213cb7e1c9f3d341087cf91594ca88a456"
+    },
+    {
+      "path": "locale/fof-moderator-warnings.yml",
+      "bytes": 4146,
+      "sha256": "3ca30511ea8415b5854ffff94c5832d90b47c57ef1a393fcce73118fb6840bd5"
+    },
+    {
+      "path": "locale/fof-move-posts.yml",
+      "bytes": 3665,
+      "sha256": "a9304d4115d71f7972c2d06db96f3d66077369ae0b65bb615a4b41f35c7887f7"
+    },
+    {
+      "path": "locale/fof-news-widget.yml",
+      "bytes": 457,
+      "sha256": "e65e7069d491b2c19b981acdea89cd4b6e1feec6953741b6c858edb14c0c1f4e"
+    },
+    {
+      "path": "locale/fof-nightmode.yml",
+      "bytes": 3261,
+      "sha256": "5ada3e022e61e5b454d95d3cf1eae8c0c5805e0ba27c2575b923f9271eafc853"
+    },
+    {
+      "path": "locale/fof-oauth.yml",
+      "bytes": 7543,
+      "sha256": "276f75602292c71c9ed40c5d082724d77b7dfadb68bb606fc8ec620b48e4d755"
+    },
+    {
+      "path": "locale/fof-online-users-widget.yml",
+      "bytes": 854,
+      "sha256": "842d982fa3e2259a3f124d1ded8d5d4a079a7d033371e9c00bf8f386b0de5ea6"
+    },
+    {
+      "path": "locale/fof-open-collective.yml",
+      "bytes": 2490,
+      "sha256": "6406cc67a8ece8637b425f57cecf43216afe2011ebc0d646315c181f71a307bc"
+    },
+    {
+      "path": "locale/fof-pages.yml",
+      "bytes": 1703,
+      "sha256": "4e7e321c688c295386d790be279992aadf6b7542649ce59f028ea4ffd2082821"
+    },
+    {
+      "path": "locale/fof-passport.yml",
+      "bytes": 883,
+      "sha256": "938bb0ece79a4204adcd42fc136787d07c6eaca730ec985add24e43241ca6586"
+    },
+    {
+      "path": "locale/fof-photoswipe.yml",
+      "bytes": 440,
+      "sha256": "04163a0a65abdf96497c0ed735015bddc44f30b2ffd8de369ea7458e1e900bd1"
+    },
+    {
+      "path": "locale/fof-polls.yml",
+      "bytes": 12081,
+      "sha256": "12fb6fe8ec07cd588b0178985f729c8c7bc504f3b65886163a3478d1f86afa6a"
+    },
+    {
+      "path": "locale/fof-pretty-mail.yml",
+      "bytes": 2252,
+      "sha256": "4bb5d98a46e720518ff436a78749bfda745e8496adf6b6999f59d2c6d083c86e"
+    },
+    {
+      "path": "locale/fof-prevent-necrobumping.yml",
+      "bytes": 2161,
+      "sha256": "c116cd594735f38d82b2fc489aaf0b60d04307bd307126ef0149973df455f928"
+    },
+    {
+      "path": "locale/fof-profile-image-crop.yml",
+      "bytes": 1152,
+      "sha256": "0afd6b3826ae63274625bc2de6efed0ab09873323827231a1426849287e73331"
+    },
+    {
+      "path": "locale/fof-pwa.yml",
+      "bytes": 10189,
+      "sha256": "326225a446621c6515c4a868620a0f68925357ea8a8a3f8158957bd495cbef48"
+    },
+    {
+      "path": "locale/fof-pwned-passwords.yml",
+      "bytes": 915,
+      "sha256": "f8e7f0a674e28ff670474c1c40ba5463cd88600d27508403e0b15f65bef516ab"
+    },
+    {
+      "path": "locale/fof-reactions.yml",
+      "bytes": 5017,
+      "sha256": "607e903ddeb390cbb69ace90c9e261a2d7b2c1a57e0f38b83087042e7613a7f7"
+    },
+    {
+      "path": "locale/fof-recaptcha.yml",
+      "bytes": 1827,
+      "sha256": "5cfb035b5c6bb53ff9c4ec26b075baf6d1e76c8545eaa11876be62375386a445"
+    },
+    {
+      "path": "locale/fof-rich-text.yml",
+      "bytes": 2187,
+      "sha256": "81b35113784a4c39f87e3bbff8163cbf7fdb1cac5ba13e4f5530c849ba5c5bfe"
+    },
+    {
+      "path": "locale/fof-secure-https.yml",
+      "bytes": 460,
+      "sha256": "7e61fc2d573116c5d978b8e29c7479c093068623491c837c4a487750a13bfb0e"
+    },
+    {
+      "path": "locale/fof-sentry.yml",
+      "bytes": 10282,
+      "sha256": "fcf7e7a1ab3f80248562dee06a0386ea3f7127cf2dea3b5c88ae39fd5fba9f89"
+    },
+    {
+      "path": "locale/fof-seo.yml",
+      "bytes": 22608,
+      "sha256": "cec2b753d4611c7d769189cd531e2979569dfdf4fba98540058cef883549da66"
+    },
+    {
+      "path": "locale/fof-share-social.yml",
+      "bytes": 1357,
+      "sha256": "31d4ae3846feb07e3fbab4bd2aaea9968a6a0a212eda81497f78cd3cf4aa748f"
+    },
+    {
+      "path": "locale/fof-signature.yml",
+      "bytes": 1791,
+      "sha256": "45ffe392ce95c5f68ba7865ab9499271bea510c11ccd4b99010e8d856cb2ac60"
+    },
+    {
+      "path": "locale/fof-sitemap.yml",
+      "bytes": 6228,
+      "sha256": "a5e9ad940fea1511f541326b053822f8fd6cf28621df5879633c371b02bfe82b"
+    },
+    {
+      "path": "locale/fof-socialprofile.yml",
+      "bytes": 1216,
+      "sha256": "e8d99830b9a3de91d0970ed7f18c58664257d214de7ab2e5fe57fb540ed0bd7a"
+    },
+    {
+      "path": "locale/fof-spamblock.yml",
+      "bytes": 628,
+      "sha256": "f6b5e86c47662afccd7c089a274205d6f90c38cfb64ea88a24b27353ec1e38a3"
+    },
+    {
+      "path": "locale/fof-split.yml",
+      "bytes": 980,
+      "sha256": "0e5df92f50c52ec17be14e678a6f744bd07962b4787654c4b505f2ba666e1f89"
+    },
+    {
+      "path": "locale/fof-stopforumspam.yml",
+      "bytes": 3693,
+      "sha256": "bb9b90c3197964267886fd1386a0098e2c3e053a9b5d120ab1921845bb97ad26"
+    },
+    {
+      "path": "locale/fof-subscribed.yml",
+      "bytes": 3537,
+      "sha256": "4b32e07bdce7c8273a7a3390ce4357270a6166f49af4ae0ccccff00491d18494"
+    },
+    {
+      "path": "locale/fof-synopsis.yml",
+      "bytes": 2097,
+      "sha256": "b3e672892dbf4f18584f10e0c355f84523f71dab27c50155f280c91532caed66"
+    },
+    {
+      "path": "locale/fof-terms.yml",
+      "bytes": 5421,
+      "sha256": "336cb40beeb3982e0ec92c669ad4e290f7c1b7b55786f8ba5bac404b5074f3ba"
+    },
+    {
+      "path": "locale/fof-top-posters-widget.yml",
+      "bytes": 511,
+      "sha256": "68b022a37c817767100a53a530f4c2a3a1665f6f1f0a2cd55e4ae9e625e26a38"
+    },
+    {
+      "path": "locale/fof-transliterator.yml",
+      "bytes": 366,
+      "sha256": "c1c00e26e91f08d4def399aed9d62551ef90739cd5e02e6cb9f53584f5d5f5b1"
+    },
+    {
+      "path": "locale/fof-upgrade-advisor.yml",
+      "bytes": 4568,
+      "sha256": "a07b2a0ab4d46f8bd580bc8101d7d90574ca49a000ba44ed7aa95daee4eb7b35"
+    },
+    {
+      "path": "locale/fof-upload.yml",
+      "bytes": 18907,
+      "sha256": "46f69d1411a44a5f9493fd1006eace75e365dc89fe97b836cef901d242d2c249"
+    },
+    {
+      "path": "locale/fof-user-bio.yml",
+      "bytes": 1524,
+      "sha256": "4d37aa5a8cdd60784b1466cf884f7eadff9f67d6a613bd8dc7b034ba2086a483"
+    },
+    {
+      "path": "locale/fof-user-directory.yml",
+      "bytes": 2245,
+      "sha256": "d6920b3d0ac819502525c1393a84888af8b109b72e10510477527c23e82c535f"
+    },
+    {
+      "path": "locale/fof-usercard-stats.yml",
+      "bytes": 491,
+      "sha256": "880ff0ddd09855692a59fbca9ed10638f9510518c4b6b848b2a237ae24a5d28e"
+    },
+    {
+      "path": "locale/fof-username-request.yml",
+      "bytes": 6167,
+      "sha256": "4aa02bf91293f70f47e3ca50d802c1b6eb2d11071c6e15cf8c113bd96af88742"
+    },
+    {
+      "path": "locale/fof-webhooks.yml",
+      "bytes": 5512,
+      "sha256": "8dd63d580be463098a6be67fb214d6de884e56b591f1f37073d78ddedc973910"
+    },
+    {
+      "path": "locale/forumaker-magicbb.yml",
+      "bytes": 3080,
+      "sha256": "f59c742d40b346174b017be89e00a114f76b1d8e3d27939a27c220230c835b01"
+    },
+    {
+      "path": "locale/forumaker-magicread.yml",
+      "bytes": 1526,
+      "sha256": "9793c257903818ea7f00ec843b3d011b5d31bbe640d027235c6f5562b0a5e43d"
+    },
+    {
+      "path": "locale/forumaker-magicslider.yml",
+      "bytes": 1906,
+      "sha256": "3ae62b722af49d5134bd6b9001777fdf2fa2934d75180f01f400559ccd78c723"
+    },
+    {
+      "path": "locale/forumfortress-flarum.yml",
+      "bytes": 6315,
+      "sha256": "02c734b4737cc4c42c45c25e697c244b32cc0697ebd02cff6930367a2a6c70c3"
+    },
+    {
+      "path": "locale/foskym-activity-graph.yml",
+      "bytes": 3226,
+      "sha256": "d793bdcc08d62b1277455d685db75d7ee48989671a933a8db604e7916ab8b0b9"
+    },
+    {
+      "path": "locale/foskym-better-user-directory.yml",
+      "bytes": 972,
+      "sha256": "bbfc58933a8d8628c8cd1fa2e9cae903d4f2c4b7467a86d60278338642a00b4f"
+    },
+    {
+      "path": "locale/foskym-custom-levels.yml",
+      "bytes": 5073,
+      "sha256": "0934a00f490b33548dae0f1b3bab87869f2c0883aec1cbfa274edd63cf82b8bd"
+    },
+    {
+      "path": "locale/foskym-issue-tracking-youtrack.yml",
+      "bytes": 1981,
+      "sha256": "1f3804fc5b560bed77f3fa250633b65de85c206359615435dce2fecf1acaf28e"
+    },
+    {
+      "path": "locale/foskym-issue-tracking.yml",
+      "bytes": 3157,
+      "sha256": "2ee1af8324d1d306c13315652339639cfdc710cd61196a786bd5ecdfa6d8f7f5"
+    },
+    {
+      "path": "locale/foskym-nickname-group-formatter.yml",
+      "bytes": 725,
+      "sha256": "fa10b585df9842aa7ac7d0ff8b8901cc0377a43f85d43945d8b3f875728503fc"
+    },
+    {
+      "path": "locale/foskym-oauth-center.yml",
+      "bytes": 2623,
+      "sha256": "275927fb9799af7af32f850ab364e5e325ad19b6ee12d8ad57e79eb51f5778f3"
+    },
+    {
+      "path": "locale/foskym-pagination.yml",
+      "bytes": 1732,
+      "sha256": "8be35e913765f102ddb2a3af441b851f8a45fad266fe365d027329abf3050378"
+    },
+    {
+      "path": "locale/foskym-sorts-for-user-directory.yml",
+      "bytes": 4886,
+      "sha256": "d1be303b4eb1c74f821a9bbc913598b5f4b9b4980899dba8a6aafe35cb8d5917"
+    },
+    {
+      "path": "locale/ganuonglachanh-sonic.yml",
+      "bytes": 471,
+      "sha256": "afaf6ffbeba47058a70756108c8e4601bf5258fda3719ffee5cb9460fed814bc"
+    },
+    {
+      "path": "locale/gbcl-minecraft-oauth.yml",
+      "bytes": 927,
+      "sha256": "85d5353f0d2e418dcca50c4e5c5e9632a81760d9a226f28f5dfac2cd8db8aa65"
+    },
+    {
+      "path": "locale/gbcl-oauth-logto.yml",
+      "bytes": 822,
+      "sha256": "c143df8ca6b3259355d506835169b27f7a12ab6ef4cbd5b87ed2a4c0af4f15d6"
+    },
+    {
+      "path": "locale/gbcl-userip.yml",
+      "bytes": 835,
+      "sha256": "b138ff72a3c069722c046c4e33fb3096cab60802ac6f6874b40ea73746d45a8f"
+    },
+    {
+      "path": "locale/glowingblue-author-filter.yml",
+      "bytes": 1132,
+      "sha256": "0ede3958a9a043bc1e957925bd71499fad30a9bee808fe35b66b7d4e8b615936"
+    },
+    {
+      "path": "locale/glowingblue-localizd.yml",
+      "bytes": 1298,
+      "sha256": "250572bba403cd8a9271226b668de19127eb11a1cdd052f5bb22218b7fc1b2c3"
+    },
+    {
+      "path": "locale/glowingblue-password-strength.yml",
+      "bytes": 1153,
+      "sha256": "c9c1966ad8c398e8f37d36566f4d0adb27f0b9de8208a51d6709796fcd650660"
+    },
+    {
+      "path": "locale/glowingblue-redis-setup.yml",
+      "bytes": 770,
+      "sha256": "d69e87205dcc97610f68cf08a48a51927566df49148dd4e367cab5039115633b"
+    },
+    {
+      "path": "locale/gtdxyz-badges.yml",
+      "bytes": 6319,
+      "sha256": "2112103177eceaefaaf4d3bc7389470be1782afe56e5e99078708e0292992855"
+    },
+    {
+      "path": "locale/gtdxyz-login.yml",
+      "bytes": 671,
+      "sha256": "ceb06d14daae9fddd3eaca1fae963d80f39dc57db64c61fe7b5e5a3a445a559e"
+    },
+    {
+      "path": "locale/hehongyuanlove-auth-qq.yml",
+      "bytes": 1097,
+      "sha256": "5883c5fd1e7a397e9476ba7b358a4c9b24375527b7cea2e71d448cea67f51ce7"
+    },
+    {
+      "path": "locale/hikarilan-passkey-login.yml",
+      "bytes": 1957,
+      "sha256": "5a89910797a8ec59a14014471511114bb0a68c9332709fab8e6349cf65ff7862"
+    },
+    {
+      "path": "locale/huoxin-auto-follow-discussion.yml",
+      "bytes": 926,
+      "sha256": "5b96d7239fa5f93d731061009a14ee45ed977d27e44d5ceec51795bf7b746dcb"
+    },
+    {
+      "path": "locale/huoxin-filter-rule-manager.yml",
+      "bytes": 23622,
+      "sha256": "12d700a6c08989e3bf9a5f2ca7fafd60f4f76f040669c8ac09af3954618b8276"
+    },
+    {
+      "path": "locale/huoxin-money-with-history.yml",
+      "bytes": 4088,
+      "sha256": "d6626c434bc230c2179d656589024c6e7bdceaa1606b6c9290e4c1252fcd9193"
+    },
+    {
+      "path": "locale/huoxin-relative-url.yml",
+      "bytes": 651,
+      "sha256": "de0ead3147533656c8f849796dbb7db348122971d2db1b6beb68461cd21ad35e"
+    },
+    {
+      "path": "locale/huseyinfiliz-awards.yml",
+      "bytes": 10260,
+      "sha256": "534f988706b472a425732e806727822cd27b78da1a8b4b93d19b117073cbb5b5"
+    },
+    {
+      "path": "locale/huseyinfiliz-bump.yml",
+      "bytes": 7152,
+      "sha256": "de1a0b8cae648d63bd8839180fd6d7f88b2ee80a2fbdf0c89f2be499a9a61e45"
+    },
+    {
+      "path": "locale/huseyinfiliz-custom-profile-page.yml",
+      "bytes": 2992,
+      "sha256": "920dc579f02a27443de0e5a3ec2543ae158685868cbfa4ddc908645214d61395"
+    },
+    {
+      "path": "locale/huseyinfiliz-diff.yml",
+      "bytes": 5499,
+      "sha256": "2da61640c40d07c9eb56b8a06e377e3046851450a54234d1cea11e2893c15005"
+    },
+    {
+      "path": "locale/huseyinfiliz-flagify.yml",
+      "bytes": 405,
+      "sha256": "8ae4cffe0f8a2dcc92cc27671e9af787b67bd47b3b2ecb9251932c639397ff8f"
+    },
+    {
+      "path": "locale/huseyinfiliz-guest.yml",
+      "bytes": 1114,
+      "sha256": "51e1e36bc3ba66fea865897e1633a84e1c762e8d0f6a13f95f05bbe917e5a01c"
+    },
+    {
+      "path": "locale/huseyinfiliz-language-detection.yml",
+      "bytes": 7589,
+      "sha256": "9f2eeed4ffdd1642005795f1817d79aec2f678cab07cb1b35e3ad1f0a41f7676"
+    },
+    {
+      "path": "locale/huseyinfiliz-leaderboard.yml",
+      "bytes": 5524,
+      "sha256": "6bc4021296eaf262251e66e02df08693440af432a7c281171c91c7192091443e"
+    },
+    {
+      "path": "locale/huseyinfiliz-modern-footer.yml",
+      "bytes": 2278,
+      "sha256": "dec300c90aeeb96479e10f201fa2b8a70ffb184bebd89cd20710e217666c92e6"
+    },
+    {
+      "path": "locale/huseyinfiliz-notificationhub.yml",
+      "bytes": 4236,
+      "sha256": "82d3ea1d8da6b970954cc0c7b92c6ec364e795ef52cd8ab2d10c64300b4655d6"
+    },
+    {
+      "path": "locale/huseyinfiliz-pickem.yml",
+      "bytes": 4196,
+      "sha256": "b5c4d0d9e57f12097686c964d95ed61bdbe2b4d35be50e2f9270c0d73c0072a8"
+    },
+    {
+      "path": "locale/huseyinfiliz-private-profile.yml",
+      "bytes": 691,
+      "sha256": "02c7066f13920e0cc3b3288aecdfb8a540e714a94bbc8da5681dad7a8537fa91"
+    },
+    {
+      "path": "locale/huseyinfiliz-sort-changer.yml",
+      "bytes": 548,
+      "sha256": "087c48becd6df93d8f7001a1c0e077196bff5d0ee53f6d838dff0b8eb7af1e3d"
+    },
+    {
+      "path": "locale/huseyinfiliz-stickiest.yml",
+      "bytes": 2918,
+      "sha256": "51d372b1bd01f35b31c176812beace6ecf58e12a1ffd7ece63c6818e5c36e62b"
+    },
+    {
+      "path": "locale/huseyinfiliz-sticky-title.yml",
+      "bytes": 2453,
+      "sha256": "7f1ec510d1821d15f71565cf98ec19bd3003433219596311435b01bc2475bf66"
+    },
+    {
+      "path": "locale/huseyinfiliz-traderfeedback.yml",
+      "bytes": 14255,
+      "sha256": "e82b060f83357c11f965c3264b7a90632d608f48ca2f78b84b0e58d33f71063a"
+    },
+    {
+      "path": "locale/ianm-boring-avatars.yml",
+      "bytes": 1075,
+      "sha256": "a52c40634d38a2d9d3ab6d3fecef68a4a8b0a3d8d1cfdaba8038fd34988f5c96"
+    },
+    {
+      "path": "locale/ianm-follow-users.yml",
+      "bytes": 5772,
+      "sha256": "cf50780b8dbe25b20338c4fa1a130514ff121211942614f3b395969f9b990165"
+    },
+    {
+      "path": "locale/ianm-gravatar.yml",
+      "bytes": 3353,
+      "sha256": "59ac86640af6b5354ff80b9b7a60235d42bd9d508c896c4c450bee428492fbce"
+    },
+    {
+      "path": "locale/ianm-html-head.yml",
+      "bytes": 923,
+      "sha256": "279984d91e21df1d4d70e39f3a6912b5a167f71e23fb6519c58290637c793492"
+    },
+    {
+      "path": "locale/ianm-level-ranks.yml",
+      "bytes": 496,
+      "sha256": "1a104b26b567a2799892cb3d1f2023f18d4910fd4976b9a69b82510be384ce1e"
+    },
+    {
+      "path": "locale/ianm-log-viewer.yml",
+      "bytes": 1391,
+      "sha256": "73bc54b6cbf3b6a7027133c0e45bdaccbf6e1498501d68e0808b565b2b7369e7"
+    },
+    {
+      "path": "locale/ianm-no-meta-title.yml",
+      "bytes": 381,
+      "sha256": "f6d10a00ed68ba2d1346c6aee0b09e09607e2a68c9d69b258cbd7db6cf94d38c"
+    },
+    {
+      "path": "locale/ianm-oauth-amazon.yml",
+      "bytes": 764,
+      "sha256": "92f075daeea9c6740604ea483f285114f8c0f00c088e1c4f2b52a207e9c68760"
+    },
+    {
+      "path": "locale/ianm-oauth-line.yml",
+      "bytes": 694,
+      "sha256": "0385a47e3f7d5e7c981b99bae12c8fb8f573e975a1edcc71074b05872de8c931"
+    },
+    {
+      "path": "locale/ianm-oauth-reddit.yml",
+      "bytes": 693,
+      "sha256": "1a23866cb8f43ced9e4444a97ee17b9a8fed332cc57a39c9e6f5573332fd1255"
+    },
+    {
+      "path": "locale/ianm-oauth-twitch.yml",
+      "bytes": 686,
+      "sha256": "654f74c0aea1b303a924b253615e537f3b0a9df0a673204aa8dd7d6624c8fb58"
+    },
+    {
+      "path": "locale/ianm-online-guests.yml",
+      "bytes": 749,
+      "sha256": "092e18b5c0031e26c42b4f9c53b11e89639ee6e44423c3c3a747f355ddd8130d"
+    },
+    {
+      "path": "locale/ianm-syndication.yml",
+      "bytes": 3202,
+      "sha256": "2eb5bba3dc2efbfb62d113c3c5a866e227efb4235bb4e5b852aceaec513fdf68"
+    },
+    {
+      "path": "locale/ianm-synopsis.yml",
+      "bytes": 2060,
+      "sha256": "ad0b9fadae55433521802b8de655ebde967b905ffac8ca129943be8b4219fdfe"
+    },
+    {
+      "path": "locale/ianm-translate.yml",
+      "bytes": 12878,
+      "sha256": "be101fc7cdda07c2f0b0abd824f8946acb2485badd74756c2b7d6717b0512eae"
+    },
+    {
+      "path": "locale/ianm-twofactor.yml",
+      "bytes": 8009,
+      "sha256": "9865e7e12cb03c501c779cd506a3b2fbd09ecf5ca7c50ce72fc00a918110a33b"
+    },
+    {
+      "path": "locale/imdong-spam-alert.yml",
+      "bytes": 1265,
+      "sha256": "b13d396facbbbad8907c142e164b7a05ab4ab1525a6a50b5113182d291532314"
+    },
+    {
+      "path": "locale/imdong-visible-to-op-only.yml",
+      "bytes": 1003,
+      "sha256": "980bd97d4a103877be7c04742b1ee401f82c4ccb6b22fdac1662abcecebea555"
+    },
+    {
+      "path": "locale/import-ai-oauth-passport.yml",
+      "bytes": 3028,
+      "sha256": "b22252a7db679c6b8b8223db1812b76a4f2693016f78ff98beef21803e86a589"
+    },
+    {
+      "path": "locale/import-ai-webhook-notification.yml",
+      "bytes": 1646,
+      "sha256": "b3da18ff920c39dfc30f971cdb5b092517bdc9f05cdaf6e6e9e42e6984ef24d5"
+    },
+    {
+      "path": "locale/import-ai-webhook.yml",
+      "bytes": 868,
+      "sha256": "3225d11d8fd76996dd829ffec538252ec0451baf50ed6c2c6c447a73d3114548"
+    },
+    {
+      "path": "locale/irmmr-rtl.yml",
+      "bytes": 725,
+      "sha256": "71413e41ee2ce21879c67a0e2bb982375b843db3a2f00888dfc78a0502a4ab13"
+    },
+    {
+      "path": "locale/itnt-uitab.yml",
+      "bytes": 896,
+      "sha256": "8d1284cf98c83da17f4246aeedaff42376d075cb0d66f7cb215744a089a91bfa"
+    },
+    {
+      "path": "locale/jeromegillard-map.yml",
+      "bytes": 2359,
+      "sha256": "e3498b7ca4cbecced8afa05aed6f649fc049bd6f5036e7fde6cac11a8fb2dacd"
+    },
+    {
+      "path": "locale/jslirola-login2seeplus.yml",
+      "bytes": 806,
+      "sha256": "6a61528589f1e9e22c1df7b5d100f382c07cb24412781428790bddccb331a9cb"
+    },
+    {
+      "path": "locale/justoverclock-auto-post-badge-pro.yml",
+      "bytes": 1254,
+      "sha256": "3b1fb3fd0fa5eb71a78085d84937e757c6e1d56c135eae62ea80e67c9df785cb"
+    },
+    {
+      "path": "locale/justoverclock-auto-post-count-badge.yml",
+      "bytes": 2111,
+      "sha256": "68e6d57ff3df2e1d423901461ac8de26e94481ee0e58011a82c5c40d67f09bd7"
+    },
+    {
+      "path": "locale/justoverclock-be-active-user-indicator.yml",
+      "bytes": 452,
+      "sha256": "8950d96208b2c73bcfbb8f2dcdd9cc6f373fd2be37ac67e4a6d859a5e1959b52"
+    },
+    {
+      "path": "locale/justoverclock-best-answer-badge.yml",
+      "bytes": 603,
+      "sha256": "2082ba9a04ced3fd8159fc35d44294c9947b76a744cb3436e7655ab66a57f456"
+    },
+    {
+      "path": "locale/justoverclock-broken-links-checker.yml",
+      "bytes": 402,
+      "sha256": "b91476b3d456d1c8f2642bf2e1f4786f13045fbe5e089030634b3283b4b98d53"
+    },
+    {
+      "path": "locale/justoverclock-check-duplicate-discussions.yml",
+      "bytes": 993,
+      "sha256": "4d60a7ef5c5ee1181273b95a3e48dce2ee4dcd78278ee33dc7cce819f80476e8"
+    },
+    {
+      "path": "locale/justoverclock-composer-autocomplete.yml",
+      "bytes": 552,
+      "sha256": "c82713fa06b93ebda9b51385336e7423db8370efd37ac660e639e7dda283943e"
+    },
+    {
+      "path": "locale/justoverclock-contactme.yml",
+      "bytes": 2660,
+      "sha256": "6ec08b4b4f9b5ddb856074b682a97b4e8044edafa6cfa3726bf972aa08b63c90"
+    },
+    {
+      "path": "locale/justoverclock-country-flags.yml",
+      "bytes": 575,
+      "sha256": "caa80d5fb621f0e7410e36cccd277869a539a66265de881fd85865465d3b63ad"
+    },
+    {
+      "path": "locale/justoverclock-custom-header.yml",
+      "bytes": 1955,
+      "sha256": "22f8604b8a8d20172348cbb7b342178b985ed76849021b3e197b8e78e0320cf6"
+    },
+    {
+      "path": "locale/justoverclock-custom-html-widget.yml",
+      "bytes": 683,
+      "sha256": "e3b63a1c86b6a0a0c42eef9e1b8990a4998dbc7a25f283480c44d8c43e54b3e0"
+    },
+    {
+      "path": "locale/justoverclock-discord-widget.yml",
+      "bytes": 547,
+      "sha256": "c81f1c515b12d69ed7f2cc6b6f2fef14d30c1cc43324e91f678f73a393dd0f0a"
+    },
+    {
+      "path": "locale/justoverclock-discussion-hero-showtags.yml",
+      "bytes": 372,
+      "sha256": "66346b5b572cc4959449a99a6d7533365aba4046d93f43f8d96501db6bc206ae"
+    },
+    {
+      "path": "locale/justoverclock-discussion-info.yml",
+      "bytes": 473,
+      "sha256": "09a5e2b0927c63d196fb5b768f6f6cfa5df2c693168ffd20f59f974e5c6a3f61"
+    },
+    {
+      "path": "locale/justoverclock-discussion-sentiment-analyzer.yml",
+      "bytes": 486,
+      "sha256": "572c7601760c02fd620fd1eae5bec0949c9bca6bd22262b6ed235cd01c118a7a"
+    },
+    {
+      "path": "locale/justoverclock-discussion-tags.yml",
+      "bytes": 536,
+      "sha256": "d88e96fcf64059d06bba85770a78a9ae75199acfaa8c8e78ef7139bf88c6410e"
+    },
+    {
+      "path": "locale/justoverclock-dontgoaway.yml",
+      "bytes": 1370,
+      "sha256": "3068f4799203cecfe130d90be8988171f72797dec7d535b6a3ffdb2d9adac9b3"
+    },
+    {
+      "path": "locale/justoverclock-edit-posts.yml",
+      "bytes": 401,
+      "sha256": "ed402be7fef5e95a0668dbd6a46b854905fc00ca84cfd836b428f69fd1eef240"
+    },
+    {
+      "path": "locale/justoverclock-events-countdown.yml",
+      "bytes": 941,
+      "sha256": "c0e161efe247d0274cabc440661782da6abf6430f30c31b65cbf07924a40678c"
+    },
+    {
+      "path": "locale/justoverclock-export-post-to-pdf.yml",
+      "bytes": 400,
+      "sha256": "736bca3aa0a455547779a2636ee521c416840fc31e23172e1e9fb94d046e023a"
+    },
+    {
+      "path": "locale/justoverclock-feautured-discussions-widget.yml",
+      "bytes": 570,
+      "sha256": "a29cac663e763999c0403b33fa65a75f44051c45e19a36bf75ef3989fedad152"
+    },
+    {
+      "path": "locale/justoverclock-feedback.yml",
+      "bytes": 3213,
+      "sha256": "27a2678e6836f9867677e7bfee951c93bf8f95748773ac88bd2921716429fc4e"
+    },
+    {
+      "path": "locale/justoverclock-first-visit-indexpage.yml",
+      "bytes": 4373,
+      "sha256": "120182e40f90a3ee6318e723b7e50f18f3d542f5996b8b8125c94b4fa192f9a4"
+    },
+    {
+      "path": "locale/justoverclock-first-visit-popup.yml",
+      "bytes": 449,
+      "sha256": "ab7f14e020b0f6173299200214508b3644c0c0aa9bb706821cd98cff02ac8790"
+    },
+    {
+      "path": "locale/justoverclock-flachat.yml",
+      "bytes": 662,
+      "sha256": "5db4adad107be9802e4c01e577001fcded13500d0bce66317b670be1eb61673c"
+    },
+    {
+      "path": "locale/justoverclock-frontend-blog.yml",
+      "bytes": 1668,
+      "sha256": "a55ec78da6cd14c339298e31778f7fa85e36ab5b453b6f5faaa4c6e47bc6b867"
+    },
+    {
+      "path": "locale/justoverclock-geo-weather.yml",
+      "bytes": 847,
+      "sha256": "80af1e93c8819d5a671df5eacaed57a886b16faa6321f6583ba86e3e6de2557c"
+    },
+    {
+      "path": "locale/justoverclock-guestengagement.yml",
+      "bytes": 2036,
+      "sha256": "e87bfb6d71157c6e0b0e39861707c992517ac037586ffab4456cbe1587c8297e"
+    },
+    {
+      "path": "locale/justoverclock-hashtag.yml",
+      "bytes": 730,
+      "sha256": "19d248b3c4ee4f6bd7904db830bd0b10db0ae5a5e874c005cbb41dbaf939c8bb"
+    },
+    {
+      "path": "locale/justoverclock-header-slideshow.yml",
+      "bytes": 2113,
+      "sha256": "6c4542f00276f313463893e5bd9ff23838a7ecf485f2853e60ae2912d468be5a"
+    },
+    {
+      "path": "locale/justoverclock-hot-discussions-cards.yml",
+      "bytes": 401,
+      "sha256": "928486dee69809cec76869b60a7d85fcf90369f40a64dde10082182fba555e7a"
+    },
+    {
+      "path": "locale/justoverclock-hot-discussions.yml",
+      "bytes": 583,
+      "sha256": "29f2283d1c19f7c314ae14b9226a85a1de6f2a80c04bc5de5b112a38f4bc3a45"
+    },
+    {
+      "path": "locale/justoverclock-igdb-api.yml",
+      "bytes": 2092,
+      "sha256": "973c5bf462f313d82bb08489d73cbffa73822701a39e45f7598532cfd4e4f49b"
+    },
+    {
+      "path": "locale/justoverclock-image-gallery.yml",
+      "bytes": 570,
+      "sha256": "2ae6db87d824830d3190a6fd055e5305494b68668cea09be673039dbc11f0f3c"
+    },
+    {
+      "path": "locale/justoverclock-imdb-api.yml",
+      "bytes": 666,
+      "sha256": "7a176b5ec900582933b48aec21cf5756a0428dee257c74ebb768a101be967729"
+    },
+    {
+      "path": "locale/justoverclock-infocards.yml",
+      "bytes": 996,
+      "sha256": "f5b650c20ac2906d5cbc3f82a0fa56b6663f62e0802164e7b2fea828bf0e38eb"
+    },
+    {
+      "path": "locale/justoverclock-job-cards.yml",
+      "bytes": 1038,
+      "sha256": "211a2065bb4d4c1874a3bea6e963fedc2ce7e6d749efc35cfa1668282b36cdb5"
+    },
+    {
+      "path": "locale/justoverclock-keywords.yml",
+      "bytes": 902,
+      "sha256": "e0e416faa6ef846daaf3aeceee78e2a26afc3dc19ebfd4f3f2efb0a7afcc3f58"
+    },
+    {
+      "path": "locale/justoverclock-last-post-useravatar.yml",
+      "bytes": 373,
+      "sha256": "92368bb3ca1c277e6dcc875576c22603f295a95baa0f1ea33be12f32ad0a24fb"
+    },
+    {
+      "path": "locale/justoverclock-last-registered-users.yml",
+      "bytes": 681,
+      "sha256": "f3eae8afd9a2f3b6837a884187dcc446f29abb2a26b355c344187bffeba3ba84"
+    },
+    {
+      "path": "locale/justoverclock-last-tweet.yml",
+      "bytes": 728,
+      "sha256": "99b5eb86755e0032b14e4330265057b659f8b79027ca30edf2673ce416f622a2"
+    },
+    {
+      "path": "locale/justoverclock-last-users-posts.yml",
+      "bytes": 684,
+      "sha256": "1dd98b3ed487de4801a8ec4278d2f9f5639e3c6a67ce782085d77ce2ee78d8ff"
+    },
+    {
+      "path": "locale/justoverclock-newsfeed.yml",
+      "bytes": 432,
+      "sha256": "30c94dd50badef000f2bb3d879414ac21d2d5ecffefcd0daf16ebe6f79913546"
+    },
+    {
+      "path": "locale/justoverclock-newsletter.yml",
+      "bytes": 5688,
+      "sha256": "d8332d8916c43134d9c82a9721b8cb13eeae5ad64c6570e7b784c88213542aef"
+    },
+    {
+      "path": "locale/justoverclock-og-meta-tag.yml",
+      "bytes": 1065,
+      "sha256": "effa37a4eabdbded787536b4b85f07a3c0a3ac3bdb8b942119795ece0912fca5"
+    },
+    {
+      "path": "locale/justoverclock-popular-tags.yml",
+      "bytes": 512,
+      "sha256": "c6491e6f6464116e489c557c5390b8d8dbeae75ea2b3fc963d652a4004d3700e"
+    },
+    {
+      "path": "locale/justoverclock-profile-comments.yml",
+      "bytes": 1476,
+      "sha256": "73a1d259f1bee26ead1530f26a38999f378677b414a5fa0969a35884f681b7d1"
+    },
+    {
+      "path": "locale/justoverclock-profile-stories.yml",
+      "bytes": 2411,
+      "sha256": "9a663435011282643e4353c0a7527f9efec0d43d91cc69873bd0ecb79f1cc71e"
+    },
+    {
+      "path": "locale/justoverclock-purify.yml",
+      "bytes": 825,
+      "sha256": "4cf70fbb660d507087e5e353ab17fae2da09fc904431f3d2dc06f35f215df85a"
+    },
+    {
+      "path": "locale/justoverclock-pwgen.yml",
+      "bytes": 449,
+      "sha256": "e900a7a2e061f6dedd8bde26820b05f9354e240b50bbf4d8197073aca92e5c70"
+    },
+    {
+      "path": "locale/justoverclock-random-post.yml",
+      "bytes": 530,
+      "sha256": "76460a5cbe0b29df7e39cb9ba238de9f3e28b0e168ad9742c595e2e88d722baa"
+    },
+    {
+      "path": "locale/justoverclock-readmore.yml",
+      "bytes": 712,
+      "sha256": "ea0a72f363220e0c722adb9a3a0b2ff253e24d9c17b2afba76602e7921b21fd8"
+    },
+    {
+      "path": "locale/justoverclock-realtimecode.yml",
+      "bytes": 604,
+      "sha256": "39337cbc02d002d584e04ea4c88eac9857fa51543964bc3a2aafdf22c7ccdb39"
+    },
+    {
+      "path": "locale/justoverclock-related-discussions.yml",
+      "bytes": 1360,
+      "sha256": "8989e59c1096f465c91353e231ec37a85dffc84d8a1cfd92b3423c2f54035768"
+    },
+    {
+      "path": "locale/justoverclock-reputation-score.yml",
+      "bytes": 8146,
+      "sha256": "87bd347a2ae8145bbb4f80e9bb6a1393f8363240ba653f3cab21de8ee72807b1"
+    },
+    {
+      "path": "locale/justoverclock-socialcards.yml",
+      "bytes": 624,
+      "sha256": "ee5fe84d72b3e3895394c5f656301c8a4032d5a83965467055a3c03788e844d5"
+    },
+    {
+      "path": "locale/justoverclock-staff-members-widget.yml",
+      "bytes": 451,
+      "sha256": "1fab2ab1cdd4382a0d6ea2d6140987021e954b047e4c32667690d9d9a8a1d182"
+    },
+    {
+      "path": "locale/justoverclock-steam-api.yml",
+      "bytes": 1438,
+      "sha256": "a3f0c214625553daec7ef6687b88bf717d23b0b9ea58b634c13aa8b3f5dc0662"
+    },
+    {
+      "path": "locale/justoverclock-theaudiodb-api.yml",
+      "bytes": 992,
+      "sha256": "e7abb10c8b1ded2478cd251136fac04cfa54ae39dbe92c08610e718d2c060fe8"
+    },
+    {
+      "path": "locale/justoverclock-thread-read-time.yml",
+      "bytes": 387,
+      "sha256": "d33bee9337bbe4274d0bc954d63d959a45e517489b31b614f289c3726efa9a52"
+    },
+    {
+      "path": "locale/justoverclock-toastme.yml",
+      "bytes": 1902,
+      "sha256": "b41a649069392097cc4bc3f356bd1525ca7fdd94d034a4d0db7c202604fc5d0b"
+    },
+    {
+      "path": "locale/justoverclock-top-crypto-currencies.yml",
+      "bytes": 633,
+      "sha256": "c8974d3cb7f2aaaf501a9bea5045533dae5eff33dfd386e633c564f867542a45"
+    },
+    {
+      "path": "locale/justoverclock-user-pc-specs.yml",
+      "bytes": 609,
+      "sha256": "02744b0197635121569eccb21cb1942dcb8721d460c9997c56cf0257b298b530"
+    },
+    {
+      "path": "locale/justoverclock-user-statistics.yml",
+      "bytes": 560,
+      "sha256": "2d6b97d61924f21fa5134b2436abbdbe2bb535ba387958efae2698d9cc4ffede"
+    },
+    {
+      "path": "locale/justoverclock-username-blacklist.yml",
+      "bytes": 856,
+      "sha256": "5a360bbce32aefaaa99a3e809ba05cddf760b65b042b930e87e1da741dbf806a"
+    },
+    {
+      "path": "locale/justoverclock-users-map-location.yml",
+      "bytes": 714,
+      "sha256": "9cbc214790cc356003b72ff0020c18b1439203e0cc521872070ce7eda69ee165"
+    },
+    {
+      "path": "locale/justoverclock-website-live-screenshot.yml",
+      "bytes": 370,
+      "sha256": "6d43cc28532009da6c21a33e15c8700f638952f201d62319003d0ac177895150"
+    },
+    {
+      "path": "locale/justoverclock-welcomebox.yml",
+      "bytes": 963,
+      "sha256": "77d91402bf4e1d178d99835d99a6c0f2a59813b7bcbdfe579119da7875164b56"
+    },
+    {
+      "path": "locale/justoverclock-youtube-video-feed.yml",
+      "bytes": 767,
+      "sha256": "4bdf7306475b76cbf707e5c211d46bee1517b725a4a37088627b1db134965958"
+    },
+    {
+      "path": "locale/katosdev-signature.yml",
+      "bytes": 2506,
+      "sha256": "160d733d938982b8d50b1d79b1fc281076cae5da62d11a2f24ff2730d0a8d079"
+    },
+    {
+      "path": "locale/kilowhat-audit-free.yml",
+      "bytes": 7989,
+      "sha256": "29b68fd0c7f58dfb8c7c63ac6ab1f0c6ca6e90ecaa5cb771aa763e8e881c5ab8"
+    },
+    {
+      "path": "locale/kilowhat-audit-pro.yml",
+      "bytes": 8426,
+      "sha256": "eb2e41fbfb3ab45c4275372a0a7e6cf33c99a910090b0f43776e86a8665e07d6"
+    },
+    {
+      "path": "locale/kilowhat-cimaise.yml",
+      "bytes": 10717,
+      "sha256": "8dabbd2251917cbcf2f58df7deb201186cd0f121a2ffce42219227e5ad3514d5"
+    },
+    {
+      "path": "locale/kilowhat-custom-paths.yml",
+      "bytes": 4699,
+      "sha256": "4ae20e4a140f99c6ae3aa689731f6ead3a9725d6135fb6713858b24a9dc9e2a2"
+    },
+    {
+      "path": "locale/kilowhat-formulaire.yml",
+      "bytes": 23867,
+      "sha256": "c8fa54ffd96f56b5968cbba032f6f30d77fa60c873a4930f951f04cf0b331df8"
+    },
+    {
+      "path": "locale/kilowhat-rich-embeds.yml",
+      "bytes": 11129,
+      "sha256": "a7a384e3617b8de0f9ab55f4c54d6d3f49bc95c31c20b4e750e29358eb098d81"
+    },
+    {
+      "path": "locale/kilowhat-wordpress.yml",
+      "bytes": 22788,
+      "sha256": "a0cc6258538dea591290262a96205b3d6d1ef073d23a4aaec393a336cc613419"
+    },
+    {
+      "path": "locale/kk14569-anti-gmail-alias.yml",
+      "bytes": 382,
+      "sha256": "03be6aef5229d6d08086df805f6a975641db4b7a631d5930e55f8756176add5a"
+    },
+    {
+      "path": "locale/klxf-maintenance.yml",
+      "bytes": 1428,
+      "sha256": "4e7dba6432f243664f1bb73fc7b3aad8b34a0949777d8887505c81bcb95d0a30"
+    },
+    {
+      "path": "locale/krombox-oauth-wordpress.yml",
+      "bytes": 806,
+      "sha256": "4431d23332a98eba02b5d28cf9e6058f0efe718be2ccfdc014e566ec098cfd49"
+    },
+    {
+      "path": "locale/kyrne-evergreen.yml",
+      "bytes": 2377,
+      "sha256": "1cf564f9864e0b61f4a1bec478d3ec8a0e53a5b9c3d6d616a9d40c835cbd3f25"
+    },
+    {
+      "path": "locale/kyrne-websocket.yml",
+      "bytes": 3990,
+      "sha256": "9226426a41ee2f60c42afefad8e2ed0c6262786ef5c82d98ae9eaca10b046348"
+    },
+    {
+      "path": "locale/kyrne-whisper.yml",
+      "bytes": 3091,
+      "sha256": "26cda792d6c30ad8538bf27c78b5aa26671bfb588a0b69d73f3f6c620d52895b"
+    },
+    {
+      "path": "locale/linkrobins-badge-labels.yml",
+      "bytes": 5157,
+      "sha256": "82a3e4e18e541bcfbae5199354213ecdf8b356ccd13b15884c98270814fb3e12"
+    },
+    {
+      "path": "locale/linkrobins-birdseye.yml",
+      "bytes": 5075,
+      "sha256": "3d50ab497cce6b54813ac414de7519afca2a9c51318ab3a33d93aaca34dd8471"
+    },
+    {
+      "path": "locale/linkrobins-chirp.yml",
+      "bytes": 8607,
+      "sha256": "07faa01f2f03b60d979ce8094e9421215b83f64aee0e6dc6f845c68223f56d0b"
+    },
+    {
+      "path": "locale/linkrobins-discussion-banners.yml",
+      "bytes": 4232,
+      "sha256": "4a5769eb603953cfff0d2fba7b5f8c7f3c82326c2e16189a94df12529c2798cd"
+    },
+    {
+      "path": "locale/linkrobins-link-gate.yml",
+      "bytes": 1854,
+      "sha256": "aae859c5ce3eee4ed902d2e200aece201bc8f473009bc6d81c46fcc9ed63ccc3"
+    },
+    {
+      "path": "locale/litalino-top-bar.yml",
+      "bytes": 529,
+      "sha256": "90b21845c3ad346ac116cda6e93c1de84d14415250de1924e7747970605e6f62"
+    },
+    {
+      "path": "locale/little100-fontawesome.yml",
+      "bytes": 1199,
+      "sha256": "2e5d770d513e047a754627820f654c35bd7481222b3f2fb61a866797f0043c7d"
+    },
+    {
+      "path": "locale/littlecxm-reply-to-see.yml",
+      "bytes": 475,
+      "sha256": "676c38cb264dd3e72ac306dbae3f317cacfd9f22755938226c68a9f1c245a813"
+    },
+    {
+      "path": "locale/madeyedeer-avatar-tools.yml",
+      "bytes": 362,
+      "sha256": "59c3257cb5fab784a195f85b49ea02de0c8d9f86780bad0da4463c9f96705eae"
+    },
+    {
+      "path": "locale/madeyedeer-pallet-theme.yml",
+      "bytes": 729,
+      "sha256": "8a8970bd2b0ffcaf2e92113e76059113d03a50aff2aae131c13dbd6c0910091d"
+    },
+    {
+      "path": "locale/maicol07-oidc-client.yml",
+      "bytes": 6135,
+      "sha256": "ed04063101c658545424ea4be9d700e017a16715387d3f1aa0c35d9721394122"
+    },
+    {
+      "path": "locale/maicol07-sso.yml",
+      "bytes": 2088,
+      "sha256": "3fbee44ae9a2817ded3a4b0a8ee1181f61483ad148588456d790cd8b454c9a4d"
+    },
+    {
+      "path": "locale/malago-achievements.yml",
+      "bytes": 5876,
+      "sha256": "f8eeefea28afb2b22b002f7b2b6da41c838c6975875de0b1b2662f807c2907e7"
+    },
+    {
+      "path": "locale/malago-ads.yml",
+      "bytes": 1495,
+      "sha256": "6aa66c27b0f04f7e59fe203cbdef0000512d5692a2dee9d73dd8a5948e253f26"
+    },
+    {
+      "path": "locale/malago-fancybox.yml",
+      "bytes": 396,
+      "sha256": "8cae6105b6d5866edbe32dbd56f92a3ec0497b4a5cfc9dc2a2917bebee10e5b1"
+    },
+    {
+      "path": "locale/malago-linkpreview.yml",
+      "bytes": 208,
+      "sha256": "0d7eeec6c87899bbb3c6863dc88bf34aee469f3d67213f1dff422c7031f18413"
+    },
+    {
+      "path": "locale/marchccc-mentions-group-users.yml",
+      "bytes": 383,
+      "sha256": "ee69516c45eeec960cae75c469f6aaec31ea12fbf1656afb150cd4a691ef8006"
+    },
+    {
+      "path": "locale/matteociaroni-old-content.yml",
+      "bytes": 470,
+      "sha256": "1f2a0299b173c8e6467d0bd6ef74b852de06ca12243d6319652fd9b433a938da"
+    },
+    {
+      "path": "locale/matteociaroni-public-suspensions.yml",
+      "bytes": 410,
+      "sha256": "a38fe2fe3c2e9f499b7d398a36a27a23cf128d55063399c02dab51e5ed25b5ff"
+    },
+    {
+      "path": "locale/matteocontrini-imgur-upload.yml",
+      "bytes": 976,
+      "sha256": "d72e825b901f0216cf72ce2e6ba76bf828fcfdaa0d1c3f87eaab08d47699d2e0"
+    },
+    {
+      "path": "locale/mattoid-store-auto-check-in.yml",
+      "bytes": 573,
+      "sha256": "b8ec629de23890685d4adb2cc7d9fb2d5523e14ce34daabf5c945a8a1a901d52"
+    },
+    {
+      "path": "locale/mattoid-store-check-in.yml",
+      "bytes": 467,
+      "sha256": "13767aa27ab2615075972b5e1f144f1794a6cd051963efdf373719ae33db5620"
+    },
+    {
+      "path": "locale/mattoid-store-invite.yml",
+      "bytes": 6623,
+      "sha256": "ab5bc5c2bc6c2b429dfa7165243626e49fb6b0c4186ddeb4ebb355c668371e3f"
+    },
+    {
+      "path": "locale/mattoid-store.yml",
+      "bytes": 4884,
+      "sha256": "3c27cf44459c79ceb29326c626735122a4be497fae284b1cf2eee5c71804c950"
+    },
+    {
+      "path": "locale/michaelbelgium-ai-autoreply.yml",
+      "bytes": 2236,
+      "sha256": "ea61cd5c2aa95d67ea6c7f4c2bd5c4f565c2ce0289ac1e90882f929d0a688efa"
+    },
+    {
+      "path": "locale/michaelbelgium-discussion-views.yml",
+      "bytes": 2616,
+      "sha256": "b4c6c72c42223c460d86eb643386d7fea446f1584bbad4e11fa9356f395cd328"
+    },
+    {
+      "path": "locale/michaelbelgium-flarum-profile-views.yml",
+      "bytes": 365,
+      "sha256": "edfb836fbec4cb02c6c37a4198acabad2fd0d93614eb7c132e7f04e323f1d360"
+    },
+    {
+      "path": "locale/michaelbelgium-mybb-to-flarum.yml",
+      "bytes": 2068,
+      "sha256": "161e0dcf7ae6e44fa1d63d815d36cb7670d8e79f968980c7dcb944254e960303"
+    },
+    {
+      "path": "locale/michaelbelgium-profile-views.yml",
+      "bytes": 726,
+      "sha256": "4a19ae4eef6f5b132dbf0b5a468cd8a3583788b47a77a30d608a030f450fc6d1"
+    },
+    {
+      "path": "locale/michaelbelgium-umami.yml",
+      "bytes": 1340,
+      "sha256": "e47ebc46024c3c35b3f0d93b8aa92680597e37fc492b1db52340b98b60c79caf"
+    },
+    {
+      "path": "locale/migratetoflarum-canonical.yml",
+      "bytes": 1524,
+      "sha256": "83691545be251bed4a5e2d3dc64483994d1ae47a9e0bc040998776afb587d260"
+    },
+    {
+      "path": "locale/migratetoflarum-fake-data.yml",
+      "bytes": 3317,
+      "sha256": "bdce59a555deb7fcfe33d24b8d2d59d77f9b9850e2f1cd90aea30ab960d132f1"
+    },
+    {
+      "path": "locale/miniflar-admin-notepad-widget.yml",
+      "bytes": 866,
+      "sha256": "5233859dfef08d1159d3756cd4986f99ba1f64623e93a8b45df61405e169fe31"
+    },
+    {
+      "path": "locale/miniflar-sidenav-download-button.yml",
+      "bytes": 1650,
+      "sha256": "dbe071261dcc86bac0d5b4b30ec3c3a2cc3aff4f834aaffb7ab4722fab43fdc6"
+    },
+    {
+      "path": "locale/miniflar-top-like-givers-widget.yml",
+      "bytes": 397,
+      "sha256": "a7c62eeed040157ad181544e42176d43bbb220110a199f09c11545a88a167c74"
+    },
+    {
+      "path": "locale/mshuo-reply-to-see.yml",
+      "bytes": 1460,
+      "sha256": "4c85e6d727e9f9b84415e8f41971383ad611da8bd45ffa00cdf5e7d7d01322ee"
+    },
+    {
+      "path": "locale/muhammedsaidckr-chatgpt.yml",
+      "bytes": 4644,
+      "sha256": "7e779300940fbaf6240bf781879550a763f3a3ea65f56876372489f2e0eb9e6b"
+    },
+    {
+      "path": "locale/muhammedsaidckr-gemini.yml",
+      "bytes": 1711,
+      "sha256": "8cd6c7859178507db6a60f29c51396807b6fe5eeda0c927250f411e3409b0a51"
+    },
+    {
+      "path": "locale/nearata-auth-minecraft.yml",
+      "bytes": 1625,
+      "sha256": "7fb6be87a806b94294bbd9fc666fe98fca0a58878ac5cd004ea58bbe69643ccb"
+    },
+    {
+      "path": "locale/nearata-cakeday.yml",
+      "bytes": 1680,
+      "sha256": "82cd7268eb21579a9b82a33776adac4202714b27b17e450445c03205778f2ce0"
+    },
+    {
+      "path": "locale/nearata-cloudflare.yml",
+      "bytes": 1773,
+      "sha256": "78930960dfb6155290c4c6b7281b78822432721332ad79e2f13142c8462f6e3d"
+    },
+    {
+      "path": "locale/nearata-copy-code-to-clipboard.yml",
+      "bytes": 355,
+      "sha256": "6cf6debc7aac460dcf3ed9d939f067f2eb823e68bd101e108236237751a9aba8"
+    },
+    {
+      "path": "locale/nearata-dsts.yml",
+      "bytes": 2578,
+      "sha256": "10117e99a87181ef7738f1b7d874597089317647897779d59febf00e078a5e2d"
+    },
+    {
+      "path": "locale/nearata-embed-twitch.yml",
+      "bytes": 801,
+      "sha256": "0e96b8294e5f4b10c17a2506065ae9802c6a4262e2bfe348fdede32f8855dd85"
+    },
+    {
+      "path": "locale/nearata-embed-video.yml",
+      "bytes": 1987,
+      "sha256": "5dc1c4d49ffab44a202f465d439813e0512c7037b863e2c933be3be9a226b0ae"
+    },
+    {
+      "path": "locale/nearata-maintenance-mode.yml",
+      "bytes": 1040,
+      "sha256": "3828fa6d6a6a37ae3c9d7373b1493a6308282a5820ffb9d2149045124b2a1535"
+    },
+    {
+      "path": "locale/nearata-minecraft-avatars.yml",
+      "bytes": 1256,
+      "sha256": "8dfdf99402c293f6844f2ee7c16f4a1ba88c8edc6b7ecc27a950036031024ae4"
+    },
+    {
+      "path": "locale/nearata-password-strength-enforcer.yml",
+      "bytes": 616,
+      "sha256": "07ddae4a6e1104e696a61951296302ecdd00e5e186a7b42215ec31a908164bf0"
+    },
+    {
+      "path": "locale/nearata-related-discussions.yml",
+      "bytes": 1049,
+      "sha256": "a85f61b74431a561563113ff090cae7a1eca935d03c327339f760b8b4173f8bd"
+    },
+    {
+      "path": "locale/nearata-signup-confirm-password.yml",
+      "bytes": 363,
+      "sha256": "9c77a89eb90fcf2178a91990732d349de74b6bda6aed459cb11d943f54a381a0"
+    },
+    {
+      "path": "locale/nearata-tags-color-generator.yml",
+      "bytes": 1187,
+      "sha256": "690d4b15e42c1697de6848366553d3b946a6c9ff57ebd6f3fb716cd9855926dd"
+    },
+    {
+      "path": "locale/nearata-twofactor.yml",
+      "bytes": 4897,
+      "sha256": "9dd96d02f6bf473983d99916b362d5b0dfb0f497d330382a58a3ef15978f7fbc"
+    },
+    {
+      "path": "locale/neoncube-private-messages.yml",
+      "bytes": 3134,
+      "sha256": "0231118644c877767f8c100a7bc8b732fe5b452350184daeabd9c2f605c1e081"
+    },
+    {
+      "path": "locale/nodeloc-ignore-hidden-tags.yml",
+      "bytes": 374,
+      "sha256": "b2957042ee0402bdce96f828f19e519a4360f8185a4ae16ee263dbe715ca0865"
+    },
+    {
+      "path": "locale/nodeloc-telegram.yml",
+      "bytes": 867,
+      "sha256": "a22f21dcc04b644a65390133e9f1689d26834f8c060da3c0c171fa5a2248e63b"
+    },
+    {
+      "path": "locale/nomiscz-auth-steam.yml",
+      "bytes": 1574,
+      "sha256": "827cbd9218b1cdd9f299aa1dd2ff52e6c433b0332c34ad7dbb4517e4c2a7c906"
+    },
+    {
+      "path": "locale/nomiscz-auth-wechat.yml",
+      "bytes": 1516,
+      "sha256": "90ba33414d9523a2ba2e09ecc3f220905e00ada81cdebe89534ea6b830256d21"
+    },
+    {
+      "path": "locale/nosun-reply-to-see.yml",
+      "bytes": 417,
+      "sha256": "055577852223fb2e0f1a9391a7d042ef7633403b8debe6ef35adf857ba70b909"
+    },
+    {
+      "path": "locale/nyu8-email-filter.yml",
+      "bytes": 1981,
+      "sha256": "8b99067f0d35ab0345414cbcd69ff1228033968ded890c172aa03d2f8f1cf6f2"
+    },
+    {
+      "path": "locale/ordinaryjellyfish-automod.yml",
+      "bytes": 5620,
+      "sha256": "c58412333bb496ed516b83321d389c391dac04cf56db72b684900e105e902af1"
+    },
+    {
+      "path": "locale/ordinaryjellyfish-dicebear.yml",
+      "bytes": 1812,
+      "sha256": "3bb57032e2359cd2c8af27b88146157fa0130ed4442f2ebff13cb7e75ca1b223"
+    },
+    {
+      "path": "locale/ordinaryjellyfish-sentra-prime.yml",
+      "bytes": 2712,
+      "sha256": "ffed7cd244fec19f98429bd74b669f2e315feb0d58c044c3af839009aaedd8bd"
+    },
+    {
+      "path": "locale/ordinaryjellyfish-sentra.yml",
+      "bytes": 2975,
+      "sha256": "3e89cc2ced4f02fa9eb7ebc5ac4b240da1c05e2f0fc08950b7f39ddffdbc9eae"
+    },
+    {
+      "path": "locale/peopleinside-antiflood.yml",
+      "bytes": 3082,
+      "sha256": "d69e906a4855d4275b1a137be36feee72e5af7229ced71d153ebf9495f5b5b86"
+    },
+    {
+      "path": "locale/peopleinside-fla-powcaptcha.yml",
+      "bytes": 1805,
+      "sha256": "81bea4b5b1d3c80f09104225e3e15dc2361f70e8908598c8ca10eff4c6a6e842"
+    },
+    {
+      "path": "locale/peruguitar-user-portrait.yml",
+      "bytes": 549,
+      "sha256": "fb8c174ee59a8d02c57573758cea0da685279136dd7b30fafc57a1255f5826a4"
+    },
+    {
+      "path": "locale/pianotell-flamoji.yml",
+      "bytes": 10427,
+      "sha256": "0f67b5d0eaae766fb3c11ef66937434e9dc3fc28f09780fd1f26b410a8d224e3"
+    },
+    {
+      "path": "locale/proxytracer-proxytracer.yml",
+      "bytes": 1471,
+      "sha256": "5504d8129d289203d0ccefb272a8204f7bf79a91faaff3c26252fcff2724d494"
+    },
+    {
+      "path": "locale/quasimo-carousel-grids.yml",
+      "bytes": 1217,
+      "sha256": "2407351694b49109a38823949b93fc01c3b9e9e381a4eb768026d05036d0645f"
+    },
+    {
+      "path": "locale/quasimo-llms-txt.yml",
+      "bytes": 1965,
+      "sha256": "bdd880e4caf3d62e175bac9b4916849282641b0793429e41fcb60fe5c06f8876"
+    },
+    {
+      "path": "locale/quasimo-tag-sidebar.yml",
+      "bytes": 2227,
+      "sha256": "a1ba426c1d96fa1b69d805cb06340327cfc8caefec892f8348928a9f664d8e51"
+    },
+    {
+      "path": "locale/ralkage-account-lockout.yml",
+      "bytes": 2423,
+      "sha256": "8fbc05739a762eba24d059dd90013ad3ead94b1e9aac539d00f91f1c22d889ba"
+    },
+    {
+      "path": "locale/ralkage-ad-management.yml",
+      "bytes": 10596,
+      "sha256": "0dae9616f6775a2777b91859c12b8ccb773581586d161b5c19b08cbd0e1457f4"
+    },
+    {
+      "path": "locale/ralkage-cap-captcha.yml",
+      "bytes": 1198,
+      "sha256": "2cdcaa8e21e5796d972990b8774d4858c7abc158dd8162af5076bc69bcb1eaf7"
+    },
+    {
+      "path": "locale/ralkage-civility-filter.yml",
+      "bytes": 7697,
+      "sha256": "ffb860fd7993d1a74724400bcf47ff3c04d908854a467597f533bc5abb966f19"
+    },
+    {
+      "path": "locale/ralkage-hcaptcha.yml",
+      "bytes": 1184,
+      "sha256": "ca726886300410d859721222426939e0b6ff9167556d1d3f80e7b80760d35618"
+    },
+    {
+      "path": "locale/ralkage-linked-accounts.yml",
+      "bytes": 4185,
+      "sha256": "1649c4a312df5dad8757f3f6173229fe9a33fc0ee74fd159c7516b60a0f3aa29"
+    },
+    {
+      "path": "locale/ralkage-profile-messages.yml",
+      "bytes": 3357,
+      "sha256": "22192acf58127ccb2159bcd2dd03866e08b8445044301993347d1c2ebacf6523"
+    },
+    {
+      "path": "locale/ralkage-word-censor.yml",
+      "bytes": 938,
+      "sha256": "7509998d86931b29587cb7758997bc8a87a9150a94334e3a82aa2d417ea300bd"
+    },
+    {
+      "path": "locale/ralkage-word-counter.yml",
+      "bytes": 450,
+      "sha256": "f66be5dffae6c96986ea3a9abc89611b60d0b84cea29f0a6bed24bc8c1f92577"
+    },
+    {
+      "path": "locale/ramesh-dada-gui-image-and-link.yml",
+      "bytes": 335,
+      "sha256": "5992025cd3d84debb427170a2247fef0fab33847e0f72892f961932ce2a4a7d4"
+    },
+    {
+      "path": "locale/ramesh-dada-realtime.yml",
+      "bytes": 654,
+      "sha256": "30ef74e87bd66260362bec6fd04f62fce2e0db81185dbf040f8fce5f67c1578b"
+    },
+    {
+      "path": "locale/ramon-colored.yml",
+      "bytes": 3042,
+      "sha256": "c9758d14f857c49689667c2d63a2dcdd82f0ab35451f0b50dce84e056faa2a2c"
+    },
+    {
+      "path": "locale/reflar-recache.yml",
+      "bytes": 1422,
+      "sha256": "425a941ef8f6bdd96f07d8db4d884b4506e9846d42f1e40ebff6060925ec35ae"
+    },
+    {
+      "path": "locale/rehiy-reply-to-see.yml",
+      "bytes": 462,
+      "sha256": "6b9b947ce26f7659bf4bb83609f5b62c1af3156fb3734e3806dd87d6d89529d2"
+    },
+    {
+      "path": "locale/resofire-blog-cards.yml",
+      "bytes": 2439,
+      "sha256": "c08005f7b922a8fc31dfa173377ba884fbea58cb4271fbd3652f4af38cf8b791"
+    },
+    {
+      "path": "locale/resofire-digest-mail.yml",
+      "bytes": 8679,
+      "sha256": "9a98076c437cae7a1467d8d60728bed326d235faabb8077dbe50a10e17817293"
+    },
+    {
+      "path": "locale/resofire-discussion-participants.yml",
+      "bytes": 1595,
+      "sha256": "d4a5e82ab56ae8d9fa1a19ebe8766f3f2934bd9dc760abc7df33fa1eaeeee45d"
+    },
+    {
+      "path": "locale/resofire-menu-control.yml",
+      "bytes": 2358,
+      "sha256": "005f750a10dd5f11f4d784e1a17e0f3c658651a829d990973e0b2caee4643b26"
+    },
+    {
+      "path": "locale/rob006-last-post-avatar.yml",
+      "bytes": 1182,
+      "sha256": "7858d91580284d54934b16996be9c3e8718656253f114438dcac36fae7a37f13"
+    },
+    {
+      "path": "locale/sas_sam-regrole.yml",
+      "bytes": 1665,
+      "sha256": "7a5c0ae9fd9c664c555d29b24cb22642fe7b0d5900e56f7b5bc271376b7abc9a"
+    },
+    {
+      "path": "locale/serakoi-flarumdiscordtheme.yml",
+      "bytes": 446,
+      "sha256": "15fc9e71d461b32612aa02ec52b84f0ec6ae54f77b3bfab4b8f22a2e2d710091"
+    },
+    {
+      "path": "locale/serakoi-flarumstaffbadge.yml",
+      "bytes": 1158,
+      "sha256": "77e49f73bdea10f0959c4d848335dad29d55d0006608c552ba4e50ecb304dc3d"
+    },
+    {
+      "path": "locale/serakoi-hideprofile.yml",
+      "bytes": 350,
+      "sha256": "5701718a6c1581218f02a7ad6cda018edd96de383d45ad43e92ee273a21286cf"
+    },
+    {
+      "path": "locale/shebaoting-dependency-collector.yml",
+      "bytes": 3436,
+      "sha256": "c028e130687ea32c1fda900ad9ccf4dab77b8fb90d93d3dcebce998a7d612442"
+    },
+    {
+      "path": "locale/shebaoting-money.yml",
+      "bytes": 4862,
+      "sha256": "5b4bc6a758234e68b7bd2c4a20216938aa9dfba3180734f412da637ede49de5a"
+    },
+    {
+      "path": "locale/shebaoting-repost.yml",
+      "bytes": 529,
+      "sha256": "406499e58a550730499d7876aa799f498c9c1131f93dd10b3404e203d081b722"
+    },
+    {
+      "path": "locale/spookygames-auth-keycloak.yml",
+      "bytes": 877,
+      "sha256": "7e3b2b0a286f2af23c43ee3ad80474b5892e7a01e8258ed060d60ec046fb4d19"
+    },
+    {
+      "path": "locale/startracex-dark.yml",
+      "bytes": 402,
+      "sha256": "ee9172445f4794da3d94c693afdbe92ee7de1f8a6aeb49bfc60f821f811796b8"
+    },
+    {
+      "path": "locale/swaggymacro-only-starter.yml",
+      "bytes": 567,
+      "sha256": "d31677fbb47a82e14e3a0759fa1aa9f73acb5662493f6e1bd61266a5267e0aaf"
+    },
+    {
+      "path": "locale/sycho-advanced-extension-categories.yml",
+      "bytes": 724,
+      "sha256": "beab22f7840379be1997f449ff35b162de20530d4eb7cebf86b4bbbe67575714"
+    },
+    {
+      "path": "locale/sycho-force-password-reset.yml",
+      "bytes": 1454,
+      "sha256": "206a36e987c33ab3cd8100c46dc789a7d2f44cdde9f323010a79f317c0c05ee6"
+    },
+    {
+      "path": "locale/sycho-github-milestone.yml",
+      "bytes": 1044,
+      "sha256": "927444d91ab9c9da08199334c056fb57d0d495ae93ea6e1cf85914c218c84bf6"
+    },
+    {
+      "path": "locale/sycho-move-posts.yml",
+      "bytes": 2919,
+      "sha256": "eb7a28297211188ad39796abd2c09991f207c2f200c03f2d16400e5e586055aa"
+    },
+    {
+      "path": "locale/sycho-private-facade.yml",
+      "bytes": 1394,
+      "sha256": "c9cdbea8f828c5df5e665106f434f67b3ae566413456ef1e6a7e4b7c582341b2"
+    },
+    {
+      "path": "locale/sycho-profile-cover.yml",
+      "bytes": 797,
+      "sha256": "12848a1df0bc809f95acae92187d46ade4ab805d273dbafe5e4a824eba43e492"
+    },
+    {
+      "path": "locale/tapao-auto-ai-moderation.yml",
+      "bytes": 2142,
+      "sha256": "1c7eeb04404e4dc5544b5d200e6d653f9d67e1bd65bfec704d0e3f45898bc7c8"
+    },
+    {
+      "path": "locale/tapao-custom-landing-page.yml",
+      "bytes": 1060,
+      "sha256": "2725f824732af4959f44bc263a6e79cb8427f321ea7c041965ac92682f5bc7c8"
+    },
+    {
+      "path": "locale/tapao-line-notification.yml",
+      "bytes": 4810,
+      "sha256": "68883b6328394bc670f5daf86dc07a0bac5a7cbfc1af127fb70c7e56a4d5fa9e"
+    },
+    {
+      "path": "locale/the-turk-diff.yml",
+      "bytes": 5532,
+      "sha256": "b48342c8da6ee5a06acbc3a79b961f601ae9f2fdc377b48790c36fdbf5aff22f"
+    },
+    {
+      "path": "locale/the-turk-flamoji.yml",
+      "bytes": 5501,
+      "sha256": "b6c8de8d07966d9c6fd2a0827fe88540d04c3cefcd9d8523d65471cf0e48d109"
+    },
+    {
+      "path": "locale/the-turk-mathren.yml",
+      "bytes": 7129,
+      "sha256": "4690972a39bfcc1ea58049642e9237404578170a1aa4cad1650a7b926d156004"
+    },
+    {
+      "path": "locale/the-turk-miserable-users.yml",
+      "bytes": 3048,
+      "sha256": "b299881763529c05b025f150618f598517a2c9ff2f4397d3087caefed43cbf81"
+    },
+    {
+      "path": "locale/the-turk-nodp.yml",
+      "bytes": 1222,
+      "sha256": "a1548158c9582d64f084b1421a3ac6af13fb6c5fca5b7e45b9eedfbe4b284fe9"
+    },
+    {
+      "path": "locale/the-turk-pallet-theme.yml",
+      "bytes": 641,
+      "sha256": "b3afdad1be8ec311717483fdef080de523a4783fb312dca9c5f2c0d9af68d019"
+    },
+    {
+      "path": "locale/the-turk-quiet-edits.yml",
+      "bytes": 733,
+      "sha256": "bdc7d6d29bbc980bef84db4d985743407d7ca89d78c00c964dad57bf2b32228b"
+    },
+    {
+      "path": "locale/the-turk-regrole.yml",
+      "bytes": 1699,
+      "sha256": "c53ba78672041a3c6a9044c30920cee5beb97692d5ee5a79075c332b2e48e219"
+    },
+    {
+      "path": "locale/the-turk-stickiest.yml",
+      "bytes": 3160,
+      "sha256": "f925e54289c7adcf2cc9a841c23ef637404a81ce41aec8826ddfd2ab90e5905f"
+    },
+    {
+      "path": "locale/the-turk-welcome-widgets.yml",
+      "bytes": 581,
+      "sha256": "fdaa802407a4c54695e98e8e7b42cf5ea4b77affd65793fe01ea74653b858cf3"
+    },
+    {
+      "path": "locale/therealsujitk-gifs.yml",
+      "bytes": 878,
+      "sha256": "833f81270d8e9da3ea4fb3477828552daec467e26b4f01c8cbd65ec127cac121"
+    },
+    {
+      "path": "locale/tituspijean-auth-ldap.yml",
+      "bytes": 1568,
+      "sha256": "3f1a1d44d03cf59cec331251f62266a5cb53cc1d010969789a40911092c11fbe"
+    },
+    {
+      "path": "locale/tohsakarat-post-camera.yml",
+      "bytes": 340,
+      "sha256": "453e5eb6126e8d52acbe2b074545d1f10e0c38f40f25eb6d06639d22608c39ef"
+    },
+    {
+      "path": "locale/tohsakarat-save-and-load-draft-automatically.yml",
+      "bytes": 587,
+      "sha256": "6ef5ee89a667be99635e5eb67a4a8eceacdc8898d6dbe542f0a942b48524a725"
+    },
+    {
+      "path": "locale/tohsakarat-table-of-content.yml",
+      "bytes": 395,
+      "sha256": "7944302f3fddeae11ef9a9f4de126c4f9d9f7eadfb989c2451b15ea74acc9863"
+    },
+    {
+      "path": "locale/tohsakarat-tags-filter.yml",
+      "bytes": 706,
+      "sha256": "8612f16337136c5ff8c7a7807dd4a611de301c377bfde9c2478856dab8a28b3a"
+    },
+    {
+      "path": "locale/tokenjenny-web3.yml",
+      "bytes": 583,
+      "sha256": "f09ec31cc30ed00149b28c6ba8764f4e4dbe8b68bdec45d3b82e1accc00fd96d"
+    },
+    {
+      "path": "locale/tpokorra-post-notification.yml",
+      "bytes": 1753,
+      "sha256": "c9478708446ec3e822dd127524dea57a1b971ae92d8519b988d72c62bbdd055c"
+    },
+    {
+      "path": "locale/tryhackx-advanced-pages.yml",
+      "bytes": 4293,
+      "sha256": "a94c1040a8eb733a16ccb51a7dabcc2aebc61a5592fd375a1a225877095ac673"
+    },
+    {
+      "path": "locale/tryhackx-homepage-blocks.yml",
+      "bytes": 9138,
+      "sha256": "d3d100d2817a247a813fe064b5033d983b85312a068ecdae7f2f1cefb72a940f"
+    },
+    {
+      "path": "locale/tryhackx-magnet-link.yml",
+      "bytes": 6241,
+      "sha256": "595bc1fde702f2086a84721fee7a1cff7728bc225763fc4747d389ed969c0870"
+    },
+    {
+      "path": "locale/tryhackx-thumb-sliders.yml",
+      "bytes": 2707,
+      "sha256": "bfa324cace595a9e6e49a8f1accf5bb3cd0e33ac4e4d217a58acd1c385fb9f8a"
+    },
+    {
+      "path": "locale/tryhackx-topic-rating.yml",
+      "bytes": 2560,
+      "sha256": "9c078b7997a3bed6e281ae1213e0fa20d562bef9a4e9c2188272b57fcdf7f17a"
+    },
+    {
+      "path": "locale/umhelper-oauth-clerk.yml",
+      "bytes": 854,
+      "sha256": "c1621844dbe9b3b82cace6fff256946bb6fe887e675f9f145c6b373bcc65be2c"
+    },
+    {
+      "path": "locale/v17development-blog.yml",
+      "bytes": 6410,
+      "sha256": "4c3adbc4e80119d0e147a7e8a54590168cede0d62eccc8052a0aff008d7e19ea"
+    },
+    {
+      "path": "locale/v17development-flarum-seo.yml",
+      "bytes": 232,
+      "sha256": "c063076fd306afc14bd3d6c11d4b4f74484171d9950a3da78e08bcdfa0d079b7"
+    },
+    {
+      "path": "locale/v17development-seo.yml",
+      "bytes": 915,
+      "sha256": "e83dd868bfd1e07e73fe3cdc54e66d1099257ff9cb8df1b0e84bcaabc65517a6"
+    },
+    {
+      "path": "locale/v17development-support.yml",
+      "bytes": 16019,
+      "sha256": "8bee27a75cc81da550aaecc7ef664a300dfffda74eb14950842d6fb6a9e77405"
+    },
+    {
+      "path": "locale/v17development-user-badges.yml",
+      "bytes": 6287,
+      "sha256": "6107417a63bae13cb83289fff8dd9cef81f401fbb3b4ded0305c4c45eb7f56ad"
+    },
+    {
+      "path": "locale/validation.yml",
+      "bytes": 8076,
+      "sha256": "4b8e2825e8f6a970b6b948d8a47e4942f68d44c73553a8e67b81aab3e5322550"
+    },
+    {
+      "path": "locale/vlssu-cravatar.yml",
+      "bytes": 3839,
+      "sha256": "fe16cffc99e108f91eed617a45a1ef6332d5567f58460b8031b8fb0acba8b920"
+    },
+    {
+      "path": "locale/walsgit-discussion-cards.yml",
+      "bytes": 23423,
+      "sha256": "73101749d8a5da519b471b47b7afeacaa73cc46eeb880fd4340f462973bec0c1"
+    },
+    {
+      "path": "locale/walsgit-recycle-bin.yml",
+      "bytes": 5060,
+      "sha256": "767c91c78976a8fb0226a519271a41d60e3683db2d889958bd72fdcfb03a439a"
+    },
+    {
+      "path": "locale/webbinaro-affiliator.yml",
+      "bytes": 575,
+      "sha256": "e83f804d0de4d2e9d68ce4db446c55c5d411afd2fbe0c8c6b407137ffba8128a"
+    },
+    {
+      "path": "locale/webbinaro-age-check.yml",
+      "bytes": 1022,
+      "sha256": "4418eb5c501941d520593e31ce743969e3f9443d45694be2886358873306df14"
+    },
+    {
+      "path": "locale/webbinaro-calendar.yml",
+      "bytes": 1418,
+      "sha256": "dd421dc4928304fd4b380376312696c5dfee21b37c3e1afa330b632e319c5534"
+    },
+    {
+      "path": "locale/webbinaro-gpx-preview.yml",
+      "bytes": 529,
+      "sha256": "fe625e805240a8426e600c686c8465f7ebe2b4370964051a6802df2e0b91d6bc"
+    },
+    {
+      "path": "locale/widayn-avatar-cropper.yml",
+      "bytes": 338,
+      "sha256": "b99a29b17c9c41ded7202c8950d58f1d53e5b1556e5d673c1703109a8d3204af"
+    },
+    {
+      "path": "locale/wolfgang-demeter-bbcode-5star-rating.yml",
+      "bytes": 758,
+      "sha256": "9024065f620a1eb12f611e073afaf6a55b88ab92c67cd3a3019b7e139e8ec007"
+    },
+    {
+      "path": "locale/xrh0905-oauth-microsoft.yml",
+      "bytes": 812,
+      "sha256": "2286489a9f24f6fce7a3ecb00a56cd451321292f24e4d42461b2d1795661e5f9"
+    },
+    {
+      "path": "locale/xsoft-ict-mason-tag.yml",
+      "bytes": 6963,
+      "sha256": "6498b49fb2171746afd9d4bf67d8d961649ed613bf06176a65b63bb71546ecc9"
+    },
+    {
+      "path": "locale/xypp-answer-bounty.yml",
+      "bytes": 1255,
+      "sha256": "1a9859d2944c662714088fc51dfc1ff5037b7c8d2573bd323769bb93f23d616c"
+    },
+    {
+      "path": "locale/xypp-collector.yml",
+      "bytes": 2925,
+      "sha256": "6d7ba9beebb4e59965adb9d908d4c3a9d8ea3894e61bd4a01b5bd308728ebbf6"
+    },
+    {
+      "path": "locale/xypp-forum-quests.yml",
+      "bytes": 2179,
+      "sha256": "6c1e16367bc216ef4a0b81e9bc32192418e24a4b6cd2b7243e6943d6964e9e9a"
+    },
+    {
+      "path": "locale/xypp-invite-user.yml",
+      "bytes": 3006,
+      "sha256": "735fd9b53eb23ecbf0849caedf507da19dc82110bbc698a4e2e647f09c4ac19b"
+    },
+    {
+      "path": "locale/xypp-pay-cccyun.yml",
+      "bytes": 3435,
+      "sha256": "648376ff0d99a492dd04f81f782d2a9270f83964768d31eb46ad88b40deaa357"
+    },
+    {
+      "path": "locale/xypp-pay-to-read.yml",
+      "bytes": 1615,
+      "sha256": "31ce961e0aa73658af57e11e792536fca6736eb240a3a2f77e1565018a357a39"
+    },
+    {
+      "path": "locale/xypp-sticky-card.yml",
+      "bytes": 890,
+      "sha256": "c358307f3061e4ac4b728b0f69f0673cd0d0a2b60ec962ad54479dc812930074"
+    },
+    {
+      "path": "locale/xypp-store-auto-checkin.yml",
+      "bytes": 347,
+      "sha256": "eae92d504d2d28ac7f4591acce6053837ef4798129d3ad5fd314c916e37282f8"
+    },
+    {
+      "path": "locale/xypp-store-doorman.yml",
+      "bytes": 920,
+      "sha256": "4711c051eb0b51b7676dbc65f7416d44deae464b2868aaaceddaf92cc0da106b"
+    },
+    {
+      "path": "locale/xypp-store-group.yml",
+      "bytes": 413,
+      "sha256": "8f1546d93f88d75bb91a0b00257f70538caac338b4c18a9b08838bc38b6e4400"
+    },
+    {
+      "path": "locale/xypp-store-virtual-item.yml",
+      "bytes": 1339,
+      "sha256": "e3088f2b57900328ca2dc9465aef89970a6082feb7deb1cdc06e0bc2978f3fab"
+    },
+    {
+      "path": "locale/xypp-store.yml",
+      "bytes": 3932,
+      "sha256": "ab53bc672125c6f097e2acce95e742201f154a86131f0f69ec90339ef444d45b"
+    },
+    {
+      "path": "locale/xypp-user-decoration.yml",
+      "bytes": 3443,
+      "sha256": "ac4322cd7b5eb0eb2346b8779c7b89584d07c4356fada22b5925ae9655ff6649"
+    },
+    {
+      "path": "locale/yippy-auth-ldap.yml",
+      "bytes": 6094,
+      "sha256": "51b087f30ef6edea29f463da5bc328f632e8336a0c6550fa8ec119587ae6dce9"
+    },
+    {
+      "path": "locale/yippy-tag-with-themes.yml",
+      "bytes": 3736,
+      "sha256": "a3f86de4b8fa85fe99ccdefb7bd13a7d26659f0bee3f3bc5d6bd007189690953"
+    },
+    {
+      "path": "locale/zerosonesfun-bbcode-button.yml",
+      "bytes": 1672,
+      "sha256": "0e24354e5114a688613c2a1a3aa73a4d1c5f2c791f3ffaf2c2e80f6e97fa7d7a"
+    },
+    {
+      "path": "locale/zerosonesfun-expired-posts.yml",
+      "bytes": 1390,
+      "sha256": "a4dd69bbf33c6ad4e57fd5017a7e017330a80bb268489ae38664e4b1b85be383"
+    },
+    {
+      "path": "locale/zhihe-primary-posts.yml",
+      "bytes": 610,
+      "sha256": "baeb67f5bc13685d4050a1650c4ccc3581f5d9f2f9ed737c50fc755e5dda71c5"
+    },
+    {
+      "path": "locale/ziiven-daily-check-in.yml",
+      "bytes": 1495,
+      "sha256": "181a3f21fabcc4ce411a8e1a9f9aef663b57191533944b33c02a9603d5f732f4"
+    },
+    {
+      "path": "locale/ziiven-decoration-store.yml",
+      "bytes": 6457,
+      "sha256": "4e688fbe4a1af23adf589ad862f4d5b8da72453b2595f87d8e9577b4dbf78325"
+    },
+    {
+      "path": "locale/ziiven-fireworks.yml",
+      "bytes": 1103,
+      "sha256": "c8b0462a9ceab5d85efc3362f8cebe855ce48749892fa0e64e4a2e75b7af31d2"
+    },
+    {
+      "path": "locale/ziiven-money-leaderboard.yml",
+      "bytes": 1672,
+      "sha256": "d418a3a1423bcc3bd59766ba837387ea411b5e8fb58824154eadd00c3eca89f7"
+    },
+    {
+      "path": "locale/ziiven-money-transfer.yml",
+      "bytes": 2898,
+      "sha256": "b7730bebadee5b41585de39c8fbbb4f9ab2b96a510f8e7b041ca1168286904ed"
+    },
+    {
+      "path": "locale/ziiven-pay-to-see.yml",
+      "bytes": 3207,
+      "sha256": "9c295571891c9989638b01c7c377f50ab76af119b37aa766a1f17e0b21391cef"
+    },
+    {
+      "path": "locale/ziiven-post-number.yml",
+      "bytes": 311,
+      "sha256": "269fe345f80547dbb968097d778c2ddb55b3e76195d50e15ee30bcec17a256b7"
+    },
+    {
+      "path": "locale/ziiven-view-history.yml",
+      "bytes": 598,
+      "sha256": "ae2c32365f478ed17c0cfb0d6c6b22a2160ad20e8ec0aa6bc820c6649d843d66"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+name: GISVN classic restoration
+on:
+  pull_request:
+    paths: ['docs/gisvn/**', 'themes/gisvn/**', 'packages/discourse-gisvn-theme/**', 'script/gisvn/**', '.github/workflows/gisvn-classic.yml']
+  push:
+    branches: [gisvn-classic-source-restoration]
+permissions:
+  contents: read
+jobs:
+  classic:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10.34.5
+          package_json_file: packages/discourse-gisvn-geo/package.json
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: pnpm install --frozen-lockfile
+        working-directory: packages/discourse-gisvn-geo
+      - run: ruby -c script/gisvn/import_classic_taxonomy.rb
+      - run: python -m py_compile script/gisvn/extract_classic_source.py
+      - run: node --check docs/gisvn/classic/classic.js
+      - name: Compile theme component
+        working-directory: packages/discourse-gisvn-geo
+        run: |
+          node --input-type=module -e 'import { Preprocessor } from "content-tag"; import { readFileSync } from "node:fs"; new Preprocessor().process(readFileSync("../../themes/gisvn/javascripts/discourse/components/gisvn-home-panels.gjs", "utf8"), {filename: "gisvn-home-panels.gjs"});'
+      - run: pnpm exec playwright install --with-deps chromium
+        working-directory: packages/discourse-gisvn-geo
+      - run: node script/gisvn/test_classic.mjs

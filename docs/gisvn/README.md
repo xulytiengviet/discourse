@@ -124,3 +124,7 @@ See `VBULLETIN4_MIGRATION.md`, `GEO_PREVIEW.md`, and
 GIS previews now live in the standalone `discourse-gisvn-geo` plugin. Install the
 plugin and GISVN theme 2.0 using [PHASE4.md](PHASE4.md). Theme-only installations
 no longer provide the Phase 3 map decorator.
+
+## Phục dựng từ GISForum
+
+Xem [CLASSIC_RESTORATION.md](CLASSIC_RESTORATION.md) cho bản classic, dữ liệu nguồn đầy đủ và theme 2.1.

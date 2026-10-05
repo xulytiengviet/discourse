@@ -1,0 +1,2 @@
+# Preserve the supplied HTML snapshot byte-for-byte as source evidence.
+gisvn-20160306.html.txt -text -diff

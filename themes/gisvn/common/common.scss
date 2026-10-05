@@ -1,583 +1,372 @@
 :root {
-  --gisvn-navy: #003b59;
-  --gisvn-deep: #004f75;
-  --gisvn-blue: #087eb5;
-  --gisvn-blue-2: #2aa0d3;
-  --gisvn-pale: #e9f5fb;
-  --gisvn-border: #cfdde5;
-  --gisvn-green: #218100;
-  --gisvn-text: #163247;
-  --gisvn-shadow: 0 8px 28px rgb(0 54 82 / 9%);
+  --gisvn-blue: #005a9a;
+  --gisvn-border: #d8e5ed;
 }
-
-html {
-  scroll-behavior: smooth;
-}
-
 body {
   background: #fff;
-  color: var(--gisvn-text);
 }
-
 .wrap,
 #main-outlet-wrapper {
-  max-width: 1180px;
+  max-width: 990px;
 }
-
 .d-header {
-  background: linear-gradient(180deg, var(--gisvn-navy), #004665);
+  background: #002d42;
   box-shadow: none;
-  border-bottom: 1px solid rgb(255 255 255 / 12%);
+  border-bottom: 1px solid #194c62;
 }
-
 .d-header .d-header-icons .icon,
 .d-header .header-dropdown-toggle,
 .d-header .btn-flat {
   color: #fff;
 }
-
 .gisvn-brand-shell {
-  background:
-    radial-gradient(circle at 75% 25%, rgb(64 180 225 / 18%), transparent 35%),
-    linear-gradient(180deg, #003a57 0%, #005b83 100%);
-  color: #fff;
-  border-bottom: 1px solid #c4d7e2;
+  background: linear-gradient(#003247, #004d75);
+  color: white;
 }
-
 .gisvn-brand-inner {
-  max-width: 1180px;
-  min-height: 155px;
-  margin: 0 auto;
-  padding: 20px 16px 12px;
+  max-width: 990px;
+  min-height: 114px;
+  margin: auto;
   display: flex;
+  gap: 22px;
   align-items: center;
-  justify-content: space-between;
-  gap: 28px;
 }
-
-.gisvn-brand-copy {
-  min-width: 280px;
-}
-
-.gisvn-brand-kicker {
-  font-size: 0.82rem;
-  font-weight: 800;
-  letter-spacing: 0.16em;
-  opacity: 0.92;
-}
-
-.gisvn-wordmark {
+.gisvn-original-logo {
+  flex: 0 0 236px;
+  width: 236px;
+  height: 114px;
   display: block;
-  width: max-content;
-  margin-top: -2px;
-  color: #fff;
-  font-size: clamp(2.8rem, 7vw, 5.6rem);
-  line-height: 0.98;
-  font-weight: 800;
-  font-style: italic;
-  letter-spacing: -0.07em;
-  text-decoration: none;
-  text-shadow: 0 0 10px rgb(70 196 255 / 55%), 0 3px 0 rgb(0 34 58 / 40%);
+  background: url($gisvn-logo) no-repeat center / contain;
 }
-
-.gisvn-tagline {
-  margin-left: 72px;
-  margin-top: 4px;
-  font-size: 1rem;
-  font-style: italic;
-  opacity: 0.95;
-}
-
 .gisvn-brand-panel {
-  min-height: 92px;
+  height: 92px;
   flex: 1;
-  border: 1px solid rgb(255 255 255 / 14%);
-  background: rgb(0 42 66 / 20%);
-  display: flex;
-  flex-wrap: wrap;
-  align-content: center;
-  justify-content: center;
-  gap: 10px;
-  padding: 18px;
+  border: 1px solid #2a617b;
 }
-
-.gisvn-brand-panel span {
-  border: 1px solid rgb(255 255 255 / 18%);
-  border-radius: 999px;
-  padding: 7px 12px;
-  color: #dff5ff;
-  font-size: 0.82rem;
-  font-weight: 700;
-}
-
 .gisvn-primary-nav,
 .gisvn-secondary-nav {
-  max-width: 1180px;
-  margin: 0 auto;
+  max-width: 990px;
+  margin: auto;
   display: flex;
-  align-items: center;
   overflow-x: auto;
-  scrollbar-width: thin;
+  align-items: center;
 }
-
 .gisvn-primary-nav {
-  min-height: 44px;
-  padding: 0 10px;
-  background: linear-gradient(180deg, #42a9d3 0%, #087caf 54%, #006995 100%);
-  border-radius: 7px 7px 0 0;
-}
-
-.gisvn-primary-nav a {
-  flex: 0 0 auto;
-  color: #fff;
-  font-weight: 800;
-  text-decoration: none;
-  padding: 12px 18px;
-  border-right: 1px solid rgb(255 255 255 / 12%);
-}
-
-.gisvn-primary-nav a:first-child {
-  color: #063550;
-  background: #fff;
-  border-radius: 5px 5px 0 0;
-}
-
-.gisvn-primary-nav a:hover {
-  background: rgb(255 255 255 / 14%);
-}
-
-.gisvn-secondary-nav {
   min-height: 34px;
+  padding-left: 5px;
+  border-radius: 5px 5px 0 0;
+  background: linear-gradient(#45a1c4, #0768a2);
+}
+.gisvn-primary-nav a {
+  color: #fff;
+  font:
+    bold 13px Arial,
+    sans-serif;
+  padding: 10px 16px;
+  white-space: nowrap;
+  text-decoration: none;
+}
+.gisvn-primary-nav a:first-child {
+  background: linear-gradient(#fff, #d1e5ef);
+  border-radius: 7px 7px 0 0;
+  color: #00364e;
+}
+.gisvn-primary-nav .gisvn-nav-search {
+  margin-left: auto;
+  font-size: 11px;
+}
+.gisvn-secondary-nav {
+  gap: 18px;
+  min-height: 25px;
   padding: 0 22px;
-  gap: 26px;
-  background: linear-gradient(180deg, #fff 0%, #dceff7 100%);
-  border: 1px solid #bcd6e2;
+  background: linear-gradient(#accede, #e3f0f6);
+}
+.gisvn-secondary-nav a {
+  color: #16394f;
+  font:
+    11px Arial,
+    sans-serif;
+  white-space: nowrap;
+}
+.gisvn-welcome {
+  display: block;
+  max-width: 968px;
+  margin: 15px auto 22px;
+  padding: 12px 10px;
+  background: #fff0b6;
+  border: 1px solid #d7c774;
+  border-radius: 5px;
+  color: #222;
+  font:
+    13px/1.3 Arial,
+    sans-serif;
+}
+.gisvn-welcome a {
+  font-weight: bold;
+  color: #005a9a;
+}
+.gisvn-home-panels {
+  font:
+    13px Arial,
+    Tahoma,
+    sans-serif;
+  color: #111;
+  width: min(100%, 720px);
+  margin: 0 0 24px;
+}
+.gisvn-home-panels a {
+  color: #005a9a;
+}
+.gisvn-panel {
+  margin: 8px 0;
+  border: 1px solid #e8e8e8;
   border-top: 0;
 }
-
-.gisvn-secondary-nav a {
-  flex: 0 0 auto;
-  padding: 8px 0;
-  color: #26495e;
-  text-decoration: none;
-  font-size: 0.9rem;
+.gisvn-panel__title,
+.gisvn-category h2 {
+  margin: 0;
+  padding: 5px 6px;
+  border-radius: 5px 5px 0 0;
+  background: linear-gradient(#2e91b9, #176da4);
+  color: #fff;
+  font:
+    bold 12px/1.4 Arial,
+    sans-serif;
 }
-
-.gisvn-secondary-nav a:hover {
-  color: #00699d;
-  text-decoration: underline;
+.gisvn-announcements ul {
+  list-style: none;
+  padding: 3px 6px;
+  margin: 0;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
 }
-
-.gisvn-welcome {
-  max-width: 1180px;
-  margin: 20px auto 16px;
-  padding: 15px 18px;
-  background: #fff2bd;
-  border: 1px solid #e9c866;
-  border-radius: 7px;
-  color: #4d3f15;
+.gisvn-announcements li {
+  margin: 1px 0;
+}
+.gisvn-announcements li:nth-child(4n + 1) a {
+  color: green;
+}
+.gisvn-announcements li:nth-child(4n + 2) a {
+  color: black;
+}
+.gisvn-announcements li:nth-child(4n + 3) a {
+  color: red;
+}
+.gisvn-announcements li:nth-child(4n) a {
+  color: blue;
+}
+.gisvn-topx__grid {
+  display: grid;
+  grid-template-columns: 27% 73%;
+  background: #f7f7f7;
+}
+.gisvn-topx__members {
+  border-right: 3px double #acbecd;
+  min-width: 0;
+}
+.gisvn-topx__members h3 {
+  margin: 0;
+  padding: 9px 6px;
+  font-size: 11px;
+  background: #eee;
+  border-bottom: 1px solid #d6dce5;
+}
+.gisvn-topx__topics {
+  min-width: 0;
+}
+.gisvn-topx__tabs {
   display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 7px 12px;
+  background: #eee;
+  border-bottom: 1px solid #d6dce5;
 }
-
-.gisvn-welcome a {
-  margin-left: auto;
-  color: #005a99;
-  font-weight: 900;
-  text-decoration: none;
+.gisvn-topx__tabs .btn {
+  background: none;
+  font:
+    11px Arial,
+    sans-serif;
+  border: 0;
+  border-right: 1px solid #d6dce5;
+  color: #225575;
+  padding: 9px 8px;
 }
-
-.gisvn-welcome a:hover {
-  text-decoration: underline;
+.gisvn-topx ol {
+  padding: 10px 5px 3px 23px;
+  margin: 0;
+  font-size: 11px;
 }
-
-/* Category index: preserve the familiar GISVN forum-board hierarchy,
-   while keeping Discourse semantics and responsive behavior. */
-.navigation-categories .category-list,
-.navigation-categories .category-list.with-topics {
-  border-collapse: separate;
-  border-spacing: 0 12px;
-  width: 100%;
+.gisvn-topx li {
+  min-height: 21px;
+  line-height: 20px;
+  border-bottom: 1px dashed #ccd0d6;
 }
-
-.navigation-categories .category-list thead {
-  display: none;
+.gisvn-topx li a {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: inline-block;
+  max-width: 86%;
+  vertical-align: bottom;
 }
-
-.navigation-categories .category-list tbody {
-  background: transparent;
+.gisvn-topx li span {
+  float: right;
+  font-size: 10px;
+  color: #666;
 }
-
-.navigation-categories .category-list-item {
-  background: #fff;
-  box-shadow: var(--gisvn-shadow);
+.gisvn-topx p {
+  padding: 5px 10px;
 }
-
-.navigation-categories .category-list-item > td {
-  border-top: 1px solid var(--gisvn-border);
-  border-bottom: 1px solid var(--gisvn-border);
-  padding-top: 17px;
-  padding-bottom: 17px;
+.gisvn-category {
+  margin: 10px 0;
+  border-bottom: 2px solid #bdcfaf;
 }
-
-.navigation-categories .category-list-item > td:first-child {
-  border-left: 1px solid var(--gisvn-border);
-  border-radius: 6px 0 0 6px;
+.gisvn-category h2 {
+  padding: 7px 15px;
+  min-height: 30px;
 }
-
-.navigation-categories .category-list-item > td:last-child {
-  border-right: 1px solid var(--gisvn-border);
-  border-radius: 0 6px 6px 0;
+.gisvn-category h2 a {
+  color: #fff;
 }
-
-.navigation-categories .category-list .category-name,
-.navigation-categories .category-list .category-name a,
-.navigation-categories .category-list .category-text-title {
-  color: #005b9b;
-  font-weight: 800;
+.gisvn-forum-row {
+  display: grid;
+  grid-template-columns: 61% 39%;
+  border: 1px solid #e6e6e6;
+  border-top: 0;
+  min-height: 63px;
 }
-
-.navigation-categories .category-list .category-description {
-  color: #405b6c;
+.gisvn-forum-row__info {
+  display: grid;
+  grid-template-columns: 48px 1fr;
+  padding: 6px 10px;
+  gap: 9px;
 }
-
-.navigation-categories .category-list .latest .title,
-.navigation-categories .category-list .latest .title a,
-.navigation-categories .category-list .featured-topic a {
-  color: var(--gisvn-green);
-  font-weight: 700;
+.gisvn-forum-row__icon {
+  display: block;
+  width: 48px;
+  height: 48px;
+  background: url($gisvn-forum-icon) center / contain no-repeat;
 }
-
-.navigation-categories .subcategory {
-  border-left: 3px solid #c7e2ef;
-  padding-left: 10px;
-  margin-top: 8px;
+.gisvn-forum-row__title {
+  display: block;
+  font:
+    bold 14px/1.15 Arial,
+    sans-serif;
 }
-
-/* Forum-like blue section bars for common Discourse panels. */
-.category-heading,
-.topic-list-header,
-.admin-main-nav,
-.user-main .about,
-.dashboard .section {
-  border-top: 5px solid var(--gisvn-blue);
+.gisvn-forum-row__counts {
+  margin-top: 4px;
+  color: #23475d;
+  font-size: 12px;
 }
-
-.topic-list {
-  border: 1px solid #d8e2e8;
-  border-radius: 6px;
+.gisvn-forum-row__last {
+  padding: 7px 8px 5px 5px;
   overflow: hidden;
 }
-
-.topic-list th {
-  background: linear-gradient(180deg, #2e98c6, #0e78aa);
-  color: #fff;
-  border-bottom: 0;
-}
-
-.topic-list th a,
-.topic-list th button {
-  color: #fff;
-}
-
-.topic-list-item {
-  background: #fff;
-}
-
-.topic-list-item:hover {
-  background: #f4fbfe;
-}
-
-.topic-list-item .main-link a.title {
-  color: #005b9b;
-  font-weight: 700;
-}
-
-.btn-primary,
-.discourse-no-touch .btn-primary:hover {
-  background: #087caf;
-  border-color: #087caf;
-}
-
-.gisvn-footer {
-  margin-top: 48px;
-  background: linear-gradient(180deg, #004c6d, #003651);
-  color: #dff4ff;
-  border-top: 4px solid #1687ba;
-}
-
-.gisvn-footer-inner {
-  max-width: 1180px;
-  margin: 0 auto;
-  padding: 24px 16px 28px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 28px;
-}
-
-.gisvn-footer strong,
-.gisvn-footer span {
+.gisvn-forum-row__last a {
   display: block;
+  color: #387b00;
+  font-weight: bold;
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
-
-.gisvn-footer span {
-  margin-top: 4px;
-  opacity: 0.8;
+.gisvn-forum-row__child {
+  display: block;
+  margin-top: 5px;
+  font-size: 11px;
 }
-
-.gisvn-footer nav {
+.gisvn-forum-row--single {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  gap: 12px;
+}
+.gisvn-community-stats dl {
+  display: flex;
+  gap: 20px;
+  padding: 12px;
+  margin: 0;
   flex-wrap: wrap;
-  gap: 14px;
 }
-
+.gisvn-community-stats dl div {
+  display: flex;
+  gap: 6px;
+}
+.gisvn-community-stats dd {
+  margin: 0;
+}
+body:has(.gisvn-classic-catalog) #main-outlet .category-list,
+body:has(.gisvn-classic-catalog) #main-outlet .category-boxes,
+body:has(.gisvn-classic-catalog) #main-outlet .category-boxes-with-topics,
+body:has(.gisvn-classic-catalog) #main-outlet .category-list-with-topics {
+  display: none;
+}
+.gisvn-footer {
+  max-width: 990px;
+  margin: 24px auto;
+  padding: 16px 0;
+  border-top: 1px solid #dae1e7;
+  color: #526b79;
+  font-size: 12px;
+}
 .gisvn-footer a {
-  color: #fff;
-  text-decoration: none;
+  color: #005a9a;
 }
-
-.gisvn-footer a:hover {
-  text-decoration: underline;
-}
-
 @media (max-width: 760px) {
-  .gisvn-brand-inner {
-    min-height: 120px;
-    align-items: flex-start;
+  .gisvn-brand-inner,
+  .gisvn-primary-nav,
+  .gisvn-secondary-nav {
+    padding-left: 8px;
+    padding-right: 8px;
   }
-
+  .gisvn-brand-panel {
+    height: 76px;
+    margin-right: 8px;
+  }
+  .gisvn-welcome {
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+  .gisvn-home-panels {
+    width: 100%;
+  }
+  .gisvn-topx__tabs .btn {
+    font-size: 10px;
+    padding: 9px 5px;
+  }
+  .gisvn-secondary-nav {
+    gap: 12px;
+  }
+}
+@media (max-width: 480px) {
+  .gisvn-brand-inner {
+    justify-content: center;
+  }
   .gisvn-brand-panel {
     display: none;
   }
-
-  .gisvn-tagline {
-    margin-left: 32px;
-  }
-
   .gisvn-primary-nav a {
-    padding-inline: 12px;
-    font-size: 0.86rem;
+    padding: 10px;
+    font-size: 12px;
   }
-
-  .gisvn-secondary-nav {
-    gap: 18px;
-    padding-inline: 14px;
-  }
-
-  .gisvn-welcome {
-    margin-inline: 10px;
-  }
-
-  .gisvn-welcome a {
-    margin-left: 0;
-    width: 100%;
-  }
-
-  .gisvn-footer-inner {
-    align-items: flex-start;
-    flex-direction: column;
-  }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  html {
-    scroll-behavior: auto;
-  }
-}
-
-
-/* GISVN 2016-inspired announcement and TopX panels. */
-.gisvn-home-panels {
-  max-width: 1180px;
-  margin: 0 auto 22px;
-  padding: 0 10px;
-}
-
-.gisvn-panel {
-  margin: 0 0 12px;
-  border: 1px solid #cbdbe4;
-  border-radius: 5px;
-  background: #fff;
-  overflow: hidden;
-  box-shadow: 0 4px 18px rgb(0 65 96 / 7%);
-}
-
-.gisvn-panel__title {
-  margin: 0;
-  padding: 7px 11px;
-  background: linear-gradient(180deg, #2496c5, #1178a7);
-  color: #fff;
-  font-size: 0.92rem;
-  font-weight: 800;
-  line-height: 1.2;
-}
-
-.gisvn-panel--loading {
-  padding: 13px 15px;
-  color: #526d7c;
-  font-size: 0.9rem;
-}
-
-.gisvn-announcements ul {
-  list-style: none;
-  margin: 0;
-  padding: 10px 16px 12px;
-  text-align: center;
-}
-
-.gisvn-announcements li + li {
-  margin-top: 5px;
-}
-
-.gisvn-announcements a {
-  color: #087000;
-  font-size: clamp(1rem, 1.8vw, 1.25rem);
-  font-weight: 800;
-  text-decoration: none;
-}
-
-.gisvn-announcements li:nth-child(3n + 2) a {
-  color: #111;
-}
-
-.gisvn-announcements li:nth-child(3n) a {
-  color: #d31818;
-}
-
-.gisvn-announcements a:hover {
-  text-decoration: underline;
-}
-
-.gisvn-topx__grid {
-  display: grid;
-  grid-template-columns: minmax(210px, 0.8fr) minmax(0, 2.2fr);
-  min-height: 210px;
-}
-
-.gisvn-topx__stats {
-  padding: 10px 12px;
-  border-right: 1px solid #d7e1e7;
-  background: #f8fbfd;
-}
-
-.gisvn-topx__stats h3,
-.gisvn-topx__lists h3 {
-  margin: 0 0 8px;
-  color: #163f59;
-  font-size: 0.88rem;
-  font-weight: 800;
-}
-
-.gisvn-topx__stats dl {
-  margin: 0;
-}
-
-.gisvn-topx__stats dl > div {
-  display: flex;
-  justify-content: space-between;
-  gap: 12px;
-  padding: 7px 0;
-  border-bottom: 1px dashed #d3dfe6;
-}
-
-.gisvn-topx__stats dt {
-  color: #597280;
-}
-
-.gisvn-topx__stats dd {
-  margin: 0;
-  color: #005c93;
-  font-weight: 800;
-}
-
-.gisvn-topx__lists {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-
-.gisvn-topx__lists section {
-  min-width: 0;
-  padding: 10px 12px;
-}
-
-.gisvn-topx__lists section + section {
-  border-left: 1px solid #d7e1e7;
-}
-
-.gisvn-topx__lists ol {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.gisvn-topx__lists li {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
-  gap: 8px;
-  padding: 5px 0;
-  border-bottom: 1px dashed #d8e2e8;
-  font-size: 0.82rem;
-}
-
-.gisvn-topx__lists a {
-  min-width: 0;
-  overflow: hidden;
-  color: #005b9b;
-  font-weight: 650;
-  text-decoration: none;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.gisvn-topx__lists a:hover {
-  text-decoration: underline;
-}
-
-.gisvn-topx__lists span {
-  color: #657c88;
-  font-size: 0.76rem;
-  white-space: nowrap;
-}
-
-@media (max-width: 900px) {
   .gisvn-topx__grid {
     grid-template-columns: 1fr;
   }
-
-  .gisvn-topx__stats {
-    border-right: 0;
-    border-bottom: 1px solid #d7e1e7;
+  .gisvn-topx__members {
+    display: none;
   }
-
-  .gisvn-topx__stats dl {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 0 18px;
-  }
-}
-
-@media (max-width: 680px) {
-  .gisvn-home-panels {
-    padding-inline: 10px;
-  }
-
-  .gisvn-topx__lists {
+  .gisvn-forum-row {
     grid-template-columns: 1fr;
   }
-
-  .gisvn-topx__lists section + section {
-    border-left: 0;
-    border-top: 1px solid #d7e1e7;
+  .gisvn-forum-row__last {
+    padding-left: 67px;
+    font-size: 11px;
   }
-
-  .gisvn-announcements {
-    text-align: left;
+  .gisvn-forum-row__last a {
+    font-size: 12px;
   }
-
   .gisvn-announcements ul {
-    text-align: left;
+    font-size: 14px;
   }
 }
