@@ -31,7 +31,7 @@ class ImportScripts::VBulletin < ImportScripts::Base
   TABLE_PREFIX = ENV["TABLE_PREFIX"] || "vb_"
   ATTACHMENT_DIR = ENV["ATTACHMENT_DIR"] || "/path/to/your/attachment/folder"
 
-  puts "#{DB_USER}:#{DB_PW}@#{DB_HOST} wants #{DB_NAME}"
+  puts "#{DB_USER}@#{DB_HOST} wants #{DB_NAME} (password redacted)"
 
   def initialize
     @bbcode_to_md = true
@@ -54,7 +54,7 @@ class ImportScripts::VBulletin < ImportScripts::Base
 
         Hostname: #{DB_HOST}
         Username: #{DB_USER}
-        Password: #{DB_PW}
+        Password: [redacted]
         database: #{DB_NAME}
 
         Edit the script or set these environment variables:
@@ -131,6 +131,7 @@ class ImportScripts::VBulletin < ImportScripts::Base
                , usertitle
                , usergroupid
                , joindate
+               , lastvisit
                , email
                , password
                , salt
@@ -239,7 +240,7 @@ class ImportScripts::VBulletin < ImportScripts::Base
       nil
     end
     begin
-      file.unlind
+      file.unlink
     rescue StandardError
       nil
     end

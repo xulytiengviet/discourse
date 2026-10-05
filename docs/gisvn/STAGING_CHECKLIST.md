@@ -73,3 +73,35 @@ Only after uploads are stable:
 - Mobile layout works.
 - Old URL redirect sample passes.
 - Database backup and restore procedure documented.
+
+
+## 8. Phase 3 migration reconciliation
+
+- Run `script/gisvn/vbulletin41_preflight.sql` against the source copy.
+- Preserve the source counts in the migration log/ticket.
+- Run the import wrapper with a read-only MySQL account.
+- Confirm Vietnamese diacritics in usernames, topic titles and post bodies.
+- Compare imported user/forum/thread/post/attachment counts with the source.
+- Generate `gisvn-vbulletin-redirects.csv`.
+- Randomly sample old IDs from the beginning, middle and end of each ID range.
+- Verify path-style and query-style vBulletin links return HTTP 301 to the
+  expected Discourse target.
+
+## 9. Geospatial post preview
+
+Create a staging topic containing at least:
+
+- one small GeoJSON polygon/line/point file;
+- one KML with Point, LineString and Polygon;
+- one vector PMTiles archive;
+- one raster PMTiles archive.
+
+Verify:
+
+- maps load only after clicking **Xem bản đồ**;
+- the original file link remains usable;
+- mobile height and controls are usable;
+- a CORS failure produces a readable error instead of breaking the post;
+- PMTiles requests return partial content/range responses as expected;
+- R2 exposes ETag and permits the forum origin;
+- no third-party basemap is silently requested by the preview.
