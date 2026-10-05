@@ -140,6 +140,7 @@ try {
     await page.evaluate(() => window.testCoordinates.includes("105.970")),
   );
   await page.locator(".maplibregl-ctrl-fullscreen").click();
+  await page.waitForFunction(() => Boolean(document.fullscreenElement));
   assert.equal(
     await page.evaluate(() => Boolean(document.fullscreenElement)),
     true,
