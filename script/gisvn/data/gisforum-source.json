@@ -1,0 +1,2972 @@
+{
+  "schema_version": 1,
+  "source": {
+    "url": "https://base27-cvnss.github.io/GISForum/docs/",
+    "repository": "https://github.com/Base27-CVNSS/GISForum",
+    "commit": "fca154f053966fb657b03b1bc614d0a940dd9881",
+    "note": "Static reconstruction; topic bodies and original database are not present.",
+    "claimed_wayback_entries": 863,
+    "available_wayback_manifest_entries": 0
+  },
+  "gisforum": {
+    "groups": [
+      {
+        "id": 1,
+        "title": "Nội quy & Tin tức",
+        "description": "Trung tâm diễn đàn",
+        "forums": [
+          {
+            "id": 2,
+            "title": "Nội quy diễn đàn",
+            "topics": 4,
+            "posts": 10,
+            "last_title": "Không đúng chuyên mục",
+            "last_author": "HaVu",
+            "children": [],
+            "archived_reference": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/2-Noi-quy-dien-dan",
+            "last_topic_url": null
+          },
+          {
+            "id": 11,
+            "title": "Góp ý",
+            "topics": 35,
+            "posts": 179,
+            "last_title": "Thành viên mới",
+            "last_author": "nguyenducloi89",
+            "children": [],
+            "archived_reference": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/11-Gop-y",
+            "last_topic_url": null
+          },
+          {
+            "id": 12,
+            "title": "Tin tức diễn đàn - công nghệ",
+            "topics": 52,
+            "posts": 387,
+            "last_title": "elevation & slope arcmap",
+            "last_author": "clover_1303",
+            "children": [],
+            "archived_reference": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/12-Tin-tuc-dien-dan-cong-nghe",
+            "last_topic_url": null
+          }
+        ]
+      },
+      {
+        "id": 78,
+        "title": "Các phần mềm của hãng ESRI - ArcGIS, ArcView 3.x, ArcEngine, ArcSDE, ArcServer,...",
+        "description": "",
+        "forums": [
+          {
+            "id": 10,
+            "title": "Software (ArcGIS, ArcView 3.x, ArcEngine, ArcSDE, ArcServer,...) - Không trao đổi tại đây",
+            "topics": 236,
+            "posts": 1441,
+            "last_title": "không chuyển đổi được VN2000...",
+            "last_author": "baquang1984",
+            "children": [],
+            "archived_reference": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/10-Software-ArcGIS-ArcView-3-x-ArcEngine-ArcSDE-ArcServer-Khong-trao-doi-tai-day",
+            "last_topic_url": null
+          },
+          {
+            "id": 21,
+            "title": "Giải đáp thắc mắc các phần mềm: ArcGIS, ArcView 3.x, ArcEngine, ArcSDE, ArcServer,...",
+            "topics": 643,
+            "posts": 3338,
+            "last_title": "Dùng ArcMap chuyển file .dng...",
+            "last_author": "SiCoLa",
+            "children": [],
+            "archived_reference": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/21-Giai-dap-thac-mac-cac-phan-mem-ArcGIS-ArcView-3-x-ArcEngine-ArcSDE-ArcServer-",
+            "last_topic_url": null
+          },
+          {
+            "id": 30,
+            "title": "Lập trình trong ArcGIS",
+            "topics": 134,
+            "posts": 606,
+            "last_title": "Make vehicle Routing Problem...",
+            "last_author": "BinhNhi",
+            "children": [],
+            "archived_reference": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/30-Lap-trinh-trong-ArcGIS",
+            "last_topic_url": null
+          }
+        ]
+      },
+      {
+        "id": 77,
+        "title": "Các phần mềm của hãng Pitney Bowes - MapInfo, Vertical, Discover, MapExtreme, Mapbasic,...",
+        "description": "",
+        "forums": [
+          {
+            "id": 8,
+            "title": "Software (MapInfo, Vertical, Discover, MapExtreme, Mapbasic,..) - Không trao đổi tại đây",
+            "topics": 143,
+            "posts": 1585,
+            "last_title": "Tool gộp thửa nhỏ vào thửa...",
+            "last_author": "phamtuanhatinh",
+            "children": [],
+            "archived_reference": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/8-Software-MapInfo-Vertical-Discover-MapExtreme-Mapbasic-Khong-trao-doi-tai-day",
+            "last_topic_url": null
+          },
+          {
+            "id": 19,
+            "title": "Giải đáp thắc mắc các phần mềm: MapInfo, Vertical, Discover, MapExtreme, Mapbasic,..",
+            "topics": 569,
+            "posts": 3672,
+            "last_title": "Hướng dẫn download ảnh Google...",
+            "last_author": "haidangkute",
+            "children": [],
+            "archived_reference": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/19-Giai-dap-thac-mac-cac-phan-mem-MapInfo-Vertical-Discover-MapExtreme-Mapbasic-",
+            "last_topic_url": null
+          },
+          {
+            "id": 28,
+            "title": "Lập trình trong MapInfo",
+            "topics": 57,
+            "posts": 279,
+            "last_title": "xin phan mem mapinfo12.5",
+            "last_author": "hoangdiep",
+            "children": [],
+            "archived_reference": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/28-Lap-trinh-trong-MapInfo",
+            "last_topic_url": null
+          }
+        ]
+      },
+      {
+        "id": 79,
+        "title": "Các phần mềm của Bentley (Microstation, GEOVEC, IRASC, IRASB,...)",
+        "description": "",
+        "forums": [
+          {
+            "id": 9,
+            "title": "Các phần mềm của Microstation, GEOVEC, IRASC, IRASB,... - Không trao đổi tại đây",
+            "topics": 76,
+            "posts": 511,
+            "last_title": "Cài đặt ViLIS trên Arcgis...",
+            "last_author": "bongthom1985",
+            "children": [],
+            "archived_reference": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/9-Cac-phan-mem-cua-Microstation-GEOVEC-IRASC-IRASB-Khong-trao-doi-tai-day",
+            "last_topic_url": null
+          },
+          {
+            "id": 20,
+            "title": "Giải đáp thắc mắc các phần mềm: Microstation, GEOVEC, IRASC, IRASB,...",
+            "topics": 283,
+            "posts": 1540,
+            "last_title": "Thắc mắc V8i",
+            "last_author": "AtranDN",
+            "children": [],
+            "archived_reference": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/20-Giai-dap-thac-mac-cac-phan-mem-Microstation-GEOVEC-IRASC-IRASB-",
+            "last_topic_url": null
+          },
+          {
+            "id": 29,
+            "title": "Lập trình cho Microstation",
+            "topics": 18,
+            "posts": 70,
+            "last_title": "Help my",
+            "last_author": "nhocklahai",
+            "children": [],
+            "archived_reference": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/29-Lap-trinh-cho-Microstation",
+            "last_topic_url": null
+          }
+        ]
+      },
+      {
+        "id": 80,
+        "title": "Viễn Thám",
+        "description": "",
+        "forums": [
+          {
+            "id": 15,
+            "title": "Software (ENVI, ERDAS, PCI, IDIRISI,...) - Không trao đổi tại đây",
+            "topics": 61,
+            "posts": 545,
+            "last_title": "Phần Mềm ENVI 5.2",
+            "last_author": "tit",
+            "children": [],
+            "archived_reference": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/15-Software-ENVI-ERDAS-PCI-IDIRISI-Khong-trao-doi-tai-day",
+            "last_topic_url": null
+          },
+          {
+            "id": 24,
+            "title": "Giải đáp thắc mắc các phần mềm trong Viễn Thám",
+            "topics": 249,
+            "posts": 1256,
+            "last_title": "Thắc mắc ba loại ảnh L8...",
+            "last_author": "huynhminhdc",
+            "children": [],
+            "archived_reference": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/24-Giai-dap-thac-mac-cac-phan-mem-trong-Vien-Tham",
+            "last_topic_url": null
+          },
+          {
+            "id": 31,
+            "title": "Lập trình trong Viễn thám",
+            "topics": 6,
+            "posts": 12,
+            "last_title": "Ảnh sentinel bị ngược",
+            "last_author": "ifolike",
+            "children": [],
+            "archived_reference": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/31-Lap-trinh-trong-Vien-tham",
+            "last_topic_url": null
+          }
+        ]
+      },
+      {
+        "id": 82,
+        "title": "WebGIS",
+        "description": "",
+        "forums": [
+          {
+            "id": 83,
+            "title": "Phần mềm WebGIS - Không trao đổi tại đây",
+            "topics": 4,
+            "posts": 10,
+            "last_title": "Phần mềm ARCIMS",
+            "last_author": "meodensi",
+            "children": [],
+            "archived_reference": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/83-Phan-mem-WebGIS-Khong-trao-doi-tai-day",
+            "last_topic_url": null
+          },
+          {
+            "id": 54,
+            "title": "Giải đáp thắc mắc về WebGIS",
+            "topics": 188,
+            "posts": 1249,
+            "last_title": "Bản đồ trực tuyến iMap.com.vn",
+            "last_author": "ngochuyen7584",
+            "children": [],
+            "archived_reference": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/54-Giai-dap-thac-mac-ve-WebGIS",
+            "last_topic_url": null
+          }
+        ]
+      },
+      {
+        "id": 81,
+        "title": "Trắc địa và bản đồ",
+        "description": "",
+        "forums": [
+          {
+            "id": 13,
+            "title": "Phần mềm Trắc địa - GPS - Không trao đổi tại đây",
+            "topics": 34,
+            "posts": 190,
+            "last_title": "Bộ Maptrans 2010 thuộc bộ...",
+            "last_author": "stormy01",
+            "children": [],
+            "archived_reference": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/13-Phan-mem-Trac-dia-GPS-Khong-trao-doi-tai-day",
+            "last_topic_url": null
+          },
+          {
+            "id": 22,
+            "title": "Giải đáp thắc mắc về Trắc địa và Bản đồ",
+            "topics": 297,
+            "posts": 1691,
+            "last_title": "Bản đồ 64 tỉnh thành VIệt Nam",
+            "last_author": "hactori111",
+            "children": [],
+            "archived_reference": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/22-Giai-dap-thac-mac-ve-Trac-dia-va-Ban-do",
+            "last_topic_url": null
+          }
+        ]
+      },
+      {
+        "id": 85,
+        "title": "Mã nguồn mở",
+        "description": "",
+        "forums": [
+          {
+            "id": 17,
+            "title": "Software - Không trao đổi tại đây",
+            "topics": 8,
+            "posts": 48,
+            "last_title": "Lập tình mã nguồn mở với mã...",
+            "last_author": "huynhphuoc",
+            "children": [],
+            "archived_reference": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/17-Software-Khong-trao-doi-tai-day",
+            "last_topic_url": null
+          },
+          {
+            "id": 26,
+            "title": "Giải đáp thắc mắc trong Mã nguồn mở",
+            "topics": 19,
+            "posts": 99,
+            "last_title": "thắc mắc về hệ thống webgis",
+            "last_author": "longnt1208",
+            "children": [],
+            "archived_reference": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/26-Giai-dap-thac-mac-trong-Ma-nguon-mo",
+            "last_topic_url": null
+          },
+          {
+            "id": 32,
+            "title": "Lập trình cho mã nguồn mở",
+            "topics": 22,
+            "posts": 103,
+            "last_title": "Kết nối PostGIS và thêm lớp...",
+            "last_author": "longnt1208",
+            "children": [],
+            "archived_reference": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/32-Lap-trinh-cho-ma-nguon-mo",
+            "last_topic_url": null
+          }
+        ]
+      },
+      {
+        "id": 84,
+        "title": "Các phần mềm GIS khác",
+        "description": "",
+        "forums": [
+          {
+            "id": 58,
+            "title": "Software - Không trao đổi tại đây",
+            "topics": 65,
+            "posts": 541,
+            "last_title": "Fme 2014 + thuốc",
+            "last_author": "comebackkii",
+            "children": [],
+            "archived_reference": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/58-Software-Khong-trao-doi-tai-day",
+            "last_topic_url": null
+          },
+          {
+            "id": 69,
+            "title": "Giải đáp thắc mắc về các phần mềm GIS khác",
+            "topics": 68,
+            "posts": 367,
+            "last_title": "***** terraExplorer va...",
+            "last_author": "tct80",
+            "children": [],
+            "archived_reference": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/69-Giai-dap-thac-mac-ve-cac-phan-mem-GIS-khac",
+            "last_topic_url": null
+          }
+        ]
+      },
+      {
+        "id": 87,
+        "title": "Mô hình hóa",
+        "description": "",
+        "forums": [
+          {
+            "id": 16,
+            "title": "Software - Không trao đổi tại đây",
+            "topics": 27,
+            "posts": 264,
+            "last_title": "AERMOD _Mô hình lan truyền...",
+            "last_author": "ducvn.ev",
+            "children": [],
+            "archived_reference": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/16-Software-Khong-trao-doi-tai-day",
+            "last_topic_url": null
+          },
+          {
+            "id": 25,
+            "title": "Giải đáp thắc mắc trong Mô hình hóa",
+            "topics": 32,
+            "posts": 176,
+            "last_title": "Mô hình dem",
+            "last_author": "Tuthanh Nt",
+            "children": [],
+            "archived_reference": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/25-Giai-dap-thac-mac-trong-Mo-hinh-hoa",
+            "last_topic_url": null
+          }
+        ]
+      },
+      {
+        "id": 89,
+        "title": "Quản lý Đất đai",
+        "description": "",
+        "forums": [
+          {
+            "id": 14,
+            "title": "Software - Không trao đổi tại đây",
+            "topics": 33,
+            "posts": 218,
+            "last_title": "Tổng hợp dữ liệu đất đai cho...",
+            "last_author": "i.mleo",
+            "children": [],
+            "archived_reference": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/14-Software-Khong-trao-doi-tai-day",
+            "last_topic_url": null
+          },
+          {
+            "id": 23,
+            "title": "Giải đáp thắc mắc trong Quản lý đất đai",
+            "topics": 60,
+            "posts": 377,
+            "last_title": "Tools chuyển đổi bản đồ Vilis...",
+            "last_author": "huynhphuoc",
+            "children": [],
+            "archived_reference": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/23-Giai-dap-thac-mac-trong-Quan-ly-dat-dai",
+            "last_topic_url": null
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "title": "Các Tool của thành viên",
+        "description": "",
+        "forums": [
+          {
+            "id": 71,
+            "title": "Các phần mềm - công cụ viết tặng riêng cho diễn đàn từ các thành viên",
+            "topics": 9,
+            "posts": 103,
+            "last_title": "Công cụ GEOMITECH - nGEOTOOLS!",
+            "last_author": "tuyetnhu",
+            "children": [],
+            "archived_reference": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/71-Cac-phan-mem-cong-cu-viet-tang-rieng-cho-dien-dan-tu-cac-thanh-vien",
+            "last_topic_url": null
+          }
+        ]
+      },
+      {
+        "id": 65,
+        "title": "Công nghệ thông tin",
+        "description": "",
+        "forums": [
+          {
+            "id": 66,
+            "title": "Các phần mềm IT",
+            "topics": 53,
+            "posts": 180,
+            "last_title": "Mời bạn bè dùng Kaspersky...",
+            "last_author": "Top_TV",
+            "children": [],
+            "archived_reference": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/66-Cac-phan-mem-IT",
+            "last_topic_url": null
+          },
+          {
+            "id": 67,
+            "title": "Giải đáp thắc mắc trong CNTT",
+            "topics": 19,
+            "posts": 85,
+            "last_title": "Học lập trình ứng dụng ở đâu?",
+            "last_author": "Diep_Phong",
+            "children": [],
+            "archived_reference": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/67-Giai-dap-thac-mac-trong-CNTT",
+            "last_topic_url": null
+          }
+        ]
+      },
+      {
+        "id": 33,
+        "title": "Nghiên cứu khoa học",
+        "description": "",
+        "forums": [
+          {
+            "id": 34,
+            "title": "GIS và Viễn thám ứng dụng",
+            "topics": 170,
+            "posts": 627,
+            "last_title": "Mapinfo",
+            "last_author": "lth0974",
+            "children": [],
+            "archived_reference": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/34-GIS-va-Vien-tham-ung-dung",
+            "last_topic_url": null
+          },
+          {
+            "id": 36,
+            "title": "GPS, Trắc địa, Bản đồ ứng dụng",
+            "topics": 36,
+            "posts": 83,
+            "last_title": "Hướng dẫn cách thức đo đạc...",
+            "last_author": "rocketno",
+            "children": [],
+            "archived_reference": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/36-GPS-Trac-dia-Ban-do-ung-dung",
+            "last_topic_url": null
+          }
+        ]
+      },
+      {
+        "id": 41,
+        "title": "Tài liệu học tập",
+        "description": "",
+        "forums": [
+          {
+            "id": 42,
+            "title": "Các môn liên quan đến GIS, Viễn thám",
+            "topics": 74,
+            "posts": 308,
+            "last_title": "sách hướng dẫn sử dụng...",
+            "last_author": "vuminhtuan",
+            "children": [],
+            "archived_reference": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/42-Cac-mon-lien-quan-den-GIS-Vien-tham",
+            "last_topic_url": null
+          },
+          {
+            "id": 44,
+            "title": "Các môn liên quan đến GPS, Trắc địa, Bản đồ,...",
+            "topics": 49,
+            "posts": 182,
+            "last_title": "Giúp e phân biệt Geographic...",
+            "last_author": "holamtruong",
+            "children": [],
+            "archived_reference": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/44-Cac-mon-lien-quan-den-GPS-Trac-dia-Ban-do-",
+            "last_topic_url": null
+          },
+          {
+            "id": 46,
+            "title": "Các tài liệu khác",
+            "topics": 111,
+            "posts": 355,
+            "last_title": "Xin tài liệu về Hydrology...",
+            "last_author": "hungdx010",
+            "children": [],
+            "archived_reference": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/46-Cac-tai-lieu-khac",
+            "last_topic_url": null
+          },
+          {
+            "id": 68,
+            "title": "Thư viện luận văn",
+            "topics": 67,
+            "posts": 152,
+            "last_title": "chọn giá trị trong \"band...",
+            "last_author": "nmngoc",
+            "children": [],
+            "archived_reference": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/68-Thu-vien-luan-van",
+            "last_topic_url": null
+          }
+        ]
+      },
+      {
+        "id": 47,
+        "title": "Đào tạo",
+        "description": "",
+        "forums": [
+          {
+            "id": 48,
+            "title": "Các khóa học (Ngắn hạn)",
+            "topics": 23,
+            "posts": 84,
+            "last_title": "Dành cho những ai đam mê về...",
+            "last_author": "rockmanx2010",
+            "children": [],
+            "archived_reference": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/48-Cac-khoa-hoc-Ngan-han-",
+            "last_topic_url": null
+          },
+          {
+            "id": 70,
+            "title": "Thông tin đào tạo (ĐH, CH, NCS)",
+            "topics": 8,
+            "posts": 23,
+            "last_title": "Giới thiệu bộ môn Viễn thám...",
+            "last_author": "hanguyentek",
+            "children": [],
+            "archived_reference": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/70-Thong-tin-dao-tao-DH-CH-NCS-",
+            "last_topic_url": null
+          },
+          {
+            "id": 74,
+            "title": "Thông tin học bổng, du học",
+            "topics": 3,
+            "posts": 6,
+            "last_title": "“Thông Tin Về Học Bổng: 2016...",
+            "last_author": "tringuyenkh",
+            "children": [],
+            "archived_reference": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/74-Thong-tin-hoc-bong-du-hoc",
+            "last_topic_url": null
+          }
+        ]
+      },
+      {
+        "id": 37,
+        "title": "Hội thảo - OFFLINE diễn đàn",
+        "description": "",
+        "forums": [
+          {
+            "id": 38,
+            "title": "Thông tin tổ chức",
+            "topics": 34,
+            "posts": 521,
+            "last_title": "V/v Tổ chức Hội thảo “Ứng...",
+            "last_author": "vuminhtuan",
+            "children": [],
+            "archived_reference": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/38-Thong-tin-to-chuc",
+            "last_topic_url": null
+          },
+          {
+            "id": 39,
+            "title": "Bài báo cáo hội thảo",
+            "topics": 12,
+            "posts": 84,
+            "last_title": "Bài báo fulltext hội thảo...",
+            "last_author": "NCC",
+            "children": [],
+            "archived_reference": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/39-Bai-bao-cao-hoi-thao",
+            "last_topic_url": null
+          },
+          {
+            "id": 40,
+            "title": "Hình ảnh",
+            "topics": 4,
+            "posts": 76,
+            "last_title": "Hình ảnh OFFLINE GISVN2014 -...",
+            "last_author": "luubakhanhduy",
+            "children": [],
+            "archived_reference": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/40-Hinh-anh",
+            "last_topic_url": null
+          }
+        ]
+      },
+      {
+        "id": 50,
+        "title": "Việc làm",
+        "description": "",
+        "forums": [
+          {
+            "id": 90,
+            "title": "Người tìm việc",
+            "topics": 6,
+            "posts": 31,
+            "last_title": "Tìm việc làm GIS tại Thành...",
+            "last_author": "lepetitchu04",
+            "children": [],
+            "archived_reference": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/90-Nguoi-tim-viec",
+            "last_topic_url": null
+          },
+          {
+            "id": 91,
+            "title": "Nhà tuyển dụng",
+            "topics": 80,
+            "posts": 221,
+            "last_title": "GTO Software cần tuyển nhân...",
+            "last_author": "09162002",
+            "children": [],
+            "archived_reference": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/91-Nha-tuyen-dung",
+            "last_topic_url": null
+          },
+          {
+            "id": 92,
+            "title": "Tìm nơi thực tập tốt nghiệp ĐH, Thạc Sĩ,...",
+            "topics": 6,
+            "posts": 7,
+            "last_title": "Các thông tin khi đăng ký...",
+            "last_author": "dichvumobi",
+            "children": [],
+            "archived_reference": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/92-Tim-noi-thuc-tap-tot-nghiep-DH-Thac-Si-",
+            "last_topic_url": null
+          }
+        ]
+      },
+      {
+        "id": 62,
+        "title": "Relax",
+        "description": "",
+        "forums": [
+          {
+            "id": 63,
+            "title": "Truyện cười",
+            "topics": 12,
+            "posts": 40,
+            "last_title": "Cười!!!",
+            "last_author": "dongvan03",
+            "children": [],
+            "archived_reference": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/63-Truyen-cuoi",
+            "last_topic_url": null
+          },
+          {
+            "id": 64,
+            "title": "Kết bạn",
+            "topics": 33,
+            "posts": 415,
+            "last_title": "Thành viên diễn đàn ở Hà Nội !",
+            "last_author": "ducvn.ev",
+            "children": [],
+            "archived_reference": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/64-Ket-ban",
+            "last_topic_url": null
+          },
+          {
+            "id": 72,
+            "title": "Mừng sinh nhật thành viên",
+            "topics": 11,
+            "posts": 100,
+            "last_title": "Chúc mừng sinh nhật diễn đàn...",
+            "last_author": "linuxredhat",
+            "children": [],
+            "archived_reference": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/72-Mung-sinh-nhat-thanh-vien",
+            "last_topic_url": null
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "topics": 4297,
+      "posts": 24799,
+      "members": 101617
+    },
+    "announcements": [
+      "Hot - Thông báo lần I V/v hội thảo Offline GISVN năm 2015.",
+      "Danh sách đóng tiền áo GISVN 2014",
+      "Hot - Thông báo lần I: Thông tin tổ chức Offline GISVN năm 2014.",
+      "Hot - Hình ảnh áo diễn đàn đợt offline 2014 (trang 5)."
+    ],
+    "latest_topics": [
+      "haidangkuteHướng dẫn download ảnh Google earth và chuyển sang VN2000 Nội bộ",
+      "phamtuanhatinhTool gộp thửa nhỏ vào thửa lớn bất kỳ trong Map",
+      "rockmanx2010Dành cho những ai đam mê về lập trình và muốn học tập tư duy logic!",
+      "huynhminhdcThắc mắc ba loại ảnh L8 OLI/TIRS...",
+      "vien.no1Chuyển Gauss về Vn2000"
+    ],
+    "members": [
+      "Hôm naysakura12a",
+      "Hôm naythc_nhadep",
+      "Hôm quavantuansri",
+      "Hôm quamaiyeu1991",
+      "Hôm quaphamthanh2795",
+      "Hôm quavan dang"
+    ]
+  },
+  "original_20160306": {
+    "groups": [
+      {
+        "id": 1,
+        "title": "Nội quy & Tin tức",
+        "forums": [
+          {
+            "id": 2,
+            "title": "Nội quy diễn đàn",
+            "topics": 4,
+            "posts": 10,
+            "last_topic": {
+              "title": "Không đúng chuyên mục",
+              "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/2617-Khong-dung-chuyen-muc?goto=newpost"
+            },
+            "last_author": "HaVu",
+            "last_date": "04-01-2013, 03:44 PM",
+            "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/2-Noi-quy-dien-dan",
+            "children": []
+          },
+          {
+            "id": 11,
+            "title": "Góp ý",
+            "topics": 35,
+            "posts": 178,
+            "last_topic": {
+              "title": "Thành viên mới",
+              "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/5942-Thanh-vien-moi?goto=newpost"
+            },
+            "last_author": "lethuvn2015",
+            "last_date": "02-11-2015, 01:25 PM",
+            "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/11-Gop-y",
+            "children": []
+          },
+          {
+            "id": 12,
+            "title": "Tin tức diễn đàn - công nghệ",
+            "topics": 52,
+            "posts": 387,
+            "last_topic": {
+              "title": "Chúc mừng diễn đàn gisvn đạt...",
+              "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/6245-Chuc-mung-dien-dan-gisvn-dat-moc-100-000-thanh-vien?goto=newpost"
+            },
+            "last_author": "bongthom1985",
+            "last_date": "22-01-2016, 03:07 PM",
+            "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/12-Tin-tuc-dien-dan-cong-nghe",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 78,
+        "title": "Các phần mềm của hãng ESRI - ArcGIS, ArcView 3.x, ArcEngine, ArcSDE, ArcServer,...",
+        "forums": [
+          {
+            "id": 10,
+            "title": "Software (ArcGIS, ArcView 3.x, ArcEngine, ArcSDE, ArcServer,...) - Không trao đổi tại đây",
+            "topics": 236,
+            "posts": 1439,
+            "last_topic": {
+              "title": "[SOFTWARE] ArcGIS Desktop +...",
+              "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/5655-SOFTWARE-ArcGIS-Desktop-Engine-Server-Workgroup-10-3?goto=newpost"
+            },
+            "last_author": "linhnguyen",
+            "last_date": "04-03-2016, 08:36 PM",
+            "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/10-Software-ArcGIS-ArcView-3-x-ArcEngine-ArcSDE-ArcServer-Khong-trao-doi-tai-day",
+            "children": []
+          },
+          {
+            "id": 21,
+            "title": "Giải đáp thắc mắc các phần mềm: ArcGIS, ArcView 3.x, ArcEngine, ArcSDE, ArcServer,...",
+            "topics": 638,
+            "posts": 3316,
+            "last_topic": {
+              "title": "Dùng ArcMap chuyển file .dng...",
+              "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/5246-Dung-ArcMap-chuyen-file-dng-trong-Microstation-sang-dang-shp-cua-Arcmap?goto=newpost"
+            },
+            "last_author": "bongthom1985",
+            "last_date": "Hôm qua, 11:01 PM",
+            "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/21-Giai-dap-thac-mac-cac-phan-mem-ArcGIS-ArcView-3-x-ArcEngine-ArcSDE-ArcServer-",
+            "children": []
+          },
+          {
+            "id": 30,
+            "title": "Lập trình trong ArcGIS",
+            "topics": 130,
+            "posts": 582,
+            "last_topic": {
+              "title": "Vehicle Routing Problem trong...",
+              "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/6305-Vehicle-Routing-Problem-trong-Network-Analyst?goto=newpost"
+            },
+            "last_author": "linhnguyen",
+            "last_date": "22-02-2016, 08:16 PM",
+            "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/30-Lap-trinh-trong-ArcGIS",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 77,
+        "title": "Các phần mềm của hãng Pitney Bowes -MapInfo, Vertical, Discover, MapExtreme, Mapbasic,...",
+        "forums": [
+          {
+            "id": 8,
+            "title": "Software (MapInfo, Vertical, Discover, MapExtreme, Mapbasic,..) - Không trao đổi tại đây",
+            "topics": 138,
+            "posts": 1557,
+            "last_topic": {
+              "title": "Mapinfo pro 15.2 X64 only",
+              "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/6101-Mapinfo-pro-15-2-X64-only?goto=newpost"
+            },
+            "last_author": "milohoa",
+            "last_date": "Hôm qua, 04:56 PM",
+            "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/8-Software-MapInfo-Vertical-Discover-MapExtreme-Mapbasic-Khong-trao-doi-tai-day",
+            "children": []
+          },
+          {
+            "id": 19,
+            "title": "Giải đáp thắc mắc các phần mềm: MapInfo, Vertical, Discover, MapExtreme, Mapbasic,..",
+            "topics": 560,
+            "posts": 3650,
+            "last_topic": {
+              "title": "Thắc mắc về style.",
+              "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/6324-Thac-mac-ve-style-?goto=newpost"
+            },
+            "last_author": "NCC",
+            "last_date": "02-03-2016, 05:05 PM",
+            "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/19-Giai-dap-thac-mac-cac-phan-mem-MapInfo-Vertical-Discover-MapExtreme-Mapbasic-",
+            "children": []
+          },
+          {
+            "id": 28,
+            "title": "Lập trình trong MapInfo",
+            "topics": 56,
+            "posts": 277,
+            "last_topic": {
+              "title": "có anh chị nào có file dữ...",
+              "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/4090-co-anh-chi-nao-co-file-du-lieu-lop-giao-thong-va-thuy-van-huyen-thach-ha-tinh-ha-tinh?goto=newpost"
+            },
+            "last_author": "anhcoonght",
+            "last_date": "05-12-2015, 09:47 AM",
+            "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/28-Lap-trinh-trong-MapInfo",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 79,
+        "title": "Các phần mềm của Bentley (Microstation, GEOVEC, IRASC, IRASB,...)",
+        "forums": [
+          {
+            "id": 9,
+            "title": "Các phần mềm của Microstation, GEOVEC, IRASC, IRASB,... - Không trao đổi tại đây",
+            "topics": 70,
+            "posts": 481,
+            "last_topic": {
+              "title": "Chuyển tất cả các file trong...",
+              "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/6315-Chuyen-tat-ca-cac-file-trong-cung-1-thu-muc-ve-cung-1-mau-trang-MICROSTATION-SE-?goto=newpost"
+            },
+            "last_author": "comebackkii",
+            "last_date": "28-02-2016, 09:36 PM",
+            "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/9-Cac-phan-mem-cua-Microstation-GEOVEC-IRASC-IRASB-Khong-trao-doi-tai-day",
+            "children": []
+          },
+          {
+            "id": 20,
+            "title": "Giải đáp thắc mắc các phần mềm: Microstation, GEOVEC, IRASC, IRASB,...",
+            "topics": 275,
+            "posts": 1534,
+            "last_topic": {
+              "title": "Hỏi sửa đường nét và chữ...",
+              "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/6327-Hoi-sua-duong-net-va-chu-trong-ban-do-microstation-V8-bi-mau-trang-het?goto=newpost"
+            },
+            "last_author": "deutube9x",
+            "last_date": "03-03-2016, 10:33 AM",
+            "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/20-Giai-dap-thac-mac-cac-phan-mem-Microstation-GEOVEC-IRASC-IRASB-",
+            "children": []
+          },
+          {
+            "id": 29,
+            "title": "Lập trình cho Microstation",
+            "topics": 17,
+            "posts": 65,
+            "last_topic": {
+              "title": "Cần tìm người viết được thêm...",
+              "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/4191-Can-tim-nguoi-viet-duoc-them-phan-mem-tren-Micro-V8?goto=newpost"
+            },
+            "last_author": "toiyeuvn0004",
+            "last_date": "22-02-2016, 09:19 AM",
+            "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/29-Lap-trinh-cho-Microstation",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 80,
+        "title": "Viễn Thám",
+        "forums": [
+          {
+            "id": 15,
+            "title": "Software (ENVI, ERDAS, PCI, IDIRISI,...) - Không trao đổi tại đây",
+            "topics": 60,
+            "posts": 540,
+            "last_topic": {
+              "title": "Phần Mềm ENVI 5.2",
+              "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/5642-Phan-Mem-ENVI-5-2?goto=newpost"
+            },
+            "last_author": "tit",
+            "last_date": "04-03-2016, 09:36 AM",
+            "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/15-Software-ENVI-ERDAS-PCI-IDIRISI-Khong-trao-doi-tai-day",
+            "children": []
+          },
+          {
+            "id": 24,
+            "title": "Giải đáp thắc mắc các phần mềm trong Viễn Thám",
+            "topics": 245,
+            "posts": 1241,
+            "last_topic": {
+              "title": "Xin ảnh SPOT khu vực 3 huyện...",
+              "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/6330-Xin-anh-SPOT-khu-vuc-3-huyen-Tay-Giang-Dong-Giang-Nam-Giang-tinh-Quang-Nam?goto=newpost"
+            },
+            "last_author": "hoangbeovfu",
+            "last_date": "03-03-2016, 11:37 AM",
+            "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/24-Giai-dap-thac-mac-cac-phan-mem-trong-Vien-Tham",
+            "children": []
+          },
+          {
+            "id": 31,
+            "title": "Lập trình trong Viễn thám",
+            "topics": 6,
+            "posts": 12,
+            "last_topic": {
+              "title": "Ảnh sentinel bị ngược",
+              "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/6304-Anh-sentinel-bi-nguoc?goto=newpost"
+            },
+            "last_author": "ifolike",
+            "last_date": "24-02-2016, 07:47 AM",
+            "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/31-Lap-trinh-trong-Vien-tham",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 82,
+        "title": "WebGIS",
+        "forums": [
+          {
+            "id": 83,
+            "title": "Phần mềm WebGIS - Không trao đổi tại đây",
+            "topics": 4,
+            "posts": 9,
+            "last_topic": {
+              "title": "Phần mềm ARCIMS",
+              "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/3701-Phan-mem-ARCIMS?goto=newpost"
+            },
+            "last_author": "dvms12",
+            "last_date": "07-10-2015, 01:44 PM",
+            "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/83-Phan-mem-WebGIS-Khong-trao-doi-tai-day",
+            "children": []
+          },
+          {
+            "id": 54,
+            "title": "Giải đáp thắc mắc về WebGIS",
+            "topics": 187,
+            "posts": 1225,
+            "last_topic": {
+              "title": "Tham khảo trang WebGIS hoàn...",
+              "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/6334-Tham-khao-trang-WebGIS-hoan-chinh?goto=newpost"
+            },
+            "last_author": "Diep_Phong",
+            "last_date": "Hôm qua, 08:18 PM",
+            "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/54-Giai-dap-thac-mac-ve-WebGIS",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 81,
+        "title": "Trắc địa và bản đồ",
+        "forums": [
+          {
+            "id": 13,
+            "title": "Phần mềm Trắc địa - GPS - Không trao đổi tại đây",
+            "topics": 34,
+            "posts": 190,
+            "last_topic": {
+              "title": "Bộ Maptrans 2010 thuộc bộ...",
+              "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/827-Bo-Maptrans-2010-thuoc-bo-phan-mem-dung-chung-trong-nganh-Tai-nguyen-va-Moi-truong?goto=newpost"
+            },
+            "last_author": "stormy01",
+            "last_date": "27-01-2016, 11:10 AM",
+            "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/13-Phan-mem-Trac-dia-GPS-Khong-trao-doi-tai-day",
+            "children": []
+          },
+          {
+            "id": 22,
+            "title": "Giải đáp thắc mắc về Trắc địa và Bản đồ",
+            "topics": 294,
+            "posts": 1686,
+            "last_topic": {
+              "title": "Xin bản đồ hiện trạng sử dụng...",
+              "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/962-Xin-ban-do-hien-trang-su-dung-dat-xa-Dak-Ha-huyen-Dac-Glong-tinh-Dak-Nong?goto=newpost"
+            },
+            "last_author": "ducvn.ev",
+            "last_date": "03-03-2016, 08:58 AM",
+            "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/22-Giai-dap-thac-mac-ve-Trac-dia-va-Ban-do",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 85,
+        "title": "Mã nguồn mở",
+        "forums": [
+          {
+            "id": 17,
+            "title": "Software - Không trao đổi tại đây",
+            "topics": 8,
+            "posts": 48,
+            "last_topic": {
+              "title": "Lập tình mã nguồn mở với mã...",
+              "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/2606-Lap-tinh-ma-nguon-mo-voi-ma-loai-dat-ky-hieu-loaiij-dat?goto=newpost"
+            },
+            "last_author": "huynhphuoc",
+            "last_date": "20-06-2015, 07:12 AM",
+            "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/17-Software-Khong-trao-doi-tai-day",
+            "children": []
+          },
+          {
+            "id": 26,
+            "title": "Giải đáp thắc mắc trong Mã nguồn mở",
+            "topics": 19,
+            "posts": 99,
+            "last_topic": {
+              "title": "thắc mắc về hệ thống webgis",
+              "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/6018-thac-mac-ve-he-thong-webgis?goto=newpost"
+            },
+            "last_author": "longnt1208",
+            "last_date": "24-02-2016, 01:15 PM",
+            "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/26-Giai-dap-thac-mac-trong-Ma-nguon-mo",
+            "children": []
+          },
+          {
+            "id": 32,
+            "title": "Lập trình cho mã nguồn mở",
+            "topics": 22,
+            "posts": 103,
+            "last_topic": {
+              "title": "Kết nối PostGIS và thêm lớp...",
+              "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/3624-Ket-noi-PostGIS-va-them-lop-vao-trong-ban-do?goto=newpost"
+            },
+            "last_author": "longnt1208",
+            "last_date": "20-01-2016, 12:12 PM",
+            "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/32-Lap-trinh-cho-ma-nguon-mo",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 84,
+        "title": "Các phần mềm GIS khác",
+        "forums": [
+          {
+            "id": 58,
+            "title": "Software - Không trao đổi tại đây",
+            "topics": 65,
+            "posts": 541,
+            "last_topic": {
+              "title": "Fme 2014 + thuốc",
+              "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/3849-Fme-2014-thuoc?goto=newpost"
+            },
+            "last_author": "comebackkii",
+            "last_date": "04-02-2016, 10:49 PM",
+            "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/58-Software-Khong-trao-doi-tai-day",
+            "children": []
+          },
+          {
+            "id": 69,
+            "title": "Giải đáp thắc mắc về các phần mềm GIS khác",
+            "topics": 67,
+            "posts": 360,
+            "last_topic": {
+              "title": "Hướng dẫn sử dụng FME",
+              "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/647-Huong-dan-su-dung-FME?goto=newpost"
+            },
+            "last_author": "comebackkii",
+            "last_date": "31-01-2016, 07:56 AM",
+            "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/69-Giai-dap-thac-mac-ve-cac-phan-mem-GIS-khac",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 87,
+        "title": "Mô hình hóa",
+        "forums": [
+          {
+            "id": 16,
+            "title": "Software - Không trao đổi tại đây",
+            "topics": 27,
+            "posts": 263,
+            "last_topic": {
+              "title": "Aquaveo Groundwater Modeling...",
+              "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/5551-Aquaveo-Groundwater-Modeling-System-v10-0-9-Premium-x64-build-13-05-2015?goto=newpost"
+            },
+            "last_author": "kimchinhmt",
+            "last_date": "Hôm qua, 11:26 PM",
+            "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/16-Software-Khong-trao-doi-tai-day",
+            "children": []
+          },
+          {
+            "id": 25,
+            "title": "Giải đáp thắc mắc trong Mô hình hóa",
+            "topics": 29,
+            "posts": 173,
+            "last_topic": {
+              "title": "Tài liệu hướng dẫn sử dụng...",
+              "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/6306-Tai-lieu-huong-dan-su-dung-ESRI-CityEngine?goto=newpost"
+            },
+            "last_author": "ducvn.ev",
+            "last_date": "23-02-2016, 11:06 AM",
+            "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/25-Giai-dap-thac-mac-trong-Mo-hinh-hoa",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 89,
+        "title": "Quản lý Đất đai",
+        "forums": [
+          {
+            "id": 14,
+            "title": "Software - Không trao đổi tại đây",
+            "topics": 33,
+            "posts": 218,
+            "last_topic": {
+              "title": "Tổng hợp dữ liệu đất đai cho...",
+              "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/889-Tong-hop-du-lieu-dat-dai-cho-phan-mem-Vilis-?goto=newpost"
+            },
+            "last_author": "i.mleo",
+            "last_date": "09-11-2015, 08:44 AM",
+            "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/14-Software-Khong-trao-doi-tai-day",
+            "children": []
+          },
+          {
+            "id": 23,
+            "title": "Giải đáp thắc mắc trong Quản lý đất đai",
+            "topics": 60,
+            "posts": 372,
+            "last_topic": {
+              "title": "Nhập hồ sơ quét tự động vào...",
+              "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/6203-Nhap-ho-so-quet-tu-dong-vao-vilis?goto=newpost"
+            },
+            "last_author": "hoangdoai",
+            "last_date": "02-03-2016, 10:29 AM",
+            "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/23-Giai-dap-thac-mac-trong-Quan-ly-dat-dai",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "title": "Các Tool của thành viên",
+        "forums": [
+          {
+            "id": 71,
+            "title": "Các phần mềm - công cụ viết tặng riêng cho diễn đàn từ các thành viên",
+            "topics": 9,
+            "posts": 102,
+            "last_topic": {
+              "title": "Công cụ GEOMITECH - nGEOTOOLS!",
+              "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/2367-Cong-cu-GEOMITECH-nGEOTOOLS-?goto=newpost"
+            },
+            "last_author": "nem88",
+            "last_date": "02-03-2016, 02:03 PM",
+            "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/71-Cac-phan-mem-cong-cu-viet-tang-rieng-cho-dien-dan-tu-cac-thanh-vien",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 65,
+        "title": "Công nghệ thông tin",
+        "forums": [
+          {
+            "id": 88,
+            "title": "AutoCAD và AutoCAD Map",
+            "topics": null,
+            "posts": null,
+            "last_topic": null,
+            "last_author": "",
+            "last_date": "",
+            "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/88-AutoCAD-va-AutoCAD-Map",
+            "children": [
+              {
+                "id": 56,
+                "title": "Software - Không trao đổi tại đây",
+                "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/56-Software-Khong-trao-doi-tai-day"
+              },
+              {
+                "id": 57,
+                "title": "Giải đáp thắc mắc về AutoCAD",
+                "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/57-Giai-dap-thac-mac-ve-AutoCAD"
+              }
+            ]
+          },
+          {
+            "id": 66,
+            "title": "Các phần mềm IT",
+            "topics": 54,
+            "posts": 190,
+            "last_topic": {
+              "title": "Share AC víp và hỗ trợ Cài...",
+              "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/6235-Share-AC-vip-va-ho-tro-Cai-Win-7-8-10-ban-quen-khong-khong-thuoc-cho-AE-GisVn?goto=newpost"
+            },
+            "last_author": "deutube9x",
+            "last_date": "29-02-2016, 11:23 AM",
+            "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/66-Cac-phan-mem-IT",
+            "children": []
+          },
+          {
+            "id": 67,
+            "title": "Giải đáp thắc mắc trong CNTT",
+            "topics": 19,
+            "posts": 85,
+            "last_topic": {
+              "title": "Học lập trình ứng dụng ở đâu?",
+              "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/6105-Hoc-lap-trinh-ung-dung-o-dau-?goto=newpost"
+            },
+            "last_author": "Diep_Phong",
+            "last_date": "21-11-2015, 05:22 PM",
+            "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/67-Giai-dap-thac-mac-trong-CNTT",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 33,
+        "title": "Nghiên cứu khoa học",
+        "forums": [
+          {
+            "id": 34,
+            "title": "GIS và Viễn thám ứng dụng",
+            "topics": 167,
+            "posts": 621,
+            "last_topic": {
+              "title": "Dữ Liệu nội suy GIS",
+              "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/6270-Du-Lieu-noi-suy-GIS?goto=newpost"
+            },
+            "last_author": "Below.LJ",
+            "last_date": "29-01-2016, 09:25 PM",
+            "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/34-GIS-va-Vien-tham-ung-dung",
+            "children": []
+          },
+          {
+            "id": 36,
+            "title": "GPS, Trắc địa, Bản đồ ứng dụng",
+            "topics": 35,
+            "posts": 81,
+            "last_topic": {
+              "title": "Hướng dẫn cách thức đo đạc...",
+              "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/4971-Huong-dan-cach-thuc-do-dac-dia-hinh-bang-phuong-phap-GPS-?goto=newpost"
+            },
+            "last_author": "lytrieu002",
+            "last_date": "29-02-2016, 08:46 AM",
+            "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/36-GPS-Trac-dia-Ban-do-ung-dung",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 41,
+        "title": "Tài liệu học tập",
+        "forums": [
+          {
+            "id": 42,
+            "title": "Các môn liên quan đến GIS, Viễn thám",
+            "topics": 74,
+            "posts": 308,
+            "last_topic": {
+              "title": "sách hướng dẫn sử dụng...",
+              "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/204-sach-huong-dan-su-dung-Mapinfo-9-0-Arcview-3-3a-cua-Vu-Minh-Tuan-DH-Nong-Lam?goto=newpost"
+            },
+            "last_author": "vuminhtuan",
+            "last_date": "04-12-2015, 11:13 AM",
+            "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/42-Cac-mon-lien-quan-den-GIS-Vien-tham",
+            "children": []
+          },
+          {
+            "id": 44,
+            "title": "Các môn liên quan đến GPS, Trắc địa, Bản đồ,...",
+            "topics": 49,
+            "posts": 182,
+            "last_topic": {
+              "title": "Giúp e phân biệt Geographic...",
+              "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/6302-Giup-e-phan-biet-Geographic-Coordinate-System-amp-Projected-Coordinate-System?goto=newpost"
+            },
+            "last_author": "holamtruong",
+            "last_date": "21-02-2016, 09:51 PM",
+            "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/44-Cac-mon-lien-quan-den-GPS-Trac-dia-Ban-do-",
+            "children": []
+          },
+          {
+            "id": 46,
+            "title": "Các tài liệu khác",
+            "topics": 110,
+            "posts": 354,
+            "last_topic": {
+              "title": "Xin bản đồ hiện trạng sử dụng...",
+              "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/6200-Xin-ban-do-hien-trang-su-dung-dat-nam-2005-va-quy-hoach-2020-thanh-pho-Ha-Noi?goto=newpost"
+            },
+            "last_author": "thunga2812",
+            "last_date": "16-02-2016, 09:01 AM",
+            "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/46-Cac-tai-lieu-khac",
+            "children": []
+          },
+          {
+            "id": 68,
+            "title": "Thư viện luận văn",
+            "topics": 68,
+            "posts": 153,
+            "last_topic": {
+              "title": "chọn giá trị trong \"band...",
+              "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/6259-chon-gia-tri-trong-quot-band-threshold-to-roi-quot-?goto=newpost"
+            },
+            "last_author": "nmngoc",
+            "last_date": "23-02-2016, 08:37 PM",
+            "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/68-Thu-vien-luan-van",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 47,
+        "title": "Đào tạo",
+        "forums": [
+          {
+            "id": 48,
+            "title": "Các khóa học (Ngắn hạn)",
+            "topics": 23,
+            "posts": 128,
+            "last_topic": {
+              "title": "Nhờ sửa lỗi mô hình Swat.",
+              "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/6126-Nho-sua-loi-mo-hinh-Swat-?goto=newpost"
+            },
+            "last_author": "haingan1923",
+            "last_date": "26-11-2015, 10:51 AM",
+            "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/48-Cac-khoa-hoc-Ngan-han-",
+            "children": []
+          },
+          {
+            "id": 70,
+            "title": "Thông tin đào tạo (ĐH, CH, NCS)",
+            "topics": 8,
+            "posts": 23,
+            "last_topic": {
+              "title": "Giới thiệu bộ môn Viễn thám...",
+              "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/4330-Gioi-thieu-bo-mon-Vien-tham-amp-GIS-thuoc-khoa-ICT-cua-Vien-cong-nghe-chau-A?goto=newpost"
+            },
+            "last_author": "hanguyentek",
+            "last_date": "13-07-2015, 10:46 AM",
+            "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/70-Thong-tin-dao-tao-DH-CH-NCS-",
+            "children": []
+          },
+          {
+            "id": 74,
+            "title": "Thông tin học bổng, du học",
+            "topics": 2,
+            "posts": 5,
+            "last_topic": {
+              "title": "Thông báo tuyển sinh khóa 7...",
+              "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/3252-Thong-bao-tuyen-sinh-khoa-7-chuong-trinh-thac-si-quoc-te-Okayama-Hue-nam-2013?goto=newpost"
+            },
+            "last_author": "vuminhtuan",
+            "last_date": "19-04-2013, 08:51 AM",
+            "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/74-Thong-tin-hoc-bong-du-hoc",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 37,
+        "title": "Hội thảo - OFFLINE diễn đàn",
+        "forums": [
+          {
+            "id": 38,
+            "title": "Thông tin tổ chức",
+            "topics": 34,
+            "posts": 521,
+            "last_topic": {
+              "title": "V/v Tổ chức Hội thảo “Ứng...",
+              "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/6297-V-v-To-chuc-Hoi-thao-Ung-dung-GIS-toan-quoc-2016-?goto=newpost"
+            },
+            "last_author": "vuminhtuan",
+            "last_date": "19-02-2016, 10:53 AM",
+            "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/38-Thong-tin-to-chuc",
+            "children": []
+          },
+          {
+            "id": 39,
+            "title": "Bài báo cáo hội thảo",
+            "topics": 12,
+            "posts": 84,
+            "last_topic": {
+              "title": "Bài báo fulltext hội thảo...",
+              "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/6229-Bai-bao-fulltext-hoi-thao-GISVN-2015?goto=newpost"
+            },
+            "last_author": "NCC",
+            "last_date": "18-01-2016, 12:17 PM",
+            "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/39-Bai-bao-cao-hoi-thao",
+            "children": []
+          },
+          {
+            "id": 40,
+            "title": "Hình ảnh",
+            "topics": 4,
+            "posts": 76,
+            "last_topic": {
+              "title": "Hình ảnh OFFLINE GISVN2014 -...",
+              "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/4307-Hinh-anh-OFFLINE-GISVN2014-DH-SPKT-Tp-HCM?goto=newpost"
+            },
+            "last_author": "luubakhanhduy",
+            "last_date": "27-07-2014, 05:56 PM",
+            "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/40-Hinh-anh",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 50,
+        "title": "Việc làm",
+        "forums": [
+          {
+            "id": 90,
+            "title": "Người tìm việc",
+            "topics": 6,
+            "posts": 31,
+            "last_topic": {
+              "title": "Tìm việc làm GIS tại Thành...",
+              "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/5865-Tim-viec-lam-GIS-tai-Thanh-Pho-Ho-Chi-Minh?goto=newpost"
+            },
+            "last_author": "lepetitchu04",
+            "last_date": "27-01-2016, 10:49 AM",
+            "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/90-Nguoi-tim-viec",
+            "children": []
+          },
+          {
+            "id": 91,
+            "title": "Nhà tuyển dụng",
+            "topics": 78,
+            "posts": 214,
+            "last_topic": {
+              "title": "Tuyển lập trình viên phát...",
+              "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/6319-Tuyen-lap-trinh-vien-phat-trien-ung-dung-web?goto=newpost"
+            },
+            "last_author": "longnt1208",
+            "last_date": "01-03-2016, 03:48 PM",
+            "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/91-Nha-tuyen-dung",
+            "children": []
+          },
+          {
+            "id": 92,
+            "title": "Tìm nơi thực tập tốt nghiệp ĐH, Thạc Sĩ,...",
+            "topics": 6,
+            "posts": 7,
+            "last_topic": {
+              "title": "Các thông tin khi đăng ký...",
+              "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/6149-Cac-thong-tin-khi-dang-ky-goi-Miu?goto=newpost"
+            },
+            "last_author": "dichvumobi",
+            "last_date": "04-12-2015, 03:11 PM",
+            "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/92-Tim-noi-thuc-tap-tot-nghiep-DH-Thac-Si-",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 62,
+        "title": "Relax",
+        "forums": [
+          {
+            "id": 63,
+            "title": "Truyện cười",
+            "topics": 12,
+            "posts": 39,
+            "last_topic": {
+              "title": "Chuyên cười hay nhất",
+              "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/3915-Chuyen-cuoi-hay-nhat?goto=newpost"
+            },
+            "last_author": "hoangvchung",
+            "last_date": "22-01-2016, 08:39 PM",
+            "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/63-Truyen-cuoi",
+            "children": []
+          },
+          {
+            "id": 64,
+            "title": "Kết bạn",
+            "topics": 34,
+            "posts": 417,
+            "last_topic": {
+              "title": "Thành viên diễn đàn ở Hà Nội !",
+              "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/864-Thanh-vien-dien-dan-o-Ha-Noi-?goto=newpost"
+            },
+            "last_author": "ducvn.ev",
+            "last_date": "Hôm qua, 02:08 PM",
+            "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/64-Ket-ban",
+            "children": []
+          },
+          {
+            "id": 72,
+            "title": "Mừng sinh nhật thành viên",
+            "topics": 11,
+            "posts": 100,
+            "last_topic": {
+              "title": "Chúc mừng sinh nhật diễn đàn...",
+              "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/6070-Chuc-mung-sinh-nhat-dien-dan-11-11?goto=newpost"
+            },
+            "last_author": "linuxredhat",
+            "last_date": "14-11-2015, 10:36 AM",
+            "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/72-Mung-sinh-nhat-thanh-vien",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "topics": 4239,
+      "posts": 24627,
+      "members": 101013
+    },
+    "announcements": [
+      {
+        "title": "Hot - Thông báo lần I V/v hội thảo Offline GISVN năm 2015.",
+        "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/6020-Thong-bao-Offline-dien-dan-GISVN-nam-2015?p=27533#post27533"
+      },
+      {
+        "title": "Danh sách đóng tiền áo GISVN 2014",
+        "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/4259-Danh-sach-cac-thanh-vien-da-chuyen-tien-ao-offline-gisvn-2014?p=20608#post20608"
+      },
+      {
+        "title": "Hot - Thông báo lần I: Thông tin tổ chức Offline GISVN năm 2014.",
+        "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/4211-Thong-bao-Offline-dien-dan-GISVN-nam-2014?p=20359#post20359"
+      },
+      {
+        "title": "Hot - Hình ảnh áo diễn đàn đợt offline 2014 (trang 5).",
+        "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/4211-Thong-bao-Offline-dien-dan-GISVN-nam-2014/page5?p=20585#post20585"
+      }
+    ],
+    "members": [
+      {
+        "name": "hifuri",
+        "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/114620-hifuri",
+        "time": "Hôm nay"
+      },
+      {
+        "name": "tung1808",
+        "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/114619-tung1808",
+        "time": "Hôm nay"
+      },
+      {
+        "name": "centapark124",
+        "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/114618-centapark124",
+        "time": "Hôm nay"
+      },
+      {
+        "name": "s3496316",
+        "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/114617-s3496316",
+        "time": "Hôm nay"
+      },
+      {
+        "name": "chuducviet",
+        "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/114616-chuducviet",
+        "time": "Hôm nay"
+      },
+      {
+        "name": "manhhn0186",
+        "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/114615-manhhn0186",
+        "time": "Hôm nay"
+      },
+      {
+        "name": "thequeenpearlla...",
+        "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/114614-thequeenpearlland",
+        "time": "Hôm qua"
+      },
+      {
+        "name": "kimchinhmt",
+        "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/114613-kimchinhmt",
+        "time": "Hôm qua"
+      },
+      {
+        "name": "Nguyễn Mạnh...",
+        "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/114612-Nguyen-Manh-Thang-998",
+        "time": "Hôm qua"
+      },
+      {
+        "name": "hoananhxgame",
+        "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/114611-hoananhxgame",
+        "time": "Hôm qua"
+      },
+      {
+        "name": "newgyping",
+        "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/114610-newgyping",
+        "time": "Hôm qua"
+      },
+      {
+        "name": "QuocNU",
+        "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/114609-QuocNU",
+        "time": "Hôm qua"
+      },
+      {
+        "name": "Nguyen...",
+        "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/114608-Nguyen-Duyen_2403",
+        "time": "Hôm qua"
+      },
+      {
+        "name": "datnenvenbien",
+        "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/114607-datnenvenbien",
+        "time": "Hôm qua"
+      },
+      {
+        "name": "Biển",
+        "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/114606-Bien",
+        "time": "Hôm qua"
+      }
+    ],
+    "latest_topics": [
+      {
+        "title": "Aquaveo Groundwater Modeling System v10.0.9...",
+        "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/5551-Aquaveo-Groundwater-Modeling-System-v10-0-9-Premium-x64-build-13-05-2015?goto=newpost",
+        "author": "kimchinhmt"
+      },
+      {
+        "title": "AERMOD _Mô hình lan truyền không khí",
+        "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/670-AERMOD-_Mo-hinh-lan-truyen-khong-khi?goto=newpost",
+        "author": "kimchinhmt"
+      },
+      {
+        "title": "Dùng ArcMap chuyển file .dng trong Microstation...",
+        "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/5246-Dung-ArcMap-chuyen-file-dng-trong-Microstation-sang-dang-shp-cua-Arcmap?goto=newpost",
+        "author": "bongthom1985"
+      },
+      {
+        "title": "Xóa lỗi chồng đè polyline trong arcgis",
+        "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/6333-Xoa-loi-chong-de-polyline-trong-arcgis?goto=newpost",
+        "author": "chonthanhdvs"
+      },
+      {
+        "title": "Tham khảo trang WebGIS hoàn chỉnh",
+        "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/6334-Tham-khao-trang-WebGIS-hoan-chinh?goto=newpost",
+        "author": "Diep_Phong"
+      },
+      {
+        "title": "Mapinfo pro 15.2 X64 only",
+        "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/6101-Mapinfo-pro-15-2-X64-only?goto=newpost",
+        "author": "milohoa"
+      },
+      {
+        "title": "Giúp đỡ về công cụ Bing Aerial, Bing Hybrid và...",
+        "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/4154-Giup-do-ve-cong-cu-Bing-Aerial-Bing-Hybrid-va-Bing-Roads-trong-Mapinfo?goto=newpost",
+        "author": "thanhtuanqhgt"
+      },
+      {
+        "title": "Thành viên diễn đàn ở Hà Nội !",
+        "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/864-Thanh-vien-dien-dan-o-Ha-Noi-?goto=newpost",
+        "author": "ducvn.ev"
+      },
+      {
+        "title": "Làm thế nào để add google map làm lớp nền + WMS",
+        "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/6323-Lam-the-nao-de-add-google-map-lam-lop-nen-WMS?goto=newpost",
+        "author": "longnt1208"
+      },
+      {
+        "title": "[SOFTWARE] ArcGIS Desktop + Engine + Server...",
+        "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/5655-SOFTWARE-ArcGIS-Desktop-Engine-Server-Workgroup-10-3?goto=newpost",
+        "author": "linhnguyen"
+      },
+      {
+        "title": "Cung cấp và giới thiệu phần mềm VDMap giúp hỗ trợ...",
+        "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/4702-Cung-cap-va-gioi-thieu-phan-mem-VDMap-giup-ho-tro-bien-tap-ban-do-trong-Mapinfo?goto=newpost",
+        "author": "NguyenTuan"
+      },
+      {
+        "title": "Phần Mềm ENVI 5.2",
+        "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/5642-Phan-Mem-ENVI-5-2?goto=newpost",
+        "author": "tit"
+      },
+      {
+        "title": "Bộ ký hiệu bản đồ địa hình tỷ lệ 10.000; 25.000...",
+        "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/3935-Bo-ky-hieu-ban-do-dia-hinh-ty-le-10-000-25-000-trong-ArcGIS?goto=newpost",
+        "author": "hoang04101989"
+      },
+      {
+        "title": "Xin ảnh SPOT khu vực 3 huyện Tây Giang, Đông...",
+        "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/6330-Xin-anh-SPOT-khu-vuc-3-huyen-Tay-Giang-Dong-Giang-Nam-Giang-tinh-Quang-Nam?goto=newpost",
+        "author": "hoangbeovfu"
+      },
+      {
+        "title": "Hỏi sửa đường nét và chữ trong bản đồ...",
+        "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/6327-Hoi-sua-duong-net-va-chu-trong-ban-do-microstation-V8-bi-mau-trang-het?goto=newpost",
+        "author": "deutube9x"
+      }
+    ]
+  },
+  "legacy_links": [
+    {
+      "kind": "showthread",
+      "legacy_id": 6020,
+      "title": "Hot - Thông báo lần I V/v hội thảo Offline GISVN năm 2015.",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/6020-Thong-bao-Offline-dien-dan-GISVN-nam-2015?p=27533#post27533"
+    },
+    {
+      "kind": "showthread",
+      "legacy_id": 4259,
+      "title": "Danh sách đóng tiền áo GISVN 2014",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/4259-Danh-sach-cac-thanh-vien-da-chuyen-tien-ao-offline-gisvn-2014?p=20608#post20608"
+    },
+    {
+      "kind": "showthread",
+      "legacy_id": 4211,
+      "title": "Hot - Thông báo lần I: Thông tin tổ chức Offline GISVN năm 2014.",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/4211-Thong-bao-Offline-dien-dan-GISVN-nam-2014?p=20359#post20359"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 114620,
+      "title": "hifuri",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/114620-hifuri"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 114619,
+      "title": "tung1808",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/114619-tung1808"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 114618,
+      "title": "centapark124",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/114618-centapark124"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 114617,
+      "title": "s3496316",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/114617-s3496316"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 114616,
+      "title": "chuducviet",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/114616-chuducviet"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 114615,
+      "title": "manhhn0186",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/114615-manhhn0186"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 114614,
+      "title": "thequeenpearlla...",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/114614-thequeenpearlland"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 114613,
+      "title": "kimchinhmt",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/114613-kimchinhmt"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 114612,
+      "title": "Nguyễn Mạnh...",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/114612-Nguyen-Manh-Thang-998"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 114611,
+      "title": "hoananhxgame",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/114611-hoananhxgame"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 114610,
+      "title": "newgyping",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/114610-newgyping"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 114609,
+      "title": "QuocNU",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/114609-QuocNU"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 114608,
+      "title": "Nguyen...",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/114608-Nguyen-Duyen_2403"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 114607,
+      "title": "datnenvenbien",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/114607-datnenvenbien"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 114606,
+      "title": "Biển",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/114606-Bien"
+    },
+    {
+      "kind": "showthread",
+      "legacy_id": 5551,
+      "title": "Aquaveo Groundwater Modeling System v10.0.9...",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/5551-Aquaveo-Groundwater-Modeling-System-v10-0-9-Premium-x64-build-13-05-2015?goto=newpost"
+    },
+    {
+      "kind": "forumdisplay",
+      "legacy_id": 16,
+      "title": "Software - Không trao đổi tại đây",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/16-Software-Khong-trao-doi-tai-day"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 1061,
+      "title": "learngis",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/1061-learngis"
+    },
+    {
+      "kind": "showthread",
+      "legacy_id": 670,
+      "title": "AERMOD _Mô hình lan truyền không khí",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/670-AERMOD-_Mo-hinh-lan-truyen-khong-khi?goto=newpost"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 330,
+      "title": "Manta_Thanh",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/330-Manta_Thanh"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 112339,
+      "title": "bongthom1985",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/112339-bongthom1985"
+    },
+    {
+      "kind": "showthread",
+      "legacy_id": 5246,
+      "title": "Dùng ArcMap chuyển file .dng trong Microstation...",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/5246-Dung-ArcMap-chuyen-file-dng-trong-Microstation-sang-dang-shp-cua-Arcmap?goto=newpost"
+    },
+    {
+      "kind": "forumdisplay",
+      "legacy_id": 21,
+      "title": "Giải đáp thắc mắc các phần mềm: ArcGIS, ArcView 3.x, ArcEngine, ArcSDE, ArcServer,...",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/21-Giai-dap-thac-mac-cac-phan-mem-ArcGIS-ArcView-3-x-ArcEngine-ArcSDE-ArcServer-"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 10612,
+      "title": "regnick",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/10612-regnick"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 8422,
+      "title": "chonthanhdvs",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/8422-chonthanhdvs"
+    },
+    {
+      "kind": "showthread",
+      "legacy_id": 6333,
+      "title": "Xóa lỗi chồng đè polyline trong arcgis",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/6333-Xoa-loi-chong-de-polyline-trong-arcgis?goto=newpost"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 26319,
+      "title": "phamtuanhatinh",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/26319-phamtuanhatinh"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 36354,
+      "title": "Diep_Phong",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/36354-Diep_Phong"
+    },
+    {
+      "kind": "showthread",
+      "legacy_id": 6334,
+      "title": "Tham khảo trang WebGIS hoàn chỉnh",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/6334-Tham-khao-trang-WebGIS-hoan-chinh?goto=newpost"
+    },
+    {
+      "kind": "forumdisplay",
+      "legacy_id": 54,
+      "title": "Giải đáp thắc mắc về WebGIS",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/54-Giai-dap-thac-mac-ve-WebGIS"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 8997,
+      "title": "AtranDN",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/8997-AtranDN"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 109433,
+      "title": "milohoa",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/109433-milohoa"
+    },
+    {
+      "kind": "showthread",
+      "legacy_id": 6101,
+      "title": "Mapinfo pro 15.2 X64 only",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/6101-Mapinfo-pro-15-2-X64-only?goto=newpost"
+    },
+    {
+      "kind": "forumdisplay",
+      "legacy_id": 8,
+      "title": "Software (MapInfo, Vertical, Discover, MapExtreme, Mapbasic,..) - Không trao đổi tại đây",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/8-Software-MapInfo-Vertical-Discover-MapExtreme-Mapbasic-Khong-trao-doi-tai-day"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 37,
+      "title": "hoangdiep",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/37-hoangdiep"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 33223,
+      "title": "thanhtuanqhgt",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/33223-thanhtuanqhgt"
+    },
+    {
+      "kind": "showthread",
+      "legacy_id": 4154,
+      "title": "Giúp đỡ về công cụ Bing Aerial, Bing Hybrid và...",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/4154-Giup-do-ve-cong-cu-Bing-Aerial-Bing-Hybrid-va-Bing-Roads-trong-Mapinfo?goto=newpost"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 10542,
+      "title": "lethaihungdh08qr",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/10542-lethaihungdh08qr"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 2995,
+      "title": "ducvn.ev",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/2995-ducvn-ev"
+    },
+    {
+      "kind": "showthread",
+      "legacy_id": 864,
+      "title": "Thành viên diễn đàn ở Hà Nội !",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/864-Thanh-vien-dien-dan-o-Ha-Noi-?goto=newpost"
+    },
+    {
+      "kind": "forumdisplay",
+      "legacy_id": 64,
+      "title": "Kết bạn",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/64-Ket-ban"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 49,
+      "title": "poorbaby",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/49-poorbaby"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 14462,
+      "title": "longnt1208",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/14462-longnt1208"
+    },
+    {
+      "kind": "showthread",
+      "legacy_id": 6323,
+      "title": "Làm thế nào để add google map làm lớp nền + WMS",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/6323-Lam-the-nao-de-add-google-map-lam-lop-nen-WMS?goto=newpost"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 23528,
+      "title": "lehue",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/23528-lehue"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 96433,
+      "title": "linhnguyen",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/96433-linhnguyen"
+    },
+    {
+      "kind": "showthread",
+      "legacy_id": 5655,
+      "title": "[SOFTWARE] ArcGIS Desktop + Engine + Server...",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/5655-SOFTWARE-ArcGIS-Desktop-Engine-Server-Workgroup-10-3?goto=newpost"
+    },
+    {
+      "kind": "forumdisplay",
+      "legacy_id": 10,
+      "title": "Software (ArcGIS, ArcView 3.x, ArcEngine, ArcSDE, ArcServer,...) - Không trao đổi tại đây",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/10-Software-ArcGIS-ArcView-3-x-ArcEngine-ArcSDE-ArcServer-Khong-trao-doi-tai-day"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 1212,
+      "title": "lepetitchu04",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/1212-lepetitchu04"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 47,
+      "title": "NguyenTuan",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/47-NguyenTuan"
+    },
+    {
+      "kind": "showthread",
+      "legacy_id": 4702,
+      "title": "Cung cấp và giới thiệu phần mềm VDMap giúp hỗ trợ...",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/4702-Cung-cap-va-gioi-thieu-phan-mem-VDMap-giup-ho-tro-bien-tap-ban-do-trong-Mapinfo?goto=newpost"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 2628,
+      "title": "anhcaokeu",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/2628-anhcaokeu"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 63695,
+      "title": "tit",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/63695-tit"
+    },
+    {
+      "kind": "showthread",
+      "legacy_id": 5642,
+      "title": "Phần Mềm ENVI 5.2",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/5642-Phan-Mem-ENVI-5-2?goto=newpost"
+    },
+    {
+      "kind": "forumdisplay",
+      "legacy_id": 15,
+      "title": "Software (ENVI, ERDAS, PCI, IDIRISI,...) - Không trao đổi tại đây",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/15-Software-ENVI-ERDAS-PCI-IDIRISI-Khong-trao-doi-tai-day"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 94,
+      "title": "dinhnhangis",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/94-dinhnhangis"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 4733,
+      "title": "hoang04101989",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/4733-hoang04101989"
+    },
+    {
+      "kind": "showthread",
+      "legacy_id": 3935,
+      "title": "Bộ ký hiệu bản đồ địa hình tỷ lệ 10.000; 25.000...",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/3935-Bo-ky-hieu-ban-do-dia-hinh-ty-le-10-000-25-000-trong-ArcGIS?goto=newpost"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 1569,
+      "title": "binhminh82",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/1569-binhminh82"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 24144,
+      "title": "hoangbeovfu",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/24144-hoangbeovfu"
+    },
+    {
+      "kind": "showthread",
+      "legacy_id": 6330,
+      "title": "Xin ảnh SPOT khu vực 3 huyện Tây Giang, Đông...",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/6330-Xin-anh-SPOT-khu-vuc-3-huyen-Tay-Giang-Dong-Giang-Nam-Giang-tinh-Quang-Nam?goto=newpost"
+    },
+    {
+      "kind": "forumdisplay",
+      "legacy_id": 24,
+      "title": "Giải đáp thắc mắc các phần mềm trong Viễn Thám",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/24-Giai-dap-thac-mac-cac-phan-mem-trong-Vien-Tham"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 7858,
+      "title": "deutube9x",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/7858-deutube9x"
+    },
+    {
+      "kind": "showthread",
+      "legacy_id": 6327,
+      "title": "Hỏi sửa đường nét và chữ trong bản đồ...",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/6327-Hoi-sua-duong-net-va-chu-trong-ban-do-microstation-V8-bi-mau-trang-het?goto=newpost"
+    },
+    {
+      "kind": "forumdisplay",
+      "legacy_id": 20,
+      "title": "Giải đáp thắc mắc các phần mềm: Microstation, GEOVEC, IRASC, IRASB,...",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/20-Giai-dap-thac-mac-cac-phan-mem-Microstation-GEOVEC-IRASC-IRASB-"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 86195,
+      "title": "hienquat",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/86195-hienquat"
+    },
+    {
+      "kind": "forumdisplay",
+      "legacy_id": 1,
+      "title": "Nội quy & Tin tức",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/1-Noi-quy-amp-Tin-tuc"
+    },
+    {
+      "kind": "forumdisplay",
+      "legacy_id": 2,
+      "title": "Nội quy diễn đàn",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/2-Noi-quy-dien-dan"
+    },
+    {
+      "kind": "showthread",
+      "legacy_id": 2617,
+      "title": "Không đúng chuyên mục",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/2617-Khong-dung-chuyen-muc?goto=newpost"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 11369,
+      "title": "HaVu",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/11369-HaVu"
+    },
+    {
+      "kind": "forumdisplay",
+      "legacy_id": 11,
+      "title": "Góp ý",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/11-Gop-y"
+    },
+    {
+      "kind": "showthread",
+      "legacy_id": 5942,
+      "title": "Thành viên mới",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/5942-Thanh-vien-moi?goto=newpost"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 106484,
+      "title": "lethuvn2015",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/106484-lethuvn2015"
+    },
+    {
+      "kind": "forumdisplay",
+      "legacy_id": 12,
+      "title": "Tin tức diễn đàn - công nghệ",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/12-Tin-tuc-dien-dan-cong-nghe"
+    },
+    {
+      "kind": "showthread",
+      "legacy_id": 6245,
+      "title": "Chúc mừng diễn đàn gisvn đạt...",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/6245-Chuc-mung-dien-dan-gisvn-dat-moc-100-000-thanh-vien?goto=newpost"
+    },
+    {
+      "kind": "forumdisplay",
+      "legacy_id": 78,
+      "title": "Các phần mềm của hãng ESRI - ArcGIS, ArcView 3.x, ArcEngine, ArcSDE, ArcServer,...",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/78-Cac-phan-mem-cua-hang-ESRI-ArcGIS-ArcView-3-x-ArcEngine-ArcSDE-ArcServer-"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 9,
+      "title": "kyal0502",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/9-kyal0502"
+    },
+    {
+      "kind": "forumdisplay",
+      "legacy_id": 30,
+      "title": "Lập trình trong ArcGIS",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/30-Lap-trinh-trong-ArcGIS"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 38,
+      "title": "HuyQuoc",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/38-HuyQuoc"
+    },
+    {
+      "kind": "showthread",
+      "legacy_id": 6305,
+      "title": "Vehicle Routing Problem trong...",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/6305-Vehicle-Routing-Problem-trong-Network-Analyst?goto=newpost"
+    },
+    {
+      "kind": "forumdisplay",
+      "legacy_id": 77,
+      "title": "Các phần mềm của hãng Pitney Bowes -MapInfo, Vertical, Discover, MapExtreme, Mapbasic,...",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/77-Cac-phan-mem-cua-hang-Pitney-Bowes-MapInfo-Vertical-Discover-MapExtreme-Mapbasic-"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 4,
+      "title": "NCC",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/4-NCC"
+    },
+    {
+      "kind": "forumdisplay",
+      "legacy_id": 19,
+      "title": "Giải đáp thắc mắc các phần mềm: MapInfo, Vertical, Discover, MapExtreme, Mapbasic,..",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/19-Giai-dap-thac-mac-cac-phan-mem-MapInfo-Vertical-Discover-MapExtreme-Mapbasic-"
+    },
+    {
+      "kind": "showthread",
+      "legacy_id": 6324,
+      "title": "Thắc mắc về style.",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/6324-Thac-mac-ve-style-?goto=newpost"
+    },
+    {
+      "kind": "forumdisplay",
+      "legacy_id": 28,
+      "title": "Lập trình trong MapInfo",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/28-Lap-trinh-trong-MapInfo"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 158,
+      "title": "GEOMITECH",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/158-GEOMITECH"
+    },
+    {
+      "kind": "showthread",
+      "legacy_id": 4090,
+      "title": "có anh chị nào có file dữ...",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/4090-co-anh-chi-nao-co-file-du-lieu-lop-giao-thong-va-thuy-van-huyen-thach-ha-tinh-ha-tinh?goto=newpost"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 109267,
+      "title": "anhcoonght",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/109267-anhcoonght"
+    },
+    {
+      "kind": "forumdisplay",
+      "legacy_id": 79,
+      "title": "Các phần mềm của Bentley (Microstation, GEOVEC, IRASC, IRASB,...)",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/79-Cac-phan-mem-cua-Bentley-Microstation-GEOVEC-IRASC-IRASB-"
+    },
+    {
+      "kind": "forumdisplay",
+      "legacy_id": 9,
+      "title": "Các phần mềm của Microstation, GEOVEC, IRASC, IRASB,... - Không trao đổi tại đây",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/9-Cac-phan-mem-cua-Microstation-GEOVEC-IRASC-IRASB-Khong-trao-doi-tai-day"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 7,
+      "title": "modest",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/7-modest"
+    },
+    {
+      "kind": "showthread",
+      "legacy_id": 6315,
+      "title": "Chuyển tất cả các file trong...",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/6315-Chuyen-tat-ca-cac-file-trong-cung-1-thu-muc-ve-cung-1-mau-trang-MICROSTATION-SE-?goto=newpost"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 83035,
+      "title": "comebackkii",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/83035-comebackkii"
+    },
+    {
+      "kind": "forumdisplay",
+      "legacy_id": 29,
+      "title": "Lập trình cho Microstation",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/29-Lap-trinh-cho-Microstation"
+    },
+    {
+      "kind": "showthread",
+      "legacy_id": 4191,
+      "title": "Cần tìm người viết được thêm...",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/4191-Can-tim-nguoi-viet-duoc-them-phan-mem-tren-Micro-V8?goto=newpost"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 113606,
+      "title": "toiyeuvn0004",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/113606-toiyeuvn0004"
+    },
+    {
+      "kind": "forumdisplay",
+      "legacy_id": 80,
+      "title": "Viễn Thám",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/80-Vien-Tham"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 215,
+      "title": "tuanhuegis",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/215-tuanhuegis"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 15353,
+      "title": "remotesensing",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/15353-remotesensing"
+    },
+    {
+      "kind": "forumdisplay",
+      "legacy_id": 31,
+      "title": "Lập trình trong Viễn thám",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/31-Lap-trinh-trong-Vien-tham"
+    },
+    {
+      "kind": "showthread",
+      "legacy_id": 6304,
+      "title": "Ảnh sentinel bị ngược",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/6304-Anh-sentinel-bi-nguoc?goto=newpost"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 19013,
+      "title": "ifolike",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/19013-ifolike"
+    },
+    {
+      "kind": "forumdisplay",
+      "legacy_id": 82,
+      "title": "WebGIS",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/82-WebGIS"
+    },
+    {
+      "kind": "forumdisplay",
+      "legacy_id": 83,
+      "title": "Phần mềm WebGIS - Không trao đổi tại đây",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/83-Phan-mem-WebGIS-Khong-trao-doi-tai-day"
+    },
+    {
+      "kind": "showthread",
+      "legacy_id": 3701,
+      "title": "Phần mềm ARCIMS",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/3701-Phan-mem-ARCIMS?goto=newpost"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 102719,
+      "title": "dvms12",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/102719-dvms12"
+    },
+    {
+      "kind": "forumdisplay",
+      "legacy_id": 81,
+      "title": "Trắc địa và bản đồ",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/81-Trac-dia-va-ban-do"
+    },
+    {
+      "kind": "forumdisplay",
+      "legacy_id": 13,
+      "title": "Phần mềm Trắc địa - GPS - Không trao đổi tại đây",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/13-Phan-mem-Trac-dia-GPS-Khong-trao-doi-tai-day"
+    },
+    {
+      "kind": "showthread",
+      "legacy_id": 827,
+      "title": "Bộ Maptrans 2010 thuộc bộ...",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/827-Bo-Maptrans-2010-thuoc-bo-phan-mem-dung-chung-trong-nganh-Tai-nguyen-va-Moi-truong?goto=newpost"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 74763,
+      "title": "stormy01",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/74763-stormy01"
+    },
+    {
+      "kind": "forumdisplay",
+      "legacy_id": 22,
+      "title": "Giải đáp thắc mắc về Trắc địa và Bản đồ",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/22-Giai-dap-thac-mac-ve-Trac-dia-va-Ban-do"
+    },
+    {
+      "kind": "showthread",
+      "legacy_id": 962,
+      "title": "Xin bản đồ hiện trạng sử dụng...",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/962-Xin-ban-do-hien-trang-su-dung-dat-xa-Dak-Ha-huyen-Dac-Glong-tinh-Dak-Nong?goto=newpost"
+    },
+    {
+      "kind": "forumdisplay",
+      "legacy_id": 85,
+      "title": "Mã nguồn mở",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/85-Ma-nguon-mo"
+    },
+    {
+      "kind": "forumdisplay",
+      "legacy_id": 17,
+      "title": "Software - Không trao đổi tại đây",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/17-Software-Khong-trao-doi-tai-day"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 52,
+      "title": "ninomax",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/52-ninomax"
+    },
+    {
+      "kind": "showthread",
+      "legacy_id": 2606,
+      "title": "Lập tình mã nguồn mở với mã...",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/2606-Lap-tinh-ma-nguon-mo-voi-ma-loai-dat-ky-hieu-loaiij-dat?goto=newpost"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 3610,
+      "title": "huynhphuoc",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/3610-huynhphuoc"
+    },
+    {
+      "kind": "forumdisplay",
+      "legacy_id": 26,
+      "title": "Giải đáp thắc mắc trong Mã nguồn mở",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/26-Giai-dap-thac-mac-trong-Ma-nguon-mo"
+    },
+    {
+      "kind": "showthread",
+      "legacy_id": 6018,
+      "title": "thắc mắc về hệ thống webgis",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/6018-thac-mac-ve-he-thong-webgis?goto=newpost"
+    },
+    {
+      "kind": "forumdisplay",
+      "legacy_id": 32,
+      "title": "Lập trình cho mã nguồn mở",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/32-Lap-trinh-cho-ma-nguon-mo"
+    },
+    {
+      "kind": "showthread",
+      "legacy_id": 3624,
+      "title": "Kết nối PostGIS và thêm lớp...",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/3624-Ket-noi-PostGIS-va-them-lop-vao-trong-ban-do?goto=newpost"
+    },
+    {
+      "kind": "forumdisplay",
+      "legacy_id": 84,
+      "title": "Các phần mềm GIS khác",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/84-Cac-phan-mem-GIS-khac"
+    },
+    {
+      "kind": "forumdisplay",
+      "legacy_id": 58,
+      "title": "Software - Không trao đổi tại đây",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/58-Software-Khong-trao-doi-tai-day"
+    },
+    {
+      "kind": "showthread",
+      "legacy_id": 3849,
+      "title": "Fme 2014 + thuốc",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/3849-Fme-2014-thuoc?goto=newpost"
+    },
+    {
+      "kind": "forumdisplay",
+      "legacy_id": 69,
+      "title": "Giải đáp thắc mắc về các phần mềm GIS khác",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/69-Giai-dap-thac-mac-ve-cac-phan-mem-GIS-khac"
+    },
+    {
+      "kind": "showthread",
+      "legacy_id": 647,
+      "title": "Hướng dẫn sử dụng FME",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/647-Huong-dan-su-dung-FME?goto=newpost"
+    },
+    {
+      "kind": "forumdisplay",
+      "legacy_id": 87,
+      "title": "Mô hình hóa",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/87-Mo-hinh-hoa"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 729,
+      "title": "thanhluance",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/729-thanhluance"
+    },
+    {
+      "kind": "forumdisplay",
+      "legacy_id": 25,
+      "title": "Giải đáp thắc mắc trong Mô hình hóa",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/25-Giai-dap-thac-mac-trong-Mo-hinh-hoa"
+    },
+    {
+      "kind": "showthread",
+      "legacy_id": 6306,
+      "title": "Tài liệu hướng dẫn sử dụng...",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/6306-Tai-lieu-huong-dan-su-dung-ESRI-CityEngine?goto=newpost"
+    },
+    {
+      "kind": "forumdisplay",
+      "legacy_id": 89,
+      "title": "Quản lý Đất đai",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/89-Quan-ly-Dat-dai"
+    },
+    {
+      "kind": "forumdisplay",
+      "legacy_id": 14,
+      "title": "Software - Không trao đổi tại đây",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/14-Software-Khong-trao-doi-tai-day"
+    },
+    {
+      "kind": "showthread",
+      "legacy_id": 889,
+      "title": "Tổng hợp dữ liệu đất đai cho...",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/889-Tong-hop-du-lieu-dat-dai-cho-phan-mem-Vilis-?goto=newpost"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 34249,
+      "title": "i.mleo",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/34249-i-mleo"
+    },
+    {
+      "kind": "forumdisplay",
+      "legacy_id": 23,
+      "title": "Giải đáp thắc mắc trong Quản lý đất đai",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/23-Giai-dap-thac-mac-trong-Quan-ly-dat-dai"
+    },
+    {
+      "kind": "showthread",
+      "legacy_id": 6203,
+      "title": "Nhập hồ sơ quét tự động vào...",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/6203-Nhap-ho-so-quet-tu-dong-vao-vilis?goto=newpost"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 9505,
+      "title": "hoangdoai",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/9505-hoangdoai"
+    },
+    {
+      "kind": "forumdisplay",
+      "legacy_id": 7,
+      "title": "Các Tool của thành viên",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/7-Cac-Tool-cua-thanh-vien"
+    },
+    {
+      "kind": "forumdisplay",
+      "legacy_id": 71,
+      "title": "Các phần mềm - công cụ viết tặng riêng cho diễn đàn từ các thành viên",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/71-Cac-phan-mem-cong-cu-viet-tang-rieng-cho-dien-dan-tu-cac-thanh-vien"
+    },
+    {
+      "kind": "showthread",
+      "legacy_id": 2367,
+      "title": "Công cụ GEOMITECH - nGEOTOOLS!",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/2367-Cong-cu-GEOMITECH-nGEOTOOLS-?goto=newpost"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 3767,
+      "title": "nem88",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/3767-nem88"
+    },
+    {
+      "kind": "forumdisplay",
+      "legacy_id": 65,
+      "title": "Công nghệ thông tin",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/65-Cong-nghe-thong-tin"
+    },
+    {
+      "kind": "forumdisplay",
+      "legacy_id": 88,
+      "title": "AutoCAD và AutoCAD Map",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/88-AutoCAD-va-AutoCAD-Map"
+    },
+    {
+      "kind": "forumdisplay",
+      "legacy_id": 56,
+      "title": "Software - Không trao đổi tại đây",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/56-Software-Khong-trao-doi-tai-day"
+    },
+    {
+      "kind": "forumdisplay",
+      "legacy_id": 57,
+      "title": "Giải đáp thắc mắc về AutoCAD",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/57-Giai-dap-thac-mac-ve-AutoCAD"
+    },
+    {
+      "kind": "forumdisplay",
+      "legacy_id": 66,
+      "title": "Các phần mềm IT",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/66-Cac-phan-mem-IT"
+    },
+    {
+      "kind": "showthread",
+      "legacy_id": 6235,
+      "title": "Share AC víp và hỗ trợ Cài...",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/6235-Share-AC-vip-va-ho-tro-Cai-Win-7-8-10-ban-quen-khong-khong-thuoc-cho-AE-GisVn?goto=newpost"
+    },
+    {
+      "kind": "forumdisplay",
+      "legacy_id": 67,
+      "title": "Giải đáp thắc mắc trong CNTT",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/67-Giai-dap-thac-mac-trong-CNTT"
+    },
+    {
+      "kind": "showthread",
+      "legacy_id": 6105,
+      "title": "Học lập trình ứng dụng ở đâu?",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/6105-Hoc-lap-trinh-ung-dung-o-dau-?goto=newpost"
+    },
+    {
+      "kind": "forumdisplay",
+      "legacy_id": 33,
+      "title": "Nghiên cứu khoa học",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/33-Nghien-cuu-khoa-hoc"
+    },
+    {
+      "kind": "forumdisplay",
+      "legacy_id": 34,
+      "title": "GIS và Viễn thám ứng dụng",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/34-GIS-va-Vien-tham-ung-dung"
+    },
+    {
+      "kind": "showthread",
+      "legacy_id": 6270,
+      "title": "Dữ Liệu nội suy GIS",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/6270-Du-Lieu-noi-suy-GIS?goto=newpost"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 28840,
+      "title": "Below.LJ",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/28840-Below-LJ"
+    },
+    {
+      "kind": "forumdisplay",
+      "legacy_id": 36,
+      "title": "GPS, Trắc địa, Bản đồ ứng dụng",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/36-GPS-Trac-dia-Ban-do-ung-dung"
+    },
+    {
+      "kind": "showthread",
+      "legacy_id": 4971,
+      "title": "Hướng dẫn cách thức đo đạc...",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/4971-Huong-dan-cach-thuc-do-dac-dia-hinh-bang-phuong-phap-GPS-?goto=newpost"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 28459,
+      "title": "lytrieu002",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/28459-lytrieu002"
+    },
+    {
+      "kind": "forumdisplay",
+      "legacy_id": 41,
+      "title": "Tài liệu học tập",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/41-Tai-lieu-hoc-tap"
+    },
+    {
+      "kind": "forumdisplay",
+      "legacy_id": 42,
+      "title": "Các môn liên quan đến GIS, Viễn thám",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/42-Cac-mon-lien-quan-den-GIS-Vien-tham"
+    },
+    {
+      "kind": "showthread",
+      "legacy_id": 204,
+      "title": "sách hướng dẫn sử dụng...",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/204-sach-huong-dan-su-dung-Mapinfo-9-0-Arcview-3-3a-cua-Vu-Minh-Tuan-DH-Nong-Lam?goto=newpost"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 10,
+      "title": "vuminhtuan",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/10-vuminhtuan"
+    },
+    {
+      "kind": "forumdisplay",
+      "legacy_id": 44,
+      "title": "Các môn liên quan đến GPS, Trắc địa, Bản đồ,...",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/44-Cac-mon-lien-quan-den-GPS-Trac-dia-Ban-do-"
+    },
+    {
+      "kind": "showthread",
+      "legacy_id": 6302,
+      "title": "Giúp e phân biệt Geographic...",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/6302-Giup-e-phan-biet-Geographic-Coordinate-System-amp-Projected-Coordinate-System?goto=newpost"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 27710,
+      "title": "holamtruong",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/27710-holamtruong"
+    },
+    {
+      "kind": "forumdisplay",
+      "legacy_id": 46,
+      "title": "Các tài liệu khác",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/46-Cac-tai-lieu-khac"
+    },
+    {
+      "kind": "showthread",
+      "legacy_id": 6200,
+      "title": "Xin bản đồ hiện trạng sử dụng...",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/6200-Xin-ban-do-hien-trang-su-dung-dat-nam-2005-va-quy-hoach-2020-thanh-pho-Ha-Noi?goto=newpost"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 29174,
+      "title": "thunga2812",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/29174-thunga2812"
+    },
+    {
+      "kind": "forumdisplay",
+      "legacy_id": 68,
+      "title": "Thư viện luận văn",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/68-Thu-vien-luan-van"
+    },
+    {
+      "kind": "showthread",
+      "legacy_id": 6259,
+      "title": "chọn giá trị trong \"band...",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/6259-chon-gia-tri-trong-quot-band-threshold-to-roi-quot-?goto=newpost"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 9885,
+      "title": "nmngoc",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/9885-nmngoc"
+    },
+    {
+      "kind": "forumdisplay",
+      "legacy_id": 47,
+      "title": "Đào tạo",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/47-Dao-tao"
+    },
+    {
+      "kind": "forumdisplay",
+      "legacy_id": 48,
+      "title": "Các khóa học (Ngắn hạn)",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/48-Cac-khoa-hoc-Ngan-han-"
+    },
+    {
+      "kind": "showthread",
+      "legacy_id": 6126,
+      "title": "Nhờ sửa lỗi mô hình Swat.",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/6126-Nho-sua-loi-mo-hinh-Swat-?goto=newpost"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 108706,
+      "title": "haingan1923",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/108706-haingan1923"
+    },
+    {
+      "kind": "forumdisplay",
+      "legacy_id": 70,
+      "title": "Thông tin đào tạo (ĐH, CH, NCS)",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/70-Thong-tin-dao-tao-DH-CH-NCS-"
+    },
+    {
+      "kind": "showthread",
+      "legacy_id": 4330,
+      "title": "Giới thiệu bộ môn Viễn thám...",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/4330-Gioi-thieu-bo-mon-Vien-tham-amp-GIS-thuoc-khoa-ICT-cua-Vien-cong-nghe-chau-A?goto=newpost"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 53301,
+      "title": "hanguyentek",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/53301-hanguyentek"
+    },
+    {
+      "kind": "forumdisplay",
+      "legacy_id": 74,
+      "title": "Thông tin học bổng, du học",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/74-Thong-tin-hoc-bong-du-hoc"
+    },
+    {
+      "kind": "showthread",
+      "legacy_id": 3252,
+      "title": "Thông báo tuyển sinh khóa 7...",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/3252-Thong-bao-tuyen-sinh-khoa-7-chuong-trinh-thac-si-quoc-te-Okayama-Hue-nam-2013?goto=newpost"
+    },
+    {
+      "kind": "forumdisplay",
+      "legacy_id": 37,
+      "title": "Hội thảo - OFFLINE diễn đàn",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/37-Hoi-thao-OFFLINE-dien-dan"
+    },
+    {
+      "kind": "forumdisplay",
+      "legacy_id": 38,
+      "title": "Thông tin tổ chức",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/38-Thong-tin-to-chuc"
+    },
+    {
+      "kind": "showthread",
+      "legacy_id": 6297,
+      "title": "V/v Tổ chức Hội thảo “Ứng...",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/6297-V-v-To-chuc-Hoi-thao-Ung-dung-GIS-toan-quoc-2016-?goto=newpost"
+    },
+    {
+      "kind": "forumdisplay",
+      "legacy_id": 39,
+      "title": "Bài báo cáo hội thảo",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/39-Bai-bao-cao-hoi-thao"
+    },
+    {
+      "kind": "showthread",
+      "legacy_id": 6229,
+      "title": "Bài báo fulltext hội thảo...",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/6229-Bai-bao-fulltext-hoi-thao-GISVN-2015?goto=newpost"
+    },
+    {
+      "kind": "forumdisplay",
+      "legacy_id": 40,
+      "title": "Hình ảnh",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/40-Hinh-anh"
+    },
+    {
+      "kind": "showthread",
+      "legacy_id": 4307,
+      "title": "Hình ảnh OFFLINE GISVN2014 -...",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/4307-Hinh-anh-OFFLINE-GISVN2014-DH-SPKT-Tp-HCM?goto=newpost"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 6790,
+      "title": "luubakhanhduy",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/6790-luubakhanhduy"
+    },
+    {
+      "kind": "forumdisplay",
+      "legacy_id": 50,
+      "title": "Việc làm",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/50-Viec-lam"
+    },
+    {
+      "kind": "forumdisplay",
+      "legacy_id": 90,
+      "title": "Người tìm việc",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/90-Nguoi-tim-viec"
+    },
+    {
+      "kind": "showthread",
+      "legacy_id": 5865,
+      "title": "Tìm việc làm GIS tại Thành...",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/5865-Tim-viec-lam-GIS-tai-Thanh-Pho-Ho-Chi-Minh?goto=newpost"
+    },
+    {
+      "kind": "forumdisplay",
+      "legacy_id": 91,
+      "title": "Nhà tuyển dụng",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/91-Nha-tuyen-dung"
+    },
+    {
+      "kind": "showthread",
+      "legacy_id": 6319,
+      "title": "Tuyển lập trình viên phát...",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/6319-Tuyen-lap-trinh-vien-phat-trien-ung-dung-web?goto=newpost"
+    },
+    {
+      "kind": "forumdisplay",
+      "legacy_id": 92,
+      "title": "Tìm nơi thực tập tốt nghiệp ĐH, Thạc Sĩ,...",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/92-Tim-noi-thuc-tap-tot-nghiep-DH-Thac-Si-"
+    },
+    {
+      "kind": "showthread",
+      "legacy_id": 6149,
+      "title": "Các thông tin khi đăng ký...",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/6149-Cac-thong-tin-khi-dang-ky-goi-Miu?goto=newpost"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 109335,
+      "title": "dichvumobi",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/109335-dichvumobi"
+    },
+    {
+      "kind": "forumdisplay",
+      "legacy_id": 62,
+      "title": "Relax",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/62-Relax"
+    },
+    {
+      "kind": "forumdisplay",
+      "legacy_id": 63,
+      "title": "Truyện cười",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/63-Truyen-cuoi"
+    },
+    {
+      "kind": "showthread",
+      "legacy_id": 3915,
+      "title": "Chuyên cười hay nhất",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/3915-Chuyen-cuoi-hay-nhat?goto=newpost"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 112564,
+      "title": "hoangvchung",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/112564-hoangvchung"
+    },
+    {
+      "kind": "forumdisplay",
+      "legacy_id": 72,
+      "title": "Mừng sinh nhật thành viên",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/forumdisplay.php/72-Mung-sinh-nhat-thanh-vien"
+    },
+    {
+      "kind": "showthread",
+      "legacy_id": 6070,
+      "title": "Chúc mừng sinh nhật diễn đàn...",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/showthread.php/6070-Chuc-mung-sinh-nhat-dien-dan-11-11?goto=newpost"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 106786,
+      "title": "linuxredhat",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/106786-linuxredhat"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 36556,
+      "title": "cuonghoangdao",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/36556-cuonghoangdao"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 1607,
+      "title": "letruchuan",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/1607-letruchuan"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 30741,
+      "title": "nghia1991hn",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/30741-nghia1991hn"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 107321,
+      "title": "runi9886",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/107321-runi9886"
+    },
+    {
+      "kind": "member",
+      "legacy_id": 1759,
+      "title": "Tien",
+      "url": "https://web.archive.org/web/20160306013248/http://gisvn.com.vn/member.php/1759-Tien"
+    }
+  ]
+}

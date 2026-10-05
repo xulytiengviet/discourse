@@ -1,0 +1,24 @@
+{
+  "en": {
+    "theme_metadata": {
+      "description": "GISVN classic theme with original 2016 branding"
+    },
+    "gisvn": {
+      "announcements": "Latest announcements",
+      "topx": "TopX statistics",
+      "latest": "Latest posts",
+      "hot": "Hot topics",
+      "views": "Most viewed",
+      "participants": "Participating members",
+      "loading": "Loading…",
+      "failed": "Unable to load topics. Please try again.",
+      "topics": "Topics",
+      "posts": "Posts",
+      "members": "Members",
+      "statistics": "Community statistics",
+      "openCategory": "Browse category",
+      "noTopics": "No topics yet",
+      "by": "by"
+    }
+  }
+}
