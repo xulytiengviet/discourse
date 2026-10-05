@@ -1,0 +1,49 @@
+name: Deploy GISVN to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "docs/gisvn/classic/**"
+      - ".github/workflows/gisvn-pages.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: gisvn-pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    if: github.repository == 'xulytiengviet/discourse'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: docs/gisvn/classic
+      - name: Validate published files
+        run: |
+          test -s docs/gisvn/classic/index.html
+          test -s docs/gisvn/classic/classic.css
+          test -s docs/gisvn/classic/classic.js
+          test -s docs/gisvn/classic/data.js
+          test -s docs/gisvn/classic/assets/logo.gif
+          node --check docs/gisvn/classic/classic.js
+          touch docs/gisvn/classic/.nojekyll
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs/gisvn/classic
+      - name: Publish GISVN
+        id: deployment
+        uses: actions/deploy-pages@v4
