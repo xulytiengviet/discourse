@@ -1,4 +1,4 @@
-# GISVN Community theme 2.0
+# GISVN Community theme 2.1
 
 Giao diện GISVN do Long Ngo / GISVN Community phát triển: nhận diện xanh, chuyên mục,
 thông báo và TopX. Gói này là một theme Discourse độc lập, với `about.json` ngay tại gốc.
@@ -32,3 +32,7 @@ TopX giữ cách hoạt động hiện có: Hot/Xem nhiều được sắp xếp
 `/latest.json`, không phải bảng xếp hạng toàn bộ lịch sử diễn đàn.
 Gói sử dụng frontend API của Discourse tại commit nguồn; cần smoke test trên phiên bản
 Discourse thực tế trước khi thay theme đang chạy.
+
+## Phục dựng giao diện 2.1
+
+Đã cập nhật theo GISForum và HTML gốc 06/03/2016: logo gốc, icon forum, header xanh, TopX và các hàng chuyên mục. Theme dùng dữ liệu Discourse live; số liệu lịch sử chỉ nằm trong bản classic lưu trữ. TopX đã chuyển sang các endpoint latest, top tháng và latest sắp theo views; thông tin mô tả TopX 2.0 ở trên chỉ áp dụng cho phiên bản trước. Giữ nguyên nguồn ảnh GISVN/Wayback, không tái cấp phép các ảnh đó.
