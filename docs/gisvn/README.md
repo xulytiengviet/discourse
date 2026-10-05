@@ -118,3 +118,9 @@ Phase 3 makes the migration and GIS content path operational:
 
 See `VBULLETIN4_MIGRATION.md`, `GEO_PREVIEW.md`, and
 `STAGING_CHECKLIST.md` before production cutover.
+
+## Phase 4
+
+GIS previews now live in the standalone `discourse-gisvn-geo` plugin. Install the
+plugin and GISVN theme 2.0 using [PHASE4.md](PHASE4.md). Theme-only installations
+no longer provide the Phase 3 map decorator.

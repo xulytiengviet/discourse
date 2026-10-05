@@ -1,0 +1,26 @@
+name: GISVN Phase 4
+on:
+  pull_request:
+  push:
+    branches: [main, gisvn-geo-plugin]
+permissions:
+  contents: read
+jobs:
+  packages:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10.34.5
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm test
+      - run: pnpm build
+      - run: git diff --exit-code -- public
+      - run: ruby -c plugin.rb
+      - run: node scripts/check-templates.mjs
+      - run: pnpm exec playwright install --with-deps chromium
+      - run: pnpm test:browser

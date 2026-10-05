@@ -1,3 +1,6 @@
+> Phase 4 supersedes the theme-based preview below. For new installations use
+> [PHASE4.md](PHASE4.md) and the standalone plugin package.
+
 # GISVN geospatial previews in Discourse posts
 
 Phase 3 adds lazy in-post preview cards for links ending in:

@@ -1,0 +1,10 @@
+{
+  "vi": {
+    "site_settings": {
+      "gisvn_geo_enabled": "Enable lazy GIS previews in topic posts.",
+      "gisvn_geo_allowed_origins": "Exact external origins allowed for GIS data and style resources, for example https://files.gis.vn. Same origin is always allowed.",
+      "gisvn_geo_max_file_mb": "Maximum compressed and extracted preview file size in MiB.",
+      "gisvn_geo_max_cards_per_post": "Maximum GIS preview cards per post."
+    }
+  }
+}
