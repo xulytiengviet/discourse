@@ -1,138 +1,110 @@
-<a href="https://www.discourse.org/">
-  <img src="images/discourse-readme-logo.png" width="300px">
-</a>
+# discourse-gisvn-geo
 
-The online home for your community. 
+Plugin GIS độc lập cho Discourse, do Long Ngo / GISVN Community phát triển.
+Không yêu cầu fork Discourse hoặc theme GISVN. GPL-2.0-only.
 
-<img width="1920" height="1135" alt="github-readme" src="https://github.com/user-attachments/assets/abaaf30f-0cfb-4505-a530-6f8e5a43d24b" />
+## Chức năng
 
-> You can self-host Discourse on your own infrastructure. But if you'd rather skip the setup, maintenance, and server management, we offer official Discourse hosting.
->
-> 👉 Learn more about [Discourse hosting](https://discourse.org/pricing)
+| Tệp | Preview |
+| --- | --- |
+| GeoJSON | FeatureCollection, Feature, Geometry, GeometryCollection; popup thuộc tính |
+| KML | Point, LineString, Polygon có lỗ, MultiGeometry, ExtendedData |
+| KMZ | Giải nén KML trong bộ nhớ: ưu tiên `doc.kml`, nếu không có chọn tên KML đầu theo thứ tự chữ |
+| GPX | Waypoint, route, track, nhiều track segment |
+| PMTiles | Raster PNG/JPEG/WebP/AVIF và vector MVT; tạo style từ `vector_layers`/`tilestats` |
+| `.style.json` | MapLibre Style v8 với PMTiles, inline GeoJSON hoặc URL tile; giữ màu và source-layer |
 
-Discourse is a 100% open-source community platform for those who want complete control over how and where their site is run.
+Chỉ tải thư viện và dữ liệu khi bấm **Xem bản đồ**. Có popup thuộc tính, tọa độ
+kinh/vĩ độ WGS84, zoom, thước tỷ lệ, toàn màn hình (nếu trình duyệt hỗ trợ), mở/tải tệp gốc,
+xuất GeoJSON từ GeoJSON/KML/KMZ/GPX và nút đóng để giải phóng WebGL.
+Giữ nguyên link trong bài khi preview lỗi hoặc bị tắt.
 
-Our platform has been battle-tested for over a decade and continues to evolve to meet users’ needs for a powerful community platform. 
+## Cài trên Discourse Docker
 
-**With Discourse, you can:**
+Nhánh phân phối `gisvn-geo-plugin` có `plugin.rb` ngay tại gốc. Thêm trong
+`hooks.after_code.exec.cmd` của `/var/discourse/containers/app.yml`:
 
-* 💬 **Create discussion topics** to foster meaningful conversations.
+```yaml
+- git clone --single-branch --branch gisvn-geo-plugin https://github.com/xulytiengviet/discourse.git discourse-gisvn-geo
+```
 
-* ⚡️ **Connect in real-time** with built-in chat.
-  
-* 🎨 **Customize your experience** with an ever-growing selection of official and community themes.
+Lệnh này chạy trong thư mục `$home/plugins`, cùng chỗ với các plugin khác. Sau đó:
 
-* 🤖 **Enhance your community** with plugins, from chatbots powered by [Discourse AI](https://meta.discourse.org/t/discourse-ai/259214) to advanced tools like SQL analysis with the [Data Explorer](https://meta.discourse.org/t/discourse-data-explorer/32566) plugin.
+```bash
+cd /var/discourse
+./launcher rebuild app
+```
 
-To learn more, visit [discourse.org](https://www.discourse.org/) and join our support community at [meta.discourse.org](https://meta.discourse.org/).
+Tên repository riêng dự kiến là `xulytiengviet/discourse-gisvn-geo`; chưa dùng URL đó
+cho đến khi đã tạo repository. Các bundle trong `public/` được commit sẵn;
+server production không cần Node/pnpm để biên dịch plugin.
 
+Trong Admin → Settings, tìm `gisvn_geo`:
 
-Here are just a few of the incredible communities using Discourse: 
+- `gisvn_geo_enabled`: bật/tắt plugin.
+- `gisvn_geo_allowed_origins`: danh sách origin chính xác, ví dụ `https://files.gis.vn`.
+  Mặc định chỉ cho dữ liệu cùng origin với forum. Không dùng `*`.
+- `gisvn_geo_max_file_mb`: mặc định 12 MiB, áp dụng cho tệp và KML giải nén.
+- `gisvn_geo_max_cards_per_post`: mặc định 4.
 
-![discourse-communities](https://github.com/user-attachments/assets/a79b5d56-7748-4f6d-8a2d-daa950366fcc)
+Thêm `geojson|kml|kmz|gpx|pmtiles|json` vào `authorized_extensions` nếu muốn thành viên
+upload các loại này; plugin không tự thay đổi chính sách upload. PMTiles lớn nên đặt
+trên R2 rồi dán link vào bài. Đặt tên style là `*.style.json`; `.json` thông thường
+không tự động được coi là bản đồ. Link upload bị đổi tên được nhận diện thêm qua tên
+gốc trong anchor. URL tệp phải trả dữ liệu trực tiếp, không redirect; dùng CDN origin
+cuối cùng đã cho phép. Secure upload redirect cần một tích hợp riêng, không được tự
+chuyển tệp riêng tư thành public để dùng preview.
 
-👉 [Discover more communities using Discourse](https://discover.discourse.org/)
+## Cloudflare R2
 
+```json
+[
+  {
+    "AllowedOrigins": ["https://forum.example.com"],
+    "AllowedMethods": ["GET", "HEAD"],
+    "AllowedHeaders": ["Range", "If-Match"],
+    "ExposeHeaders": ["ETag", "Accept-Ranges", "Content-Length", "Content-Range"],
+    "MaxAgeSeconds": 3600
+  }
+]
+```
 
-## Development
+Khai báo origin R2/CDN trong `gisvn_geo_allowed_origins`. PMTiles bắt buộc trả HTTP 206
+và `Content-Range`. Tệp PMTiles mẫu trong `examples/` là ô raster tổng hợp để kiểm thử,
+không phải dữ liệu địa lý Việt Nam. Không cấu hình R2 secret trong plugin/browser.
+Worker, JS và CSS phục vụ từ plugin, không cần mở CSP cho unpkg. Nếu forum dùng CSP
+tùy chỉnh, cho phép module worker cùng origin; không tắt CSP.
 
-To get your environment set up, follow one of the setup guides:
+## Giới hạn rõ ràng
 
-- Docker
-    - [Dev Container in VS Code](https://meta.discourse.org/t/336366) (recommended)
-    - [CLI](https://meta.discourse.org/t/102009)
-- [macOS](https://meta.discourse.org/t/15772)
-- [Ubuntu/Debian](https://meta.discourse.org/t/14727)
-- [Windows](https://meta.discourse.org/t/75149)
+- Dữ liệu vector preview cần WGS84 longitude/latitude. Không tự chuyển VN-2000/UTM.
+- Không tải KML NetworkLink, GroundOverlay, ảnh/model hoặc tài nguyên nhúng KMZ;
+  không tái hiện toàn bộ styling KML. Nhiều KML trong KMZ chỉ đọc một tệp.
+- PMTiles vector cần MVT và metadata lớp; chưa hỗ trợ MLT. Raster không có thuộc tính đối tượng.
+- Style chỉ cho `source.url` dạng `pmtiles://`; TileJSON gián tiếp bị từ chối.
+  `tiles`/sprites/glyphs cần origin được cho phép. Remote GeoJSON trong style bị từ chối;
+  dùng inline GeoJSON hoặc liên kết `.geojson` riêng để áp dụng giới hạn streaming.
+- Tối đa 50.000 features, 250.000 tọa độ, 500 style layers, 1.024 ZIP entries.
+- Thuộc tính hiển thị bằng text, tối đa 60 trường/2.000 ký tự mỗi giá trị.
+- Nút tệp gốc có thể mở tab với URL khác origin vì trình duyệt không bắt buộc thực thi
+  thuộc tính `download`; đây không phải tải proxy qua server.
+- Chưa chạy tích hợp Rails/Ember đầy đủ trong phiên phát triển này. Cần staging trước production.
 
-Before you get started, ensure you have the following minimum versions: [Ruby 3.4+](https://www.ruby-lang.org/en/downloads/), [PostgreSQL 15](https://www.postgresql.org/download/), [Redis 7](https://redis.io/download).
+## Phát triển
 
-For more information, check out [the Developer Documentation](https://meta.discourse.org/c/documentation/developer-guides/56).
+```bash
+pnpm install --frozen-lockfile
+pnpm test
+pnpm build
+pnpm exec playwright install --with-deps chromium
+pnpm test:browser
+```
 
-## Setting up Discourse
+`src/` là runtime độc lập, bundler xử lý npm ở bước build. Frontend Discourse chỉ
+dùng API Discourse và `loadScript`, không import npm trực tiếp. `scripts/build.mjs`
+đóng gói runtime + module worker, xuất SHA-256; commit bundle sau mỗi thay đổi nguồn.
+Browser test kiểm tra WebGL, HTTP Range, controls và cleanup với fixtures tự tạo.
 
-If you want to set up a Discourse forum for production use, see our [**Discourse Install Guide**](docs/INSTALL.md).
-
-If you're looking for official hosting, see [discourse.org/pricing](https://www.discourse.org/pricing/).
-
-## Requirements
-
-Discourse supports the **latest, stable releases** of all major browsers and platforms:
-
-| Browsers              | Tablets      | Phones       |
-| --------------------- | ------------ | ------------ |
-| Apple Safari          | iPadOS       | iOS          |
-| Google Chrome         | Android      | Android      |
-| Microsoft Edge        |              |              |
-| Mozilla Firefox       |              |              |
-
-Additionally, we aim to support Safari on iOS 16.4+.
-
-## Built With
-
-- [Ruby on Rails](https://github.com/rails/rails) &mdash; Our back end API is a Rails app. It responds to requests RESTfully in JSON.
-- [Ember.js](https://github.com/emberjs/ember.js) &mdash; Our front end is an Ember.js app that communicates with the Rails API.
-- [PostgreSQL](https://www.postgresql.org/) &mdash; Our main data store is in Postgres.
-- [Redis](https://redis.io/) &mdash; We use Redis as a cache and for transient data.
-- [BrowserStack](https://www.browserstack.com/) &mdash; We use BrowserStack to test on real devices and browsers.
-
-Plus *lots* of Ruby Gems, a complete list of which is at [/main/Gemfile](https://github.com/discourse/discourse/blob/main/Gemfile).
-
-## Contributing
-
-[![Build Status](https://github.com/discourse/discourse/actions/workflows/tests.yml/badge.svg)](https://github.com/discourse/discourse/actions)
-
-Discourse is **100% free** and **open source**. We encourage and support an active, healthy community that
-accepts contributions from the public &ndash; including you!
-
-Before contributing to Discourse:
-
-1. Please read the complete mission statements on [**discourse.org**](https://www.discourse.org). Yes we actually believe this stuff; you should too.
-2. Read and sign the [**Electronic Discourse Forums Contribution License Agreement**](https://www.discourse.org/cla).
-3. Dig into [**CONTRIBUTING.MD**](CONTRIBUTING.md), which covers submitting bugs, requesting new features, preparing your code for a pull request, etc.
-4. Always strive to collaborate [with mutual respect](https://github.com/discourse/discourse/blob/main/docs/code-of-conduct.md).
-5. Not sure what to work on? [**We've got some ideas.**](https://meta.discourse.org/t/so-you-want-to-help-out-with-discourse/3823)
-
-
-We look forward to seeing your pull requests!
-
-## Security
-
-We take security very seriously at Discourse; all our code is 100% open source and peer reviewed. Please read [our security guide](https://github.com/discourse/discourse/blob/main/docs/SECURITY.md) for an overview of security measures in Discourse, or if you wish to report a security issue.
-
-Security fixes are listed in the [release notes](https://releases.discourse.org) for each version.
-
-## The Discourse Team
-
-The original Discourse code contributors can be found in [**AUTHORS.MD**](docs/AUTHORS.md). For a complete list of the many individuals that contributed to the design and implementation of Discourse, please refer to [the official Discourse blog](https://blog.discourse.org/2013/02/the-discourse-team/) and [GitHub's list of contributors](https://github.com/discourse/discourse/contributors).
-
-## Copyright / License
-
-Copyright 2014 - 2026 Civilized Discourse Construction Kit, Inc.
-
-Licensed under the GNU General Public License Version 2.0 (or later);
-you may not use this work except in compliance with the License.
-You may obtain a copy of the License in the LICENSE file, or at:
-
-   https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
-
-Discourse logo and “Discourse Forum” ®, Civilized Discourse Construction Kit, Inc.
-
-## Accessibility
-
-To guide our ongoing effort to build accessible software we follow the [W3C’s Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/WCAG21/). If you'd like to report an accessibility issue that makes it difficult for you to use Discourse, email accessibility@discourse.org. For more information visit [discourse.org/accessibility](https://discourse.org/accessibility).
-
-## Dedication
-
-Discourse is built with [love, Internet style.](https://www.youtube.com/watch?v=Xe1TZaElTAs)
-
-For over a decade, our [amazing community](https://meta.discourse.org/) has helped shape Discourse into what it is today. Your support, feedback, and contributions have been invaluable in making Discourse a powerful and versatile platform.
-
-We’re deeply grateful for every feature request, bug report, and discussion that has driven Discourse forward. Thank you for being a part of this journey—we couldn’t have done it without you!
-
+API tham chiếu: [Discourse Plugin API](https://github.com/discourse/discourse/blob/main/docs/developer-guides/docs/03-code-internals/12-pluginapi.md),
+[PMTiles MapLibre](https://docs.protomaps.com/pmtiles/maplibre),
+[MapLibre](https://maplibre.org/maplibre-gl-js/docs/).
